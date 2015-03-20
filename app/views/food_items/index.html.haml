@@ -1,0 +1,9 @@
+%ul{ class: "food-index" }
+  - @food_hash.each do |l, fs|
+    %li
+      = l
+      %ul
+        - fs.each do |f|
+          %li
+            = f.name
+            = f.brand if f.brand

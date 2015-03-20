@@ -10,16 +10,6 @@
     "quantity": "1"
   },
   {
-    "name": "Prženo jaje",
-    "keyword": "jaje",
-    "brand": "",
-    "calories": "110.00",
-    "proteins": "13.00",
-    "carbs": "0.00",
-    "fats": "11.00",
-    "quantity": "1"
-  },
-  {
     "name": "Jaje na oko",
     "keyword": "jaje",
     "brand": "",
@@ -60,16 +50,6 @@
     "quantity": "1"
   },
   {
-    "name": "Cijelo jaje prženo",
-    "keyword": "jaje",
-    "brand": "",
-    "calories": "196.00",
-    "proteins": "13.61",
-    "carbs": "0.83",
-    "fats": "14.84",
-    "quantity": "100"
-  },
-  {
     "name": "Jaje od prepelice",
     "keyword": "jaje",
     "brand": "",
@@ -78,16 +58,6 @@
     "carbs": "0.00",
     "fats": "11.00",
     "quantity": "1"
-  },
-  {
-    "name": "Prepeličje jaje",
-    "keyword": "jaje",
-    "brand": "",
-    "calories": "155.00",
-    "proteins": "13.00",
-    "carbs": "0.00",
-    "fats": "11.00",
-    "quantity": "100"
   },
   {
     "name": "Ćureće jaje",
