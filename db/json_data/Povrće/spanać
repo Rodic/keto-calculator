@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Spanać sa pirinčem",
+    "keyword": "spanać",
+    "brand": "",
+    "calories": "85.00",
+    "proteins": "6.00",
+    "carbs": "12.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Spanać",
+    "keyword": "spanać",
+    "brand": "",
+    "calories": "23.00",
+    "proteins": "2.86",
+    "carbs": "3.63",
+    "fats": "0.39",
+    "quantity": "100"
+  },
+  {
+    "name": "Spanac u briketima",
+    "keyword": "spanać",
+    "brand": "Frikom",
+    "calories": "14.00",
+    "proteins": "3.20",
+    "carbs": "0.30",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Rolat od spanaca",
+    "keyword": "spanać",
+    "brand": "",
+    "calories": "125.00",
+    "proteins": "9.00",
+    "carbs": "7.00",
+    "fats": "10.00",
+    "quantity": "35"
+  },
+  {
+    "name": "Spanać",
+    "keyword": "spanać",
+    "brand": "Fresco",
+    "calories": "21.00",
+    "proteins": "3.30",
+    "carbs": "3.10",
+    "fats": "0.26",
+    "quantity": "100"
+  },
+  {
+    "name": "Spanać list u briketima",
+    "keyword": "spanać",
+    "brand": "Yupik Food",
+    "calories": "28.00",
+    "proteins": "2.00",
+    "carbs": "2.00",
+    "fats": "0.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Tagliatelle od spanaca",
+    "keyword": "spanać",
+    "brand": "Granoro",
+    "calories": "357.00",
+    "proteins": "4.00",
+    "carbs": "70.00",
+    "fats": "1.70",
+    "quantity": "100"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Kokos",
+    "keyword": "kokos",
+    "brand": "",
+    "calories": "347.00",
+    "proteins": "0.00",
+    "carbs": "5.00",
+    "fats": "8.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Kokosovo brašno",
+    "keyword": "kokos",
+    "brand": "",
+    "calories": "659.00",
+    "proteins": "6.70",
+    "carbs": "24.30",
+    "fats": "64.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Extra virgin kokosovo ulje",
+    "keyword": "kokos",
+    "brand": "Beyond doo",
+    "calories": "120.40",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "14.00",
+    "quantity": "14"
+  },
+  {
+    "name": "Kokos kocke",
+    "keyword": "kokos",
+    "brand": "Macrobiotic",
+    "calories": "225.00",
+    "proteins": "4.00",
+    "carbs": "24.00",
+    "fats": "12.50",
+    "quantity": "1"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Skuša fileti",
+    "keyword": "riba",
+    "brand": "NN",
+    "calories": "195.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Losos",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "217.00",
+    "proteins": "22.50",
+    "carbs": "0.00",
+    "fats": "13.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Som",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "174.00",
+    "proteins": "15.30",
+    "carbs": "0.00",
+    "fats": "11.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Skuša",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "184.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Riba girice pržene",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "350.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "28.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Haringa",
+    "keyword": "riba",
+    "brand": "Losos ustka",
+    "calories": "270.00",
+    "proteins": "21.00",
+    "carbs": "1.00",
+    "fats": "18.00",
+    "quantity": "170"
+  },
+  {
+    "name": "Smuđ",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "323.00",
+    "proteins": "21.00",
+    "carbs": "0.00",
+    "fats": "24.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Štuka",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "89.00",
+    "proteins": "19.50",
+    "carbs": "0.00",
+    "fats": "2.73",
+    "quantity": "100"
+  },
+  {
+    "name": "Lignja panirana",
+    "keyword": "riba",
+    "brand": "Ledo",
+    "calories": "255.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Orada",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "77.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pržena plava riba",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "17.00",
+    "carbs": "0.00",
+    "fats": "24.00",
+    "quantity": "90"
+  },
+  {
+    "name": "Deverika",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "104.00",
+    "proteins": "15.00",
+    "carbs": "1.00",
+    "fats": "4.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Tolstolobik",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "160.00",
+    "proteins": "23.00",
+    "carbs": "0.00",
+    "fats": "7.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tilabija",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "177.00",
+    "proteins": "4.00",
+    "carbs": "0.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u ulju",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "303.00",
+    "proteins": "24.00",
+    "carbs": "0.00",
+    "fats": "21.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Golden fish tunjevina u salamuri",
+    "keyword": "riba",
+    "brand": "LMFOOD",
+    "calories": "90.00",
+    "proteins": "18.00",
+    "carbs": "0.00",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Golden fish tunjevina komadi u ulju",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "180.00",
+    "proteins": "23.00",
+    "carbs": "0.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Premia tunjevina komadi u ulju",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "153.00",
+    "proteins": "24.30",
+    "carbs": "0.08",
+    "fats": "6.48",
+    "quantity": "100"
+  },
+  {
+    "name": "Tonno al naturale tunjevina u sopstvenom soku",
+    "keyword": "riba",
+    "brand": "Rio Mare",
+    "calories": "107.00",
+    "proteins": "25.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u biljnom ulju",
+    "keyword": "riba",
+    "brand": "Calvo",
+    "calories": "204.00",
+    "proteins": "24.00",
+    "carbs": "0.00",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u maslinovom ulju",
+    "keyword": "riba",
+    "brand": "Rio Mare",
+    "calories": "403.00",
+    "proteins": "17.50",
+    "carbs": "0.00",
+    "fats": "37.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u meksičkoj salati",
+    "keyword": "riba",
+    "brand": "Premia",
+    "calories": "236.80",
+    "proteins": "18.13",
+    "carbs": "4.26",
+    "fats": "16.50",
+    "quantity": "160"
+  },
+  {
+    "name": "Tunjevina komadi u ulju",
+    "keyword": "riba",
+    "brand": "Premia",
+    "calories": "80.00",
+    "proteins": "14.50",
+    "carbs": "0.05",
+    "fats": "3.80",
+    "quantity": "80"
+  },
+  {
+    "name": "Tunjevina",
+    "keyword": "riba",
+    "brand": "La perla",
+    "calories": "243.00",
+    "proteins": "16.30",
+    "carbs": "0.10",
+    "fats": "19.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina s povrćem",
+    "keyword": "riba",
+    "brand": "Happy tuna",
+    "calories": "100.00",
+    "proteins": "12.00",
+    "carbs": "6.00",
+    "fats": "3.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u ulju",
+    "keyword": "riba",
+    "brand": "Glenryck",
+    "calories": "189.00",
+    "proteins": "27.10",
+    "carbs": "0.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina u sopstvenom soku",
+    "keyword": "riba",
+    "brand": "Rio Mare",
+    "calories": "100.50",
+    "proteins": "24.00",
+    "carbs": "0.00",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Tunjevina",
+    "keyword": "riba",
+    "brand": "Premia",
+    "calories": "92.00",
+    "proteins": "14.58",
+    "carbs": "0.04",
+    "fats": "3.88",
+    "quantity": "80"
+  },
+  {
+    "name": "Tunjevina",
+    "keyword": "riba",
+    "brand": "Maki",
+    "calories": "201.00",
+    "proteins": "8.75",
+    "carbs": "0.00",
+    "fats": "18.50",
+    "quantity": "50"
+  },
+  {
+    "name": "Tunjevina mexicana",
+    "keyword": "riba",
+    "brand": "K Plus",
+    "calories": "210.00",
+    "proteins": "16.00",
+    "carbs": "14.00",
+    "fats": "10.00",
+    "quantity": "175"
+  },
+  {
+    "name": "Tunjevina u sojinom ulju",
+    "keyword": "riba",
+    "brand": "Ocean",
+    "calories": "190.00",
+    "proteins": "17.00",
+    "carbs": "3.00",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Premia tunjevina u provansalskoj salati",
+    "keyword": "riba",
+    "brand": "Delihaze",
+    "calories": "70.00",
+    "proteins": "5.70",
+    "carbs": "5.90",
+    "fats": "2.50",
+    "quantity": "60"
+  },
+  {
+    "name": "Tunjevina",
+    "keyword": "riba",
+    "brand": "Gomes da Costa",
+    "calories": "132.00",
+    "proteins": "17.00",
+    "carbs": "0.00",
+    "fats": "7.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Sardinen classic",
+    "keyword": "riba",
+    "brand": "Hergestellt für Kaufland",
+    "calories": "212.00",
+    "proteins": "24.00",
+    "carbs": "0.10",
+    "fats": "12.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Sardina u biljnom ulju",
+    "keyword": "riba",
+    "brand": "Mirna",
+    "calories": "345.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "29.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jadranska sardina u biljnom ulju",
+    "keyword": "riba",
+    "brand": "Mardešić d.o.o",
+    "calories": "298.00",
+    "proteins": "18.96",
+    "carbs": "0.00",
+    "fats": "24.70",
+    "quantity": "100"
+  },
+  {
+    "name": "Jadranska sardina u paradajz sosu",
+    "keyword": "riba",
+    "brand": "Mirna",
+    "calories": "137.00",
+    "proteins": "17.10",
+    "carbs": "0.60",
+    "fats": "7.70",
+    "quantity": "100"
+  },
+  {
+    "name": "Sardina s limunom",
+    "keyword": "riba",
+    "brand": "Fine food",
+    "calories": "378.00",
+    "proteins": "18.92",
+    "carbs": "0.90",
+    "fats": "24.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Jadranska sardina sa povrcem u paradajz sosu",
+    "keyword": "riba",
+    "brand": "Premia",
+    "calories": "157.00",
+    "proteins": "20.30",
+    "carbs": "7.90",
+    "fats": "4.86",
+    "quantity": "100"
+  },
+  {
+    "name": "Adriatic queen sardina u biljnom ulju",
+    "keyword": "riba",
+    "brand": "Sardina doo",
+    "calories": "249.00",
+    "proteins": "18.00",
+    "carbs": "0.00",
+    "fats": "19.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Jadranska sardina light u vodi",
+    "keyword": "riba",
+    "brand": "Mardešić d.o.o",
+    "calories": "142.00",
+    "proteins": "19.21",
+    "carbs": "0.00",
+    "fats": "4.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Frutti di mare sardina u biljnom ulju",
+    "keyword": "riba",
+    "brand": "Mirna",
+    "calories": "315.00",
+    "proteins": "18.06",
+    "carbs": "0.00",
+    "fats": "27.00",
+    "quantity": "100"
+  }
+]

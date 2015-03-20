@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150320111706) do
+ActiveRecord::Schema.define(version: 20150320122023) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20150320111706) do
     t.string   "brand"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "keyword"
   end
 
   create_table "nutritional_values", force: true do |t|

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Paprika žuta,slatka",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "22.00",
+    "proteins": "0.50",
+    "carbs": "3.10",
+    "fats": "0.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Paprika zelena",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "16.00",
+    "proteins": "0.00",
+    "carbs": "3.10",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Pečena paprika",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "28.00",
+    "proteins": "1.00",
+    "carbs": "5.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pohovana paprika sa sirom",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "200.00",
+    "proteins": "6.00",
+    "carbs": "15.00",
+    "fats": "6.00",
+    "quantity": "2"
+  },
+  {
+    "name": "Pileći paprikaš",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "241.00",
+    "proteins": "28.00",
+    "carbs": "13.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Krompir paprikaš",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "97.00",
+    "proteins": "28.00",
+    "carbs": "13.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Punjena paprika",
+    "keyword": "paprika",
+    "brand": "domace",
+    "calories": "112.00",
+    "proteins": "8.00",
+    "carbs": "8.00",
+    "fats": "4.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Crvena paprika, slatka",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "28.00",
+    "proteins": "1.00",
+    "carbs": "5.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Baš baš paprika filet",
+    "keyword": "paprika",
+    "brand": "Baš Baš",
+    "calories": "25.98",
+    "proteins": "1.20",
+    "carbs": "4.80",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Musaka sa pečenim paprikama",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "70.00",
+    "proteins": "7.70",
+    "carbs": "6.50",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Aleva paprika",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "233.00",
+    "proteins": "9.30",
+    "carbs": "14.70",
+    "fats": "21.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Becar paprikas",
+    "keyword": "paprika",
+    "brand": "",
+    "calories": "198.00",
+    "proteins": "0.40",
+    "carbs": "5.40",
+    "fats": "20.00",
+    "quantity": "100"
+  }
+]

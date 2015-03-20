@@ -1,0 +1,22 @@
+[
+ {
+    "name": "Žuta boranija",
+    "keyword": "boranija",
+    "brand": "Frikom",
+    "calories": "41.50",
+    "proteins": "2.20",
+    "carbs": "7.70",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Zelena boranija",
+    "keyword": "boranija",
+    "brand": "Frikom",
+    "calories": "41.40",
+    "proteins": "2.20",
+    "carbs": "7.70",
+    "fats": "0.20",
+    "quantity": "100"
+  }
+]

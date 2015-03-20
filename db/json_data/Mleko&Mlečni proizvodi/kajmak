@@ -1,0 +1,22 @@
+[
+  {
+    "name": "A la kajmak",
+    "keyword": "kajmak",
+    "brand": "Mlekara Šabac",
+    "calories": "242.00",
+    "proteins": "6.10",
+    "carbs": "0.00",
+    "fats": "23.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Kajmak",
+    "keyword": "kajmak",
+    "brand": "",
+    "calories": "342.00",
+    "proteins": "5.93",
+    "carbs": "4.07",
+    "fats": "34.24",
+    "quantity": "100"
+  }
+]

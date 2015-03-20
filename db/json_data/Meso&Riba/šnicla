@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Svinjska šnicla",
+    "keyword": "šnicla",
+    "brand": "",
+    "calories": "168.00",
+    "proteins": "20.80",
+    "carbs": "0.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Juneća šnicla",
+    "keyword": "šnicla",
+    "brand": "",
+    "calories": "107.00",
+    "proteins": "20.70",
+    "carbs": "0.00",
+    "fats": "1.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Faširana šnicla",
+    "keyword": "šnicla",
+    "brand": "",
+    "calories": "309.00",
+    "proteins": "14.59",
+    "carbs": "16.66",
+    "fats": "20.12",
+    "quantity": "100"
+  },
+  {
+    "name": "Karađorđeva šnicla",
+    "keyword": "šnicla",
+    "brand": "",
+    "calories": "374.00",
+    "proteins": "35.19",
+    "carbs": "13.21",
+    "fats": "19.12",
+    "quantity": "100"
+  },
+  {
+    "name": "Lovačka šnicla",
+    "keyword": "šnicla",
+    "brand": "",
+    "calories": "398.00",
+    "proteins": "16.67",
+    "carbs": "8.85",
+    "fats": "31.63",
+    "quantity": "150"
+  }
+]

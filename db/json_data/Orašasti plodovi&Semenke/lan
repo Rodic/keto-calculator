@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Laneno semee",
+    "keyword": "lan",
+    "brand": "",
+    "calories": "534.00",
+    "proteins": "18.00",
+    "carbs": "29.00",
+    "fats": "42.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Mg lanena plocica",
+    "keyword": "lan",
+    "brand": "Gazibaric",
+    "calories": "472.00",
+    "proteins": "11.80",
+    "carbs": "63.30",
+    "fats": "17.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Lanene pločice",
+    "keyword": "lan",
+    "brand": "",
+    "calories": "465.00",
+    "proteins": "11.60",
+    "carbs": "63.80",
+    "fats": "16.80",
+    "quantity": "100"
+  }
+]

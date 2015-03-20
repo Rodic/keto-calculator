@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Piletina, belo meso",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "121.00",
+    "proteins": "23.00",
+    "carbs": "0.00",
+    "fats": "3.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Piletina, pečene pileće grudi bez ulja",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "165.00",
+    "proteins": "31.00",
+    "carbs": "0.00",
+    "fats": "4.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Dinstana piletina",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "137.00",
+    "proteins": "23.10",
+    "carbs": "0.00",
+    "fats": "4.21",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći batak",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "126.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "5.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći parizer",
+    "keyword": "piletina",
+    "brand": "Pivka ",
+    "calories": "228.00",
+    "proteins": "12.00",
+    "carbs": "0.50",
+    "fats": "19.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Panirani pileći medaljoni",
+    "keyword": "piletina",
+    "brand": "Cekin",
+    "calories": "203.00",
+    "proteins": "15.00",
+    "carbs": "20.00",
+    "fats": "6.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći paprikaš",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "241.00",
+    "proteins": "28.00",
+    "carbs": "13.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći parizer",
+    "keyword": "piletina",
+    "brand": "perutina",
+    "calories": "241.00",
+    "proteins": "12.00",
+    "carbs": "1.00",
+    "fats": "21.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći file",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "110.00",
+    "proteins": "23.10",
+    "carbs": "0.00",
+    "fats": "1.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći file, salama",
+    "keyword": "piletina",
+    "brand": "agroživ",
+    "calories": "65.00",
+    "proteins": "11.00",
+    "carbs": "3.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći burito",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "191.00",
+    "proteins": "16.54",
+    "carbs": "17.14",
+    "fats": "5.85",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileći batak s kožom",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "161.00",
+    "proteins": "20.00",
+    "carbs": "0.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+    {
+    "name": "Pileća supa",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "75.00",
+    "proteins": "3.60",
+    "carbs": "8.60",
+    "fats": "2.80",
+    "quantity": "240"
+  },
+  {
+    "name": "Pileća prsa",
+    "keyword": "piletina",
+    "brand": "Promes",
+    "calories": "128.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća viršla",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "255.00",
+    "proteins": "13.00",
+    "carbs": "7.00",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća salama",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "197.00",
+    "proteins": "16.00",
+    "carbs": "1.00",
+    "fats": "14.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća džigerica",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "116.00",
+    "proteins": "17.00",
+    "carbs": "0.5",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća džigerica przena",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "172.00",
+    "proteins": "26.00",
+    "carbs": "0.50",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća krilca na roštilju s kožicom",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "290.00",
+    "proteins": "26.90",
+    "carbs": "0.00",
+    "fats": "19.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća prsa bez kože",
+    "keyword": "piletina",
+    "brand": "Ovako",
+    "calories": "110.00",
+    "proteins": "23.00",
+    "carbs": "0.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća prsa",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "65.00",
+    "proteins": "11.00",
+    "carbs": "3.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća salama",
+    "keyword": "piletina",
+    "brand": "Perutnina Ptuj",
+    "calories": "228.00",
+    "proteins": "12.00",
+    "carbs": "0.00",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća pašteta",
+    "keyword": "piletina",
+    "brand": "Neoplanta",
+    "calories": "362.00",
+    "proteins": "9.50",
+    "carbs": "4.00",
+    "fats": "33.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća viršla",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "166.00",
+    "proteins": "12.50",
+    "carbs": "2.10",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća jetra",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "128.00",
+    "proteins": "22.00",
+    "carbs": "1.00",
+    "fats": "4.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Bistra pileća supa s rezancima",
+    "keyword": "piletina",
+    "brand": "Maggi",
+    "calories": "30.00",
+    "proteins": "1.20",
+    "carbs": "5.30",
+    "fats": "0.40",
+    "quantity": "10"
+  },
+  {
+    "name": "Pipi pileća kobasica junior",
+    "keyword": "piletina",
+    "brand": "Neoplanta",
+    "calories": "36.94",
+    "proteins": "4.27",
+    "carbs": "1.75",
+    "fats": "1.43",
+    "quantity": "30"
+  },
+  {
+    "name": "Pileća salata",
+    "keyword": "piletina",
+    "brand": "premia",
+    "calories": "238.00",
+    "proteins": "3.75",
+    "carbs": "13.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Patelina pileća pašteta",
+    "keyword": "piletina",
+    "brand": "Neoplanta",
+    "calories": "62.10",
+    "proteins": "4.20",
+    "carbs": "4.50",
+    "fats": "1.20",
+    "quantity": "30"
+  },
+  {
+    "name": "Pileća krem supa",
+    "keyword": "piletina",
+    "brand": "Rial",
+    "calories": "351.00",
+    "proteins": "7.60",
+    "carbs": "57.50",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Delicata pileća pašteta",
+    "keyword": "piletina",
+    "brand": "Yuhor",
+    "calories": "273.00",
+    "proteins": "10.00",
+    "carbs": "2.00",
+    "fats": "25.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća salama",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "158.00",
+    "proteins": "10.00",
+    "carbs": "0.20",
+    "fats": "13.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Perutnina pileća prsa slim&light",
+    "keyword": "piletina",
+    "brand": "Perutnina",
+    "calories": "88.00",
+    "proteins": "16.00",
+    "carbs": "1.50",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća pašteta agroživ",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "185.00",
+    "proteins": "8.00",
+    "carbs": "0.10",
+    "fats": "17.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Yumis pileća krem supa",
+    "keyword": "piletina",
+    "brand": "YUMIS",
+    "calories": "63.18",
+    "proteins": "1.36",
+    "carbs": "10.36",
+    "fats": "1.62",
+    "quantity": "250"
+  },
+  {
+    "name": "Pileća pljeskavica",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "157.00",
+    "proteins": "17.50",
+    "carbs": "1.70",
+    "fats": "15.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća prsa",
+    "keyword": "piletina",
+    "brand": "Cekin",
+    "calories": "89.50",
+    "proteins": "16.00",
+    "carbs": "3.00",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Neo pileća pašteta",
+    "keyword": "piletina",
+    "brand": "Neoplanta",
+    "calories": "257.00",
+    "proteins": "13.00",
+    "carbs": "3.00",
+    "fats": "21.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća supa u kocki",
+    "keyword": "piletina",
+    "brand": "Maggi",
+    "calories": "225.00",
+    "proteins": "0.20",
+    "carbs": "29.90",
+    "fats": "11.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća abeceda supa",
+    "keyword": "piletina",
+    "brand": "Podravka",
+    "calories": "58.00",
+    "proteins": "2.00",
+    "carbs": "11.00",
+    "fats": "0.70",
+    "quantity": "1"
+  },
+  {
+    "name": "Pileća prsa",
+    "keyword": "piletina",
+    "brand": "Pivka",
+    "calories": "95.00",
+    "proteins": "19.00",
+    "carbs": "0.80",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Fit pileća viršla",
+    "keyword": "piletina",
+    "brand": "Matijević",
+    "calories": "162.87",
+    "proteins": "17.88",
+    "carbs": "4.13",
+    "fats": "7.81",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileća prsa baroni",
+    "keyword": "piletina",
+    "brand": "Baroni",
+    "calories": "81.00",
+    "proteins": "14.00",
+    "carbs": "4.10",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Quik instant pileća krem supa",
+    "keyword": "piletina",
+    "brand": "Aleva",
+    "calories": "66.30",
+    "proteins": "1.20",
+    "carbs": "9.00",
+    "fats": "2.60",
+    "quantity": "1"
+  },
+  {
+    "name": "Pileća extra kobasica",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "158.00",
+    "proteins": "10.00",
+    "carbs": "0.20",
+    "fats": "13.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće belo meso",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "116.00",
+    "proteins": "21.00",
+    "carbs": "0.00",
+    "fats": "3.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Piletina, pečene pilece grudi bez ulja",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "165.00",
+    "proteins": "31.00",
+    "carbs": "0.00",
+    "fats": "4.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće viršle",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "258.00",
+    "proteins": "13.00",
+    "carbs": "7.00",
+    "fats": "19.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće grudi",
+    "keyword": "piletina",
+    "brand": "Cekin",
+    "calories": "99.00",
+    "proteins": "16.00",
+    "carbs": "5.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće extra viršle",
+    "keyword": "piletina",
+    "brand": "Agroživ",
+    "calories": "166.00",
+    "proteins": "12.50",
+    "carbs": "2.10",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće grudi",
+    "keyword": "piletina",
+    "brand": "Neoplanta",
+    "calories": "83.00",
+    "proteins": "16.00",
+    "carbs": "2.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileće hrenovke",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "258.00",
+    "proteins": "12.90",
+    "carbs": "6.80",
+    "fats": "19.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Fino usitnjena barena kobasica od pilećeg mesa",
+    "keyword": "piletina",
+    "brand": "Cekin",
+    "calories": "262.00",
+    "proteins": "13.00",
+    "carbs": "5.00",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Amadori kobasica od pilećeg i ćurećeg mesa",
+    "keyword": "piletina",
+    "brand": "",
+    "calories": "215.00",
+    "proteins": "12.90",
+    "carbs": "3.10",
+    "fats": "16.70",
+    "quantity": "100"
+  }
+]

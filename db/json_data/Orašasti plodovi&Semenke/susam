@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Susam",
+    "keyword": "susam",
+    "brand": "",
+    "calories": "573.00",
+    "proteins": "17.73",
+    "carbs": "23.45",
+    "fats": "49.67",
+    "quantity": "100"
+  },
+  {
+    "name": "Susamov puter",
+    "keyword": "susam",
+    "brand": "\"Suncokret\" Hajdukovo",
+    "calories": "625.00",
+    "proteins": "19.00",
+    "carbs": "14.00",
+    "fats": "60.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Tahini taan susamova pasta",
+    "keyword": "susam",
+    "brand": "Bioland",
+    "calories": "645.00",
+    "proteins": "26.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Semenko sa susamom i pečenom sojom",
+    "keyword": "susam",
+    "brand": "hajdukovo",
+    "calories": "177.00",
+    "proteins": "9.00",
+    "carbs": "13.00",
+    "fats": "10.00",
+    "quantity": "30"
+  }
+]

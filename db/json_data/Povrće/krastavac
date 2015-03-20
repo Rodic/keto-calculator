@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Krastavac, sveži",
+    "keyword": "krastavac",
+    "brand": "",
+    "calories": "14.00",
+    "proteins": "0.70",
+    "carbs": "1.80",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Krastavac, kiseli",
+    "keyword": "krastavac",
+    "brand": "",
+    "calories": "10.00",
+    "proteins": "0.50",
+    "carbs": "2.00",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Krastavac bez kore",
+    "keyword": "krastavac",
+    "brand": "srbija",
+    "calories": "25.50",
+    "proteins": "1.00",
+    "carbs": "5.20",
+    "fats": "0.00",
+    "quantity": "100"
+  }
+]

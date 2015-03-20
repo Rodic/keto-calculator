@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Pavlaka",
+    "keyword": "pavlaka",
+    "brand": "imlek",
+    "calories": "206.00",
+    "proteins": "2.90",
+    "carbs": "3.60",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica kisela pavlaka 20% m.m.",
+    "keyword": "pavlaka",
+    "brand": "Imlek",
+    "calories": "203.20",
+    "proteins": "2.30",
+    "carbs": "3.50",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukat pavlaka za kuvanje 20% m.m.",
+    "keyword": "pavlaka",
+    "brand": "Somboled",
+    "calories": "207.00",
+    "proteins": "2.50",
+    "carbs": "4.20",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kisela pavlaka 12% m.m.",
+    "keyword": "pavlaka",
+    "brand": "Biser",
+    "calories": "125.00",
+    "proteins": "3.00",
+    "carbs": "1.00",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kri kri pavlaka",
+    "keyword": "pavlaka",
+    "brand": "kri kri",
+    "calories": "130.00",
+    "proteins": "6.00",
+    "carbs": "4.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kisela pavlaka 15% m.m.",
+    "keyword": "pavlaka",
+    "brand": "bello",
+    "calories": "164.00",
+    "proteins": "2.90",
+    "carbs": "4.30",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica kisela pavlaka",
+    "keyword": "pavlaka",
+    "brand": "imlek",
+    "calories": "131.20",
+    "proteins": "2.30",
+    "carbs": "3.50",
+    "fats": "12.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica slatka pavlaka",
+    "keyword": "pavlaka",
+    "brand": "Imlek",
+    "calories": "342.00",
+    "proteins": "1.65",
+    "carbs": "4.15",
+    "fats": "36.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pavlaka za kuvanje 18% m.m.",
+    "keyword": "pavlaka",
+    "brand": "Hochwald",
+    "calories": "194.00",
+    "proteins": "2.80",
+    "carbs": "5.10",
+    "fats": "18.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pavlaka 2% m.m.",
+    "keyword": "pavlaka",
+    "brand": "",
+    "calories": "65.00",
+    "proteins": "7.00",
+    "carbs": "4.40",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica krem pavlaka",
+    "keyword": "pavlaka",
+    "brand": "Imlek",
+    "calories": "251.00",
+    "proteins": "2.40",
+    "carbs": "4.00",
+    "fats": "25.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pavlaka grčka",
+    "keyword": "pavlaka",
+    "brand": "",
+    "calories": "142.00",
+    "proteins": "7.00",
+    "carbs": "6.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Fermentisana pavlaka sa jogurtnom kulturom",
+    "keyword": "pavlaka",
+    "brand": "Imlek",
+    "calories": "199.00",
+    "proteins": "2.30",
+    "carbs": "2.50",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Meggle pavlaka 12% m.m.",
+    "keyword": "pavlaka",
+    "brand": "meggle",
+    "calories": "137.00",
+    "proteins": "2.80",
+    "carbs": "4.10",
+    "fats": "12.00",
+    "quantity": "100"
+  }
+]

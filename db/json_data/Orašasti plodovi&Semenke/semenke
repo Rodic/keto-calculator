@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Semenke od bundeve",
+    "keyword": "semenke",
+    "brand": "",
+    "calories": "554.00",
+    "proteins": "29.00",
+    "carbs": "15.00",
+    "fats": "46.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Suncokret semenke",
+    "keyword": "semenke",
+    "brand": "",
+    "calories": "619.00",
+    "proteins": "0.00",
+    "carbs": "21.00",
+    "fats": "57.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Semenke suncokreta oljuštene suve",
+    "keyword": "semenke",
+    "brand": "",
+    "calories": "560.00",
+    "proteins": "24.00",
+    "carbs": "20.00",
+    "fats": "47.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Semenke bundeve neljuštene",
+    "keyword": "semenke",
+    "brand": "",
+    "calories": "380.00",
+    "proteins": "18.60",
+    "carbs": "0.96",
+    "fats": "30.98",
+    "quantity": "100"
+  },
+  {
+    "name": "Hummus semenke bundeve",
+    "keyword": "semenke",
+    "brand": "ribella",
+    "calories": "179.39",
+    "proteins": "7.78",
+    "carbs": "8.47",
+    "fats": "12.71",
+    "quantity": "100"
+  },
+  {
+    "name": "Alnatura semenke od suncokreta",
+    "keyword": "semenke",
+    "brand": "",
+    "calories": "609.00",
+    "proteins": "26.50",
+    "carbs": "12.30",
+    "fats": "49.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Semenke sa susamom štanglica",
+    "keyword": "semenke",
+    "brand": "Suncokret",
+    "calories": "517.00",
+    "proteins": "18.00",
+    "carbs": "39.00",
+    "fats": "30.00",
+    "quantity": "100"
+  }
+]

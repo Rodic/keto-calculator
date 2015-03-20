@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Luk crni",
+    "keyword": "luk",
+    "brand": "",
+    "calories": "24.00",
+    "proteins": "0.00",
+    "carbs": "5.20",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Luk mladi",
+    "keyword": "luk",
+    "brand": "",
+    "calories": "35.00",
+    "proteins": "0.00",
+    "carbs": "8.50",
+    "fats": "0.00",
+    "quantity": "100"
+  }
+]

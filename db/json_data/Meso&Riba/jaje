@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Jaje, celo kuvano",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "78.00",
+    "proteins": "6.29",
+    "carbs": "0.56",
+    "fats": "5.30",
+    "quantity": "1"
+  },
+  {
+    "name": "Prženo jaje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "110.00",
+    "proteins": "13.00",
+    "carbs": "0.00",
+    "fats": "11.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Jaje na oko",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "74.00",
+    "proteins": "6.00",
+    "carbs": "0.00",
+    "fats": "5.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Jaje, belance",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "44.00",
+    "proteins": "11.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jaje kokošje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "151.00",
+    "proteins": "13.00",
+    "carbs": "0.00",
+    "fats": "11.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jaje prženo na ulju",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "92.00",
+    "proteins": "6.30",
+    "carbs": "0.40",
+    "fats": "7.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Cijelo jaje prženo",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "196.00",
+    "proteins": "13.61",
+    "carbs": "0.83",
+    "fats": "14.84",
+    "quantity": "100"
+  },
+  {
+    "name": "Jaje od prepelice",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "15.80",
+    "proteins": "13.00",
+    "carbs": "0.00",
+    "fats": "11.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Prepeličje jaje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "155.00",
+    "proteins": "13.00",
+    "carbs": "0.00",
+    "fats": "11.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Ćureće jaje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "12.00",
+    "carbs": "1.00",
+    "fats": "13.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Guščije jaje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "188.00",
+    "proteins": "13.00",
+    "carbs": "1.00",
+    "fats": "14.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pačje jaje",
+    "keyword": "jaje",
+    "brand": "",
+    "calories": "186.00",
+    "proteins": "12.00",
+    "carbs": "1.00",
+    "fats": "13.00",
+    "quantity": "100"
+  }
+]

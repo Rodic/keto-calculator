@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Pileća šunka",
+    "keyword": "piletina",
+    "brand": "Promes",
+    "calories": "128.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Dimljena šunka",
+    "keyword": "šunka",
+    "brand": "",
+    "calories": "385.00",
+    "proteins": "18.00",
+    "carbs": "0.00",
+    "fats": "33.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pik šunka",
+    "keyword": "šunka",
+    "brand": "",
+    "calories": "76.00",
+    "proteins": "15.40",
+    "carbs": "0.50",
+    "fats": "1.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Kuvana šunka",
+    "keyword": "šunka",
+    "brand": "",
+    "calories": "274.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Praška šunka",
+    "keyword": "šunka",
+    "brand": "",
+    "calories": "129.00",
+    "proteins": "15.60",
+    "carbs": "0.80",
+    "fats": "7.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Luks Šunka",
+    "keyword": "šunka",
+    "brand": "Romkor",
+    "calories": "144.00",
+    "proteins": "13.50",
+    "carbs": "0.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Šunka delux",
+    "keyword": "šunka",
+    "brand": "Vindija",
+    "calories": "81.00",
+    "proteins": "17.00",
+    "carbs": "1.50",
+    "fats": "1.00",
+    "quantity": "100"
+  }
+]

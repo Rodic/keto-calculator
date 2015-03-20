@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Orah",
+    "keyword": "orah",
+    "brand": "",
+    "calories": "650.00",
+    "proteins": "15.80",
+    "carbs": "8.80",
+    "fats": "61.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Brazilski orah",
+    "keyword": "orah",
+    "brand": "",
+    "calories": "656.00",
+    "proteins": "14.32",
+    "carbs": "12.27",
+    "fats": "66.43",
+    "quantity": "100"
+  },
+  {
+    "name": "Indijski orah",
+    "keyword": "orah",
+    "brand": "",
+    "calories": "553.00",
+    "proteins": "18.00",
+    "carbs": "30.00",
+    "fats": "44.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Orah suvi",
+    "keyword": "orah",
+    "brand": "",
+    "calories": "654.00",
+    "proteins": "15.28",
+    "carbs": "13.71",
+    "fats": "65.21",
+    "quantity": "100"
+  }
+]

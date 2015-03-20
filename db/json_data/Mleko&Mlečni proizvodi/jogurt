@@ -1,0 +1,802 @@
+[
+  {
+    "name": "Balans jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "52.00",
+    "proteins": "3.50",
+    "carbs": "5.50",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt moja kravica",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "52.80",
+    "proteins": "2.90",
+    "carbs": "4.00",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Fit jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "33.00",
+    "proteins": "3.50",
+    "carbs": "4.60",
+    "fats": "0.05",
+    "quantity": "100"
+  },
+  {
+    "name": "Ella jogurt 0.5% m.m.",
+    "keyword": "jogurt",
+    "brand": "Mlekara Subotica",
+    "calories": "31.00",
+    "proteins": "3.00",
+    "carbs": "3.50",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Ab pro jogurt",
+    "keyword": "jogurt",
+    "brand": "Mlekara Subotica",
+    "calories": "43.00",
+    "proteins": "3.20",
+    "carbs": "3.50",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukat jogurt",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "61.00",
+    "proteins": "3.30",
+    "carbs": "4.80",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt  2.8% m.m.",
+    "keyword": "jogurt",
+    "brand": "Niška mlekara",
+    "calories": "56.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans jogurt 1% m.m.",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "41.00",
+    "proteins": "3.20",
+    "carbs": "5.20",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Ella jogurt 0.9% m.m.",
+    "keyword": "jogurt",
+    "brand": "Mlekara Subotica",
+    "calories": "34.00",
+    "proteins": "3.20",
+    "carbs": "3.00",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Light jogurt",
+    "keyword": "jogurt",
+    "brand": "Dukat",
+    "calories": "35.00",
+    "proteins": "3.60",
+    "carbs": "4.80",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Viva jogurt",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "41.00",
+    "proteins": "3.00",
+    "carbs": "5.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans jogurt 1% m.m.",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "52.40",
+    "proteins": "3.50",
+    "carbs": "5.50",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogood voćni jogurt jagoda",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "88.00",
+    "proteins": "2.90",
+    "carbs": "14.00",
+    "fats": "2.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukat jogurt 3.2% m.m.",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "60.00",
+    "proteins": "3.10",
+    "carbs": "4.70",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Sensia jogurt",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "58.00",
+    "proteins": "3.40",
+    "carbs": "4.80",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt granice",
+    "keyword": "jogurt",
+    "brand": "Mlekara Mladenovac",
+    "calories": "55.00",
+    "proteins": "3.00",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Meggle jogurt light 0.5% m.m.",
+    "keyword": "jogurt",
+    "brand": "Meggle",
+    "calories": "34.00",
+    "proteins": "3.00",
+    "carbs": "3.60",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Light jogurt 1.5% m.m.",
+    "keyword": "jogurt",
+    "brand": "somboled",
+    "calories": "47.00",
+    "proteins": "3.50",
+    "carbs": "4.90",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Ducat dukatos grčki jogurt 9% m.m.",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "126.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt kuč 0.5% m.m.",
+    "keyword": "jogurt",
+    "brand": "Kuč",
+    "calories": "35.00",
+    "proteins": "3.30",
+    "carbs": "4.80",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt balans 0% m.m.",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "35.00",
+    "proteins": "3.60",
+    "carbs": "4.40",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Fidobe jogurt 0.5%",
+    "keyword": "jogurt",
+    "brand": "Vedro",
+    "calories": "35.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Happy family jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "47.40",
+    "proteins": "3.30",
+    "carbs": "3.60",
+    "fats": "2.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Z bregov jogurt 2,8% m.m",
+    "keyword": "jogurt",
+    "brand": "'z bregov",
+    "calories": "62.00",
+    "proteins": "4.30",
+    "carbs": "5.10",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Maximo: jogurt, šumsko voće sladoled",
+    "keyword": "jogurt",
+    "brand": "Frikom",
+    "calories": "256.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "105"
+  },
+  {
+    "name": "Jogood Šumsko voće voćni jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "77.10",
+    "proteins": "2.90",
+    "carbs": "13.00",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Bello bello jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "55.00",
+    "proteins": "5.00",
+    "carbs": "4.00",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans obrok+ voćni jogurt",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "78.00",
+    "proteins": "3.00",
+    "carbs": "14.00",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt activia sa žitaricama i jagodom",
+    "keyword": "jogurt",
+    "brand": "danone",
+    "calories": "91.00",
+    "proteins": "3.60",
+    "carbs": "12.80",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt sa pahuljicama",
+    "keyword": "jogurt",
+    "brand": "",
+    "calories": "86.00",
+    "proteins": "4.29",
+    "carbs": "11.74",
+    "fats": "2.41",
+    "quantity": "100"
+  },
+  {
+    "name": "Niški jogurt probiotik",
+    "keyword": "jogurt",
+    "brand": "Niška mlekara",
+    "calories": "35.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans kefir jogurt",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "54.00",
+    "proteins": "3.00",
+    "carbs": "4.60",
+    "fats": "2.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt zdravo",
+    "keyword": "jogurt",
+    "brand": "Mlekara Subotica",
+    "calories": "52.00",
+    "proteins": "3.20",
+    "carbs": "3.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Frutisima voćni jogurt",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "75.00",
+    "proteins": "2.80",
+    "carbs": "12.70",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Vitanova žitarice sa jagodom i jogurtom",
+    "keyword": "jogurt",
+    "brand": "Pionir",
+    "calories": "408.00",
+    "proteins": "8.30",
+    "carbs": "69.80",
+    "fats": "11.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt family",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "45.60",
+    "proteins": "2.90",
+    "carbs": "4.00",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Probiotski jogurt",
+    "keyword": "jogurt",
+    "brand": "Niska mlekara",
+    "calories": "35.70",
+    "proteins": "3.20",
+    "carbs": "4.60",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Vocni jogurt campina fruttis",
+    "keyword": "jogurt",
+    "brand": "",
+    "calories": "81.00",
+    "proteins": "2.80",
+    "carbs": "17.00",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Duettino grčki jogurt",
+    "keyword": "jogurt",
+    "brand": "duettino grcki jogurt",
+    "calories": "148.00",
+    "proteins": "5.50",
+    "carbs": "20.00",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Voćni jogurt kajsija",
+    "keyword": "jogurt",
+    "brand": "Dukat",
+    "calories": "75.00",
+    "proteins": "2.80",
+    "carbs": "12.70",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Yogsi (obrok u boci) voćni jogurt jagoda-banana sa žitaricama",
+    "keyword": "jogurt",
+    "brand": "dukat",
+    "calories": "78.00",
+    "proteins": "3.10",
+    "carbs": "13.60",
+    "fats": "1.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans jogurt, pšenica",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "80.00",
+    "proteins": "3.00",
+    "carbs": "12.20",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "2,8% m.m. jogurt",
+    "keyword": "jogurt",
+    "brand": "Vedro",
+    "calories": "57.00",
+    "proteins": "2.90",
+    "carbs": "4.60",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Premia jogurt 2,8% mm",
+    "keyword": "jogurt",
+    "brand": "Mlekara mladost",
+    "calories": "54.00",
+    "proteins": "3.00",
+    "carbs": "0.00",
+    "fats": "2.80",
+    "quantity": "180"
+  },
+  {
+    "name": "Dukatt jogurt",
+    "keyword": "jogurt",
+    "brand": "Somboled",
+    "calories": "60.00",
+    "proteins": "3.10",
+    "carbs": "4.70",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt ab kultura šumsko voće",
+    "keyword": "jogurt",
+    "brand": "dukat",
+    "calories": "40.00",
+    "proteins": "3.40",
+    "carbs": "6.50",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "čokolada najlepše želje jagoda i jogurt",
+    "keyword": "jogurt",
+    "brand": "",
+    "calories": "137.00",
+    "proteins": "0.00",
+    "carbs": "12.80",
+    "fats": "8.30",
+    "quantity": "25"
+  },
+  {
+    "name": "K plus jogurt",
+    "keyword": "jogurt",
+    "brand": "K plus",
+    "calories": "54.00",
+    "proteins": "3.00",
+    "carbs": "3.60",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Pekarski jogurt",
+    "keyword": "jogurt",
+    "brand": "Mlekara subotica",
+    "calories": "100.00",
+    "proteins": "8.00",
+    "carbs": "8.75",
+    "fats": "3.75",
+    "quantity": "1"
+  },
+  {
+    "name": "Zott voćni jogurt sa žitaricama",
+    "keyword": "jogurt",
+    "brand": "Jogobella",
+    "calories": "107.00",
+    "proteins": "3.80",
+    "carbs": "17.10",
+    "fats": "2.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Viva voćni jogurt, brusnica i borovnica",
+    "keyword": "jogurt",
+    "brand": "imlek",
+    "calories": "73.00",
+    "proteins": "2.90",
+    "carbs": "13.30",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Imlek jogurt",
+    "keyword": "jogurt",
+    "brand": "Vitalia",
+    "calories": "48.00",
+    "proteins": "3.40",
+    "carbs": "5.00",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Activia jogurt",
+    "keyword": "jogurt",
+    "brand": "Danone",
+    "calories": "35.00",
+    "proteins": "3.20",
+    "carbs": "3.60",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt bioaktiv lgg",
+    "keyword": "jogurt",
+    "brand": "Dukat",
+    "calories": "56.00",
+    "proteins": "4.50",
+    "carbs": "6.30",
+    "fats": "1.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogobella light voćni jogurt",
+    "keyword": "jogurt",
+    "brand": "Zott",
+    "calories": "60.00",
+    "proteins": "4.00",
+    "carbs": "8.40",
+    "fats": "1.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Viva jogurt 1% m.m.",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "41.00",
+    "proteins": "3.00",
+    "carbs": "5.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Light jogurt dukat",
+    "keyword": "jogurt",
+    "brand": "Dukat",
+    "calories": "39.00",
+    "proteins": "3.70",
+    "carbs": "4.90",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukatos jogurt sa pistaćima i bademima",
+    "keyword": "jogurt",
+    "brand": "Dukat",
+    "calories": "158.00",
+    "proteins": "5.00",
+    "carbs": "16.80",
+    "fats": "7.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Aktivia žitarice jogurt",
+    "keyword": "jogurt",
+    "brand": "Danone",
+    "calories": "61.00",
+    "proteins": "2.90",
+    "carbs": "10.80",
+    "fats": "0.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt na grčki način",
+    "keyword": "jogurt",
+    "brand": "Bodri",
+    "calories": "142.10",
+    "proteins": "3.20",
+    "carbs": "4.20",
+    "fats": "9.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Biser jogurt",
+    "keyword": "jogurt",
+    "brand": "Mlekoprodukt",
+    "calories": "56.00",
+    "proteins": "3.00",
+    "carbs": "0.00",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Mercator jogurt 3,2% m.m.",
+    "keyword": "jogurt",
+    "brand": "Ljubljanske mlekarne",
+    "calories": "110.00",
+    "proteins": "6.30",
+    "carbs": "8.30",
+    "fats": "5.80",
+    "quantity": "180"
+  },
+  {
+    "name": "Jogurt total 0% mm",
+    "keyword": "jogurt",
+    "brand": "Total",
+    "calories": "57.00",
+    "proteins": "10.30",
+    "carbs": "4.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Light jogurt",
+    "keyword": "jogurt",
+    "brand": "Gložane Leskovac",
+    "calories": "40.00",
+    "proteins": "3.10",
+    "carbs": "0.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Activia natur jogurt",
+    "keyword": "jogurt",
+    "brand": "Danone",
+    "calories": "87.00",
+    "proteins": "5.00",
+    "carbs": "6.00",
+    "fats": "4.80",
+    "quantity": "140"
+  },
+  {
+    "name": "Balans + jogurt",
+    "keyword": "jogurt",
+    "brand": "Bimilk",
+    "calories": "52.40",
+    "proteins": "3.50",
+    "carbs": "5.50",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica bez laktoze jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "54.00",
+    "proteins": "3.10",
+    "carbs": "4.20",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt 0% m.m.",
+    "keyword": "jogurt",
+    "brand": "Šabac",
+    "calories": "35.00",
+    "proteins": "3.50",
+    "carbs": "5.00",
+    "fats": "0.05",
+    "quantity": "100"
+  },
+  {
+    "name": "Voćni jogurt actimel",
+    "keyword": "jogurt",
+    "brand": "danone",
+    "calories": "75.00",
+    "proteins": "2.70",
+    "carbs": "11.80",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Fit plus effect jogurt",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "32.80",
+    "proteins": "3.50",
+    "carbs": "4.60",
+    "fats": "0.05",
+    "quantity": "100"
+  },
+  {
+    "name": "Jogurt light",
+    "keyword": "jogurt",
+    "brand": "Sirela Maglic",
+    "calories": "31.00",
+    "proteins": "3.30",
+    "carbs": "4.80",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Fermentisana pavlaka sa jogurtnom kulturom",
+    "keyword": "jogurt",
+    "brand": "Imlek",
+    "calories": "199.00",
+    "proteins": "2.30",
+    "carbs": "2.50",
+    "fats": "20.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pahuljice sa jogurtom",
+    "keyword": "jogurt",
+    "brand": "",
+    "calories": "229.00",
+    "proteins": "12.00",
+    "carbs": "35.00",
+    "fats": "10.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Jogurt dukat light jogurt",
+    "keyword": "jogurt",
+    "brand": "dukat",
+    "calories": "35.00",
+    "proteins": "3.60",
+    "carbs": "4.80",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Grekos grekos ekstra punomasni jogurt",
+    "keyword": "jogurt",
+    "brand": "Mlekara Subotica",
+    "calories": "112.00",
+    "proteins": "3.70",
+    "carbs": "4.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Biola voćni jogurt 0,1% m.m.",
+    "keyword": "jogurt",
+    "brand": "TINE",
+    "calories": "54.00",
+    "proteins": "2.90",
+    "carbs": "10.00",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Z bregov jogurt light 0,9 m.m.",
+    "keyword": "jogurt",
+    "brand": "vindija",
+    "calories": "45.70",
+    "proteins": "0.00",
+    "carbs": "5.10",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Ovsene pahuljice s jogurtom",
+    "keyword": "jogurt",
+    "brand": "",
+    "calories": "168.00",
+    "proteins": "3.80",
+    "carbs": "27.50",
+    "fats": "7.50",
+    "quantity": "1"
+  },
+  {
+    "name": "Dis jogurt 2.8% m.m.",
+    "keyword": "jogurt",
+    "brand": "Dis mlekara",
+    "calories": "54.00",
+    "proteins": "3.10",
+    "carbs": "3.60",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Campina vocni jogurt malina",
+    "keyword": "jogurt",
+    "brand": "campina",
+    "calories": "85.00",
+    "proteins": "2.70",
+    "carbs": "18.00",
+    "fats": "0.20",
+    "quantity": "100"
+  }
+]

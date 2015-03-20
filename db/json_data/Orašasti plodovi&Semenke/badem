@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Badem",
+    "keyword": "badem",
+    "brand": "",
+    "calories": "652.00",
+    "proteins": "18.00",
+    "carbs": "16.00",
+    "fats": "54.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Gud diet blanisarni badem",
+    "keyword": "badem",
+    "brand": "Marbo",
+    "calories": "623.00",
+    "proteins": "0.00",
+    "carbs": "20.00",
+    "fats": "51.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Badem suvopečeni slani",
+    "keyword": "badem",
+    "brand": "Premia",
+    "calories": "650.00",
+    "proteins": "25.00",
+    "carbs": "8.76",
+    "fats": "56.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Jumbo badem u jezgru",
+    "keyword": "badem",
+    "brand": "Floridabel",
+    "calories": "640.00",
+    "proteins": "24.56",
+    "carbs": "7.92",
+    "fats": "55.79",
+    "quantity": "100"
+  },
+  {
+    "name": "Badem jezgro",
+    "keyword": "badem",
+    "brand": "Premia",
+    "calories": "640.00",
+    "proteins": "24.56",
+    "carbs": "7.92",
+    "fats": "55.79",
+    "quantity": "100"
+  },
+  {
+    "name": "Badem suvopečeni slani",
+    "keyword": "badem",
+    "brand": "premia",
+    "calories": "650.00",
+    "proteins": "25.04",
+    "carbs": "8.76",
+    "fats": "56.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Bademovo mleko",
+    "keyword": "badem",
+    "brand": "Alpro",
+    "calories": "48.00",
+    "proteins": "1.00",
+    "carbs": "6.00",
+    "fats": "2.20",
+    "quantity": "200"
+  }
+]

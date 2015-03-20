@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Paradajz",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "14.00",
+    "proteins": "0.00",
+    "carbs": "2.80",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Paradajz sos",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "42.00",
+    "proteins": "0.00",
+    "carbs": "9.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Paradajz čorba",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "96.00",
+    "proteins": "1.76",
+    "carbs": "18.47",
+    "fats": "1.95",
+    "quantity": "100"
+  },
+  {
+    "name": "Quik instant supa od paradajza supa",
+    "keyword": "paradajz",
+    "brand": "Aleva",
+    "calories": "74.00",
+    "proteins": "1.30",
+    "carbs": "14.00",
+    "fats": "2.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Krem supa od paradajza",
+    "keyword": "paradajz",
+    "brand": "Rial",
+    "calories": "348.00",
+    "proteins": "8.70",
+    "carbs": "52.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Sos od paradajza za špagete",
+    "keyword": "paradajz",
+    "brand": "Aleva",
+    "calories": "318.40",
+    "proteins": "2.70",
+    "carbs": "12.40",
+    "fats": "1.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Tomatelo pasirani paradajz sos",
+    "keyword": "paradajz",
+    "brand": "Nektar",
+    "calories": "27.00",
+    "proteins": "0.80",
+    "carbs": "5.90",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Paradajz bez kore",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "18.00",
+    "proteins": "0.88",
+    "carbs": "3.92",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Jadranska sardina sa povrcem u paradajz sosu",
+    "keyword": "riba",
+    "brand": "Premia",
+    "calories": "157.00",
+    "proteins": "20.30",
+    "carbs": "7.90",
+    "fats": "4.86",
+    "quantity": "100"
+  },
+  {
+    "name": "Komadi tunjevine u paradajz sosu",
+    "keyword": "riba",
+    "brand": "Calvo",
+    "calories": "242.00",
+    "proteins": "12.60",
+    "carbs": "3.10",
+    "fats": "19.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Quik instant krem supa od paradajza",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "74.20",
+    "proteins": "1.30",
+    "carbs": "13.50",
+    "fats": "1.70",
+    "quantity": "18"
+  },
+  {
+    "name": "Haringa u paradajz sosu",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "186.00",
+    "proteins": "12.60",
+    "carbs": "5.10",
+    "fats": "12.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Ćufte u paradajz sosu",
+    "keyword": "paradajz",
+    "brand": "Baš baš",
+    "calories": "123.50",
+    "proteins": "8.00",
+    "carbs": "6.00",
+    "fats": "7.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Sos od paradajza sa maslinama",
+    "keyword": "paradajz",
+    "brand": "Danubius",
+    "calories": "102.00",
+    "proteins": "1.71",
+    "carbs": "5.34",
+    "fats": "7.89",
+    "quantity": "100"
+  },
+  {
+    "name": "Sea harvest sardine u paradajz sosu",
+    "keyword": "riba",
+    "brand": "",
+    "calories": "105.00",
+    "proteins": "14.00",
+    "carbs": "2.00",
+    "fats": "3.70",
+    "quantity": "100"
+  },
+  {
+    "name": "Beli pasulj u sosu od paradajza",
+    "keyword": "paradajz",
+    "brand": "365",
+    "calories": "80.00",
+    "proteins": "5.00",
+    "carbs": "10.90",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Paradajz cherry",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "21.00",
+    "proteins": "1.47",
+    "carbs": "4.41",
+    "fats": "0.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Paradajz čorba sa tunjevinom",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "40.93",
+    "proteins": "3.90",
+    "carbs": "3.00",
+    "fats": "1.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Fish house kiljka u paradajz sosu",
+    "keyword": "paradajz",
+    "brand": "",
+    "calories": "176.00",
+    "proteins": "13.00",
+    "carbs": "4.00",
+    "fats": "12.00",
+    "quantity": "100"
+  }
+]

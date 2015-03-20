@@ -1,0 +1,612 @@
+[
+  {
+    "name": "Dukat mleko 2.8% m.m.",
+    "keyword": "mleko",
+    "brand": "somboled",
+    "calories": "56.60",
+    "proteins": "3.20",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "46.00",
+    "proteins": "3.10",
+    "carbs": "4.50",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko 0.5% m.m.",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "35.70",
+    "proteins": "3.10",
+    "carbs": "4.70",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukat mleko 1.5% m.m.",
+    "keyword": "mleko",
+    "brand": "Somboled",
+    "calories": "46.00",
+    "proteins": "3.30",
+    "carbs": "4.70",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica kiselo mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "54.00",
+    "proteins": "2.90",
+    "carbs": "4.30",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica cokoladno mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "63.00",
+    "proteins": "3.00",
+    "carbs": "9.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Ella mleko 0.9",
+    "keyword": "mleko",
+    "brand": "Mlekara Subotica",
+    "calories": "39.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko moja kravica 3.2% m.m.",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "58.40",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko bez laktoze",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "41.60",
+    "proteins": "3.20",
+    "carbs": "3.60",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko 2.8% m.m.",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "54.80",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko sveze 1.5% m.m.",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "43.10",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Subotičko kiselo mleko",
+    "keyword": "mleko",
+    "brand": "Mlekara subotica",
+    "calories": "55.00",
+    "proteins": "3.00",
+    "carbs": "3.00",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Sojino mleko",
+    "keyword": "mleko",
+    "brand": "Soja",
+    "calories": "38.00",
+    "proteins": "3.00",
+    "carbs": "2.00",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica kiselo mleko",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "60.00",
+    "proteins": "3.20",
+    "carbs": "4.50",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Ella mleko 0,5",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "35.00",
+    "proteins": "3.00",
+    "carbs": "4.50",
+    "fats": "0.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica čokoladno mleko",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "63.00",
+    "proteins": "3.55",
+    "carbs": "9.75",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko megle 1.6% m.m.",
+    "keyword": "mleko",
+    "brand": "Megle",
+    "calories": "44.00",
+    "proteins": "3.00",
+    "carbs": "4.50",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko 3,2% m.m.",
+    "keyword": "mleko",
+    "brand": "Mlekara Petrović",
+    "calories": "55.00",
+    "proteins": "3.00",
+    "carbs": "3.00",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Šlag, umućen s mlekom, kašika",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "50.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Kiselo mleko-kravlje",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "64.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko meggle 2,8% m.m.",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "55.00",
+    "proteins": "3.00",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko bravo",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "48.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Sarmica od zelja sa kiselim mlekom",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Palenta sa mlekom",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "149.00",
+    "proteins": "5.80",
+    "carbs": "21.10",
+    "fats": "4.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Pšenični  griz kuvan s mlekom",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "97.00",
+    "proteins": "4.52",
+    "carbs": "14.49",
+    "fats": "2.26",
+    "quantity": "100"
+  },
+  {
+    "name": "Vitalia sojino mleko u prahu",
+    "keyword": "mleko",
+    "brand": "Vitalia",
+    "calories": "501.50",
+    "proteins": "4.70",
+    "carbs": "68.70",
+    "fats": "23.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Bello mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "57.00",
+    "proteins": "3.10",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Subotičko mleko",
+    "keyword": "mleko",
+    "brand": "Mlekara Subotica",
+    "calories": "51.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "2.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Biser vajkrem, namaz",
+    "keyword": "mleko",
+    "brand": "Mlekoprodukt",
+    "calories": "290.00",
+    "proteins": "27.00",
+    "carbs": "1.00",
+    "fats": "19.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Family mleko 2.8% m.m.",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "55.60",
+    "proteins": "3.10",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Dukat kiselo mleko",
+    "keyword": "mleko",
+    "brand": "somboled",
+    "calories": "62.00",
+    "proteins": "3.40",
+    "carbs": "4.90",
+    "fats": "3.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Jaffa napolitanke mleko&lešnik",
+    "keyword": "mleko",
+    "brand": "Jaffa Crvenka",
+    "calories": "543.00",
+    "proteins": "5.55",
+    "carbs": "58.90",
+    "fats": "31.90",
+    "quantity": "100"
+  },
+  {
+    "name": "šlag sa mlekom",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "50.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Sojino mleko",
+    "keyword": "mleko",
+    "brand": "Alpro",
+    "calories": "29.00",
+    "proteins": "2.10",
+    "carbs": "2.00",
+    "fats": "1.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Bello bello kiselo mleko",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "55.60",
+    "proteins": "3.30",
+    "carbs": "4.00",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Vedro kiselo mleko 2,8% m.m.",
+    "keyword": "mleko",
+    "brand": "Niška mlekara",
+    "calories": "57.00",
+    "proteins": "2.90",
+    "carbs": "4.60",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Makarone sa mlekom",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "100.00",
+    "proteins": "3.20",
+    "carbs": "17.00",
+    "fats": "2.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Alpsko mleko mleko 1,6% m.m.",
+    "keyword": "mleko",
+    "brand": "Ljubljanske mlekarne",
+    "calories": "46.00",
+    "proteins": "3.20",
+    "carbs": "4.60",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Cokoladno mleko moja kravica bez laktoze",
+    "keyword": "mleko",
+    "brand": "imlek",
+    "calories": "58.60",
+    "proteins": "3.20",
+    "carbs": "9.20",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Rice vita pšenično mleko u prahu",
+    "keyword": "mleko",
+    "brand": "vitalia",
+    "calories": "483.00",
+    "proteins": "2.50",
+    "carbs": "74.00",
+    "fats": "19.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kozije mleko",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "72.00",
+    "proteins": "3.80",
+    "carbs": "3.80",
+    "fats": "4.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "500.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "700"
+  },
+  {
+    "name": "Joya bio pirincano mleko",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "56.60",
+    "proteins": "0.20",
+    "carbs": "12.00",
+    "fats": "0.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Cokoladno sojino mleko",
+    "keyword": "mleko",
+    "brand": "joya",
+    "calories": "69.00",
+    "proteins": "3.30",
+    "carbs": "8.30",
+    "fats": "2.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Milka mlecna cokolada s alpskim mlekom, suvim grozdjem i lesnicima",
+    "keyword": "mleko",
+    "brand": "Kraft Foods",
+    "calories": "495.00",
+    "proteins": "6.20",
+    "carbs": "57.50",
+    "fats": "25.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "45.60",
+    "proteins": "3.10",
+    "carbs": "4.70",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Vita milk, delacto milk mleko",
+    "keyword": "mleko",
+    "brand": "mlekara subotica",
+    "calories": "46.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Biser jogurt",
+    "keyword": "mleko",
+    "brand": "Mlekoprodukt",
+    "calories": "56.00",
+    "proteins": "3.00",
+    "carbs": "0.00",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Balans kiselo mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "65.00",
+    "proteins": "4.00",
+    "carbs": "5.90",
+    "fats": "1.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Biser sir u listicima, 45% m.m.",
+    "keyword": "mleko",
+    "brand": "Mlekoprodukt",
+    "calories": "70.00",
+    "proteins": "7.00",
+    "carbs": "0.00",
+    "fats": "4.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Pirincano mleko",
+    "keyword": "mleko",
+    "brand": "domace",
+    "calories": "49.00",
+    "proteins": "0.00",
+    "carbs": "3.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Moja kravica kiselo mleko 6% m.m.",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "89.20",
+    "proteins": "3.70",
+    "carbs": "5.10",
+    "fats": "6.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Bello bello organsko dugotrajno mleko",
+    "keyword": "mleko",
+    "brand": "Imlek",
+    "calories": "54.80",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "2.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko u prahu",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "502.00",
+    "proteins": "25.50",
+    "carbs": "38.10",
+    "fats": "26.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Sojino mleko od vanile",
+    "keyword": "mleko",
+    "brand": "Joya",
+    "calories": "61.00",
+    "proteins": "3.30",
+    "carbs": "7.30",
+    "fats": "1.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Mleko light 0.6% m.m.",
+    "keyword": "mleko",
+    "brand": "Mlekara Sabac",
+    "calories": "37.00",
+    "proteins": "3.20",
+    "carbs": "4.60",
+    "fats": "0.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Meggle mleko 0,9% m.m.",
+    "keyword": "mleko",
+    "brand": "Meggle",
+    "calories": "38.00",
+    "proteins": "2.90",
+    "carbs": "4.50",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Sojino mleko unsweetened",
+    "keyword": "mleko",
+    "brand": "Alpro",
+    "calories": "32.00",
+    "proteins": "3.30",
+    "carbs": "0.20",
+    "fats": "1.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Čokoladno mleko s jafom",
+    "keyword": "mleko",
+    "brand": "meggle",
+    "calories": "61.00",
+    "proteins": "3.30",
+    "carbs": "8.70",
+    "fats": "0.90",
+    "quantity": "100"
+  },
+  {
+    "name": "Soja šejk (med, lan, susam, mleko, kakao soja)",
+    "keyword": "mleko",
+    "brand": "",
+    "calories": "715.00",
+    "proteins": "30.00",
+    "carbs": "84.00",
+    "fats": "34.00",
+    "quantity": "260"
+  },
+  {
+    "name": "Bademovo mleko",
+    "keyword": "mleko",
+    "brand": "Alpro",
+    "calories": "48.00",
+    "proteins": "1.00",
+    "carbs": "6.00",
+    "fats": "2.20",
+    "quantity": "200"
+  }
+]

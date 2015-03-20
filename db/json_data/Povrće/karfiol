@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Karfiol (cvet)",
+    "keyword": "karfiol",
+    "brand": "",
+    "calories": "25.00",
+    "proteins": "3.20",
+    "carbs": "2.70",
+    "fats": "0.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Pohovani karfiol",
+    "keyword": "karfiol",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "5.00",
+    "carbs": "13.00",
+    "fats": "9.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Karfiol",
+    "keyword": "karfiol",
+    "brand": "Frikom",
+    "calories": "29.00",
+    "proteins": "0.00",
+    "carbs": "4.50",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Karfiol pire",
+    "keyword": "karfiol",
+    "brand": "",
+    "calories": "54.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Karfiol u belom sosu za 4 osobe",
+    "keyword": "karfiol",
+    "brand": "",
+    "calories": "1548.00",
+    "proteins": "102.00",
+    "carbs": "85.50",
+    "fats": "86.00",
+    "quantity": "4"
+  }
+]

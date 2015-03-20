@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Govedina, mršava",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "131.20",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "4.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Govedina, srednje masna",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "218.00",
+    "proteins": "18.80",
+    "carbs": "0.00",
+    "fats": "15.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Govedina, masna",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "332.00",
+    "proteins": "15.80",
+    "carbs": "0.00",
+    "fats": "29.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Goveđi gulaš",
+    "keyword": "govedina",
+    "brand": "Podravka",
+    "calories": "119.00",
+    "proteins": "11.89",
+    "carbs": "3.59",
+    "fats": "6.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Goveđi jezik",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "157.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Goveđi bubrezi",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "86.00",
+    "proteins": "15.70",
+    "carbs": "0.00",
+    "fats": "2.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Dobra goveđa supa",
+    "keyword": "govedina",
+    "brand": "swisslion takovo",
+    "calories": "19.50",
+    "proteins": "0.50",
+    "carbs": "1.00",
+    "fats": "1.50",
+    "quantity": "250"
+  },
+  {
+    "name": "Goveđa pršuta",
+    "keyword": "govedina",
+    "brand": "Zlatiborac",
+    "calories": "187.00",
+    "proteins": "30.00",
+    "carbs": "0.00",
+    "fats": "7.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Jetra goveđa",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "163.00",
+    "proteins": "21.10",
+    "carbs": "2.20",
+    "fats": "7.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Goveđa juha",
+    "keyword": "govedina",
+    "brand": "Podravka",
+    "calories": "58.00",
+    "proteins": "2.00",
+    "carbs": "9.00",
+    "fats": "1.50",
+    "quantity": "250"
+  },
+  {
+    "name": "Goveđe mleveno meso",
+    "keyword": "govedina",
+    "brand": "",
+    "calories": "265.00",
+    "proteins": "18.20",
+    "carbs": "0.50",
+    "fats": "19.60",
+    "quantity": "100"
+  }
+]

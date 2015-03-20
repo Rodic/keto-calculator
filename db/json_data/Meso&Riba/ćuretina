@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dimljena i kuvana ćuretina",
+    "keyword": "ćuretina",
+    "brand": "",
+    "calories": "139.00",
+    "proteins": "22.00",
+    "carbs": "0.00",
+    "fats": "5.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Ćuretina, belo meso",
+    "keyword": "ćuretina",
+    "brand": "",
+    "calories": "104.00",
+    "proteins": "17.10",
+    "carbs": "4.20",
+    "fats": "1.70",
+    "quantity": "100"
+  },
+  {
+    "name": "Ćuretina",
+    "keyword": "ćuretina",
+    "brand": "Maki",
+    "calories": "197.00",
+    "proteins": "16.00",
+    "carbs": "1.00",
+    "fats": "14.00",
+    "quantity": "100"
+  }
+]

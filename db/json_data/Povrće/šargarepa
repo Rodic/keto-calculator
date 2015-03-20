@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Šargarepa",
+    "keyword": "šargarepa",
+    "brand": "",
+    "calories": "42.00",
+    "proteins": "1.50",
+    "carbs": "8.50",
+    "fats": "0.15",
+    "quantity": "100"
+  },
+  {
+    "name": "Dinstana šargarepa",
+    "keyword": "šargarepa",
+    "brand": "",
+    "calories": "65.00",
+    "proteins": "0.90",
+    "carbs": "9.60",
+    "fats": "3.00",
+    "quantity": "100"
+  }
+]

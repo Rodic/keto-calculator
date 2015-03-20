@@ -12,9 +12,25 @@ RSpec.describe FoodItem, type: :model do
       expect(FactoryGirl.build(:food_item, name: "")).to_not be_valid
     end
 
+    it "fails to valdate without keyword" do
+      expect(FactoryGirl.build(:food_item, keyword: nil)).to_not be_valid
+    end
+
     it "validates without brand" do
       expect(FactoryGirl.build(:food_item, brand: "")).to be_valid
     end
+  end
+
+  describe "normalizations" do
+
+    it "capitalizes brand name" do
+      expect(FactoryGirl.create(:food_item, brand: "imlek").brand).to eq("Imlek")
+    end
+
+    it "downcases keyword" do
+      expect(FactoryGirl.create(:food_item, keyword: "Jogurt").keyword).to eq("jogurt")
+    end
+
   end
 
   describe "associations" do

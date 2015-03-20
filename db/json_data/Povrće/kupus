@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Kupus",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "22.00",
+    "proteins": "1.00",
+    "carbs": "3.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kiseli kupus",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "27.00",
+    "proteins": "1.30",
+    "carbs": "6.10",
+    "fats": "0.20",
+    "quantity": "142"
+  },
+  {
+    "name": "Kupus kuvani bez mesa",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "123.26",
+    "proteins": "4.13",
+    "carbs": "13.46",
+    "fats": "6.04",
+    "quantity": "200"
+  },
+  {
+    "name": "Kupus sa junetinom",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "72.60",
+    "proteins": "5.80",
+    "carbs": "1.90",
+    "fats": "4.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Kiseli kupus ribanac",
+    "keyword": "kupus",
+    "brand": "Premia",
+    "calories": "62.00",
+    "proteins": "1.08",
+    "carbs": "1.47",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Kupus salata sa maslinovim uljem",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "84.00",
+    "proteins": "0.60",
+    "carbs": "3.30",
+    "fats": "7.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Kuvani kupus sa slaninom",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "4.00",
+    "carbs": "5.00",
+    "fats": "15.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Posne flekice sa kupusom",
+    "keyword": "kupus",
+    "brand": "",
+    "calories": "137.00",
+    "proteins": "3.00",
+    "carbs": "18.70",
+    "fats": "5.50",
+    "quantity": "100"
+  }
+]

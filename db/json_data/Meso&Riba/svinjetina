@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Svinjetina, nemasna",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "181.70",
+    "proteins": "20.00",
+    "carbs": "0.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjetina, srednje masna",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "280.00",
+    "proteins": "16.00",
+    "carbs": "0.00",
+    "fats": "24.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjetina file",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "176.00",
+    "proteins": "21.00",
+    "carbs": "0.00",
+    "fats": "1.60",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjetina, masna",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "459.30",
+    "proteins": "12.00",
+    "carbs": "0.00",
+    "fats": "42.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjetina sušena",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "326.00",
+    "proteins": "15.00",
+    "carbs": "9.00",
+    "fats": "1.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska šnicla",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "168.00",
+    "proteins": "20.80",
+    "carbs": "0.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska pečenica",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "176.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "10.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska mast",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "900.00",
+    "proteins": "0.00",
+    "carbs": "0.00",
+    "fats": "100.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska dimljena kulen kobasica",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "387.00",
+    "proteins": "22.00",
+    "carbs": "2.00",
+    "fats": "31.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska pršuta",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "211.00",
+    "proteins": "21.00",
+    "carbs": "0.00",
+    "fats": "15.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjska salama",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "387.50",
+    "proteins": "23.20",
+    "carbs": "3.80",
+    "fats": "30.10",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjskla jetra",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "154.00",
+    "proteins": "21.30",
+    "carbs": "2.10",
+    "fats": "6.80",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjski but",
+    "keyword": "svinjetina",
+    "brand": "Bonduelle, Hrvatska",
+    "calories": "261.00",
+    "proteins": "18.00",
+    "carbs": "0.00",
+    "fats": "21.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjski kotlet bez kostiju",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "117.00",
+    "proteins": "22.40",
+    "carbs": "0.00",
+    "fats": "2.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjski but bez kostiju",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "152.00",
+    "proteins": "22.00",
+    "carbs": "0.00",
+    "fats": "7.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjski jezik",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "210.00",
+    "proteins": "17.00",
+    "carbs": "0.00",
+    "fats": "15.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Toque du chef pasulj sa svinjskim mesom",
+    "keyword": "svinjetina",
+    "brand": "Lidl France",
+    "calories": "118.00",
+    "proteins": "7.60",
+    "carbs": "8.90",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Svinjske viršle",
+    "keyword": "svinjetina",
+    "brand": "",
+    "calories": "320.00",
+    "proteins": "11.00",
+    "carbs": "2.00",
+    "fats": "29.00",
+    "quantity": "100"
+  }
+]

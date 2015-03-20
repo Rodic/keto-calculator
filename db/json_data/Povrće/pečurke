@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Šampinjoni",
+    "keyword": "pečurke",
+    "brand": "",
+    "calories": "44.00",
+    "proteins": "3.00",
+    "carbs": "8.00",
+    "fats": "1.00",
+    "quantity": "156"
+  },
+  {
+    "name": "Bukovače",
+    "keyword": "pečurke",
+    "brand": "",
+    "calories": "38.00",
+    "proteins": "8.00",
+    "carbs": "6.50",
+    "fats": "2.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Dia pecurke salata",
+    "keyword": "pečurke",
+    "brand": "Dia France",
+    "calories": "19.00",
+    "proteins": "2.20",
+    "carbs": "0.60",
+    "fats": "0.40",
+    "quantity": "100"
+  }
+]

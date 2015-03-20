@@ -1,0 +1,32 @@
+[
+  {
+    "name": " Slanina, mesnata",
+    "keyword": "slanina",
+    "brand": "",
+    "calories": "506.00",
+    "proteins": "14.00",
+    "carbs": "0.00",
+    "fats": "50.00",
+    "quantity": "100"
+  },
+  {
+    "name": " Slanina, masna",
+    "keyword": "slanina",
+    "brand": "",
+    "calories": "797.10",
+    "proteins": "4.00",
+    "carbs": "0.00",
+    "fats": "85.00",
+    "quantity": "100"
+  },
+  {
+    "name": " Slanina, panceta",
+    "keyword": "slanina",
+    "brand": "",
+    "calories": "481.00",
+    "proteins": "25.50",
+    "carbs": "0.00",
+    "fats": "42.10",
+    "quantity": "100"
+  }
+]

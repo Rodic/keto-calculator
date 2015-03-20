@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Lešnik",
+    "keyword": "lešnik",
+    "brand": "",
+    "calories": "693.00",
+    "proteins": "14.00",
+    "carbs": "14.00",
+    "fats": "63.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Lešnik jezgro premia lešnik jezgro",
+    "keyword": "lešnik",
+    "brand": "Premia",
+    "calories": "688.00",
+    "proteins": "15.47",
+    "carbs": "11.18",
+    "fats": "64.28",
+    "quantity": "100"
+  },
+  {
+    "name": "Lešnik suvopečeni",
+    "keyword": "lešnik",
+    "brand": "",
+    "calories": "628.00",
+    "proteins": "14.95",
+    "carbs": "16.70",
+    "fats": "60.75",
+    "quantity": "100"
+  },
+  {
+    "name": "Lešnik suvi",
+    "keyword": "lešnik",
+    "brand": "",
+    "calories": "701.00",
+    "proteins": "14.00",
+    "carbs": "6.00",
+    "fats": "69.00",
+    "quantity": "100"
+  }
+]

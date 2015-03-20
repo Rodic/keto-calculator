@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Salata zelena",
+    "keyword": "salata",
+    "brand": "",
+    "calories": "14.00",
+    "proteins": "0.00",
+    "carbs": "2.20",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Zelena salata",
+    "keyword": "salata",
+    "brand": "",
+    "calories": "14.00",
+    "proteins": "1.00",
+    "carbs": "2.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Pileca salata",
+    "keyword": "salata",
+    "brand": "Premia",
+    "calories": "238.00",
+    "proteins": "3.75",
+    "carbs": "13.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Kupus salata sa maslinovim uljem",
+    "keyword": "salata",
+    "brand": "",
+    "calories": "84.00",
+    "proteins": "0.60",
+    "carbs": "3.30",
+    "fats": "7.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Francuska salata",
+    "keyword": "salata",
+    "brand": "Premia",
+    "calories": "135.00",
+    "proteins": "1.41",
+    "carbs": "9.00",
+    "fats": "9.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Salata a la tzatziki",
+    "keyword": "salata",
+    "brand": "Meggle",
+    "calories": "96.00",
+    "proteins": "2.40",
+    "carbs": "3.00",
+    "fats": "8.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Smrznuta ruska salata",
+    "keyword": "salata",
+    "brand": "Dobro",
+    "calories": "81.00",
+    "proteins": "3.20",
+    "carbs": "16.50",
+    "fats": "0.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Tuna salata",
+    "keyword": "salata",
+    "brand": "premia",
+    "calories": "211.00",
+    "proteins": "3.00",
+    "carbs": "7.63",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Zelena salata iceberg",
+    "keyword": "salata",
+    "brand": "",
+    "calories": "13.00",
+    "proteins": "0.80",
+    "carbs": "1.80",
+    "fats": "0.30",
+    "quantity": "100"
+  },
+  {
+    "name": "Freshona kukuruz salata",
+    "keyword": "salata",
+    "brand": "Lidl France",
+    "calories": "72.00",
+    "proteins": "2.50",
+    "carbs": "10.20",
+    "fats": "1.50",
+    "quantity": "100"
+  },
+  {
+    "name": "Dia pecurke salata",
+    "keyword": "salata",
+    "brand": "Dia France",
+    "calories": "19.00",
+    "proteins": "2.20",
+    "carbs": "0.60",
+    "fats": "0.40",
+    "quantity": "100"
+  },
+  {
+    "name": "Grild chicken salata",
+    "keyword": "salata",
+    "brand": "McDonalds",
+    "calories": "177.00",
+    "proteins": "24.00",
+    "carbs": "8.00",
+    "fats": "5.00",
+    "quantity": "1"
+  },
+  {
+    "name": "Salata rikula",
+    "keyword": "salata",
+    "brand": "",
+    "calories": "25.00",
+    "proteins": "2.60",
+    "carbs": "3.70",
+    "fats": "0.70",
+    "quantity": "100"
+  }
+]

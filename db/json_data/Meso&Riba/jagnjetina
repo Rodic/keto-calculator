@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jagnjetina, nemasna",
+    "keyword": "jagnjetina",
+    "brand": "",
+    "calories": "121.00",
+    "proteins": "20.00",
+    "carbs": "0.00",
+    "fats": "5.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jagnjetina, srednje masna",
+    "keyword": "jagnjetina",
+    "brand": "",
+    "calories": "211.00",
+    "proteins": "19.00",
+    "carbs": "0.00",
+    "fats": "15.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Jagnjeće grudi",
+    "keyword": "jagnjetina",
+    "brand": "",
+    "calories": "220.00",
+    "proteins": "17.10",
+    "carbs": "0.00",
+    "fats": "17.10",
+    "quantity": "100"
+  }
+]

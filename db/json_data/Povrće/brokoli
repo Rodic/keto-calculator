@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Brokoli",
+    "keyword": "brokoli",
+    "brand": "",
+    "calories": "33.00",
+    "proteins": "3.00",
+    "carbs": "4.00",
+    "fats": "0.00",
+    "quantity": "100"
+  },
+  {
+    "name": "Brokoli, kuvani",
+    "keyword": "brokoli",
+    "brand": "",
+    "calories": "21.00",
+    "proteins": "2.90",
+    "carbs": "2.00",
+    "fats": "0.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Brokoli mix",
+    "keyword": "brokoli",
+    "brand": "Higlo",
+    "calories": "57.20",
+    "proteins": "2.20",
+    "carbs": "11.20",
+    "fats": "0.40",
+    "quantity": "100"
+  }
+]

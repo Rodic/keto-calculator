@@ -2,6 +2,17 @@ class FoodItem < ActiveRecord::Base
 
   has_one :nutritional_value
 
-  validates :name, presence: true
+  validates_presence_of :name, :keyword
+
+  before_save :capitalize_brand, :downcase_keyword
+
+
+  def capitalize_brand
+    self.brand.capitalize!
+  end
+
+  def downcase_keyword
+    self.keyword.downcase!
+  end
 
 end

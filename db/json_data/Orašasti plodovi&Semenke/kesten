@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kesten  pečeni",
+    "keyword": "kesten",
+    "brand": "",
+    "calories": "213.00",
+    "proteins": "2.42",
+    "carbs": "45.54",
+    "fats": "2.26",
+    "quantity": "100"
+  },
+  {
+    "name": "Kesten pire",
+    "keyword": "kesten",
+    "brand": "",
+    "calories": "234.00",
+    "proteins": "2.20",
+    "carbs": "54.30",
+    "fats": "1.20",
+    "quantity": "100"
+  },
+  {
+    "name": "Kesten sirov",
+    "keyword": "kesten",
+    "brand": "",
+    "calories": "170.00",
+    "proteins": "2.00",
+    "carbs": "36.60",
+    "fats": "2.00",
+    "quantity": "100"
+  }
+]
