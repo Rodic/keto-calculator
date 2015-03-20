@@ -10,16 +10,6 @@
     "quantity": "100"
   },
   {
-    "name": "Piletina, pečene pileće grudi bez ulja",
-    "keyword": "piletina",
-    "brand": "",
-    "calories": "165.00",
-    "proteins": "31.00",
-    "carbs": "0.00",
-    "fats": "4.00",
-    "quantity": "100"
-  },
-  {
     "name": "Dinstana piletina",
     "keyword": "piletina",
     "brand": "",
@@ -420,7 +410,7 @@
     "quantity": "100"
   },
   {
-    "name": "Pileća prsa baroni",
+    "name": "Pileća prsa",
     "keyword": "piletina",
     "brand": "Baroni",
     "calories": "81.00",
@@ -460,7 +450,7 @@
     "quantity": "100"
   },
   {
-    "name": "Piletina, pečene pilece grudi bez ulja",
+    "name": "Piletina, pečene pileće grudi bez ulja",
     "keyword": "piletina",
     "brand": "",
     "calories": "165.00",

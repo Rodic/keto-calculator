@@ -1,6 +1,6 @@
 [
   {
-    "name": "Paprika žuta,slatka",
+    "name": "Paprika žuta, slatka",
     "keyword": "paprika",
     "brand": "",
     "calories": "22.00",
@@ -62,7 +62,7 @@
   {
     "name": "Punjena paprika",
     "keyword": "paprika",
-    "brand": "domace",
+    "brand": "",
     "calories": "112.00",
     "proteins": "8.00",
     "carbs": "8.00",
@@ -110,7 +110,7 @@
     "quantity": "100"
   },
   {
-    "name": "Becar paprikas",
+    "name": "Bećar paprikaš",
     "keyword": "paprika",
     "brand": "",
     "calories": "198.00",

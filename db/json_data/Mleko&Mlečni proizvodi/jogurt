@@ -230,7 +230,7 @@
     "quantity": "100"
   },
   {
-    "name": "Z bregov jogurt 2,8% m.m",
+    "name": "Z bregov jogurt 2.8% m.m",
     "keyword": "jogurt",
     "brand": "'z bregov",
     "calories": "62.00",
@@ -420,7 +420,7 @@
     "quantity": "100"
   },
   {
-    "name": "2,8% m.m. jogurt",
+    "name": "2.8% m.m. jogurt",
     "keyword": "jogurt",
     "brand": "Vedro",
     "calories": "57.00",
@@ -430,7 +430,7 @@
     "quantity": "100"
   },
   {
-    "name": "Premia jogurt 2,8% mm",
+    "name": "Premia jogurt 2.8% mm",
     "keyword": "jogurt",
     "brand": "Mlekara mladost",
     "calories": "54.00",
@@ -458,16 +458,6 @@
     "carbs": "6.50",
     "fats": "0.10",
     "quantity": "100"
-  },
-  {
-    "name": "čokolada najlepše želje jagoda i jogurt",
-    "keyword": "jogurt",
-    "brand": "",
-    "calories": "137.00",
-    "proteins": "0.00",
-    "carbs": "12.80",
-    "fats": "8.30",
-    "quantity": "25"
   },
   {
     "name": "K plus jogurt",
@@ -740,7 +730,7 @@
     "quantity": "100"
   },
   {
-    "name": "Grekos grekos ekstra punomasni jogurt",
+    "name": "Grekos ekstra punomasni jogurt",
     "keyword": "jogurt",
     "brand": "Mlekara Subotica",
     "calories": "112.00",
@@ -790,7 +780,7 @@
     "quantity": "100"
   },
   {
-    "name": "Campina vocni jogurt malina",
+    "name": "Campina voćni jogurt malina",
     "keyword": "jogurt",
     "brand": "campina",
     "calories": "85.00",

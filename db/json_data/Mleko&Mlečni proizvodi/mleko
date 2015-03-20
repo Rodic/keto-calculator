@@ -50,7 +50,7 @@
     "quantity": "100"
   },
   {
-    "name": "Moja kravica cokoladno mleko",
+    "name": "Moja kravica čokoladno mleko",
     "keyword": "mleko",
     "brand": "Imlek",
     "calories": "63.00",
@@ -100,7 +100,7 @@
     "quantity": "100"
   },
   {
-    "name": "Moja kravica mleko sveze 1.5% m.m.",
+    "name": "Moja kravica mleko sveže 1.5% m.m.",
     "keyword": "mleko",
     "brand": "Imlek",
     "calories": "43.10",
@@ -310,26 +310,6 @@
     "quantity": "100"
   },
   {
-    "name": "Jaffa napolitanke mleko&lešnik",
-    "keyword": "mleko",
-    "brand": "Jaffa Crvenka",
-    "calories": "543.00",
-    "proteins": "5.55",
-    "carbs": "58.90",
-    "fats": "31.90",
-    "quantity": "100"
-  },
-  {
-    "name": "šlag sa mlekom",
-    "keyword": "mleko",
-    "brand": "",
-    "calories": "50.00",
-    "proteins": "0.00",
-    "carbs": "0.00",
-    "fats": "0.00",
-    "quantity": "1"
-  },
-  {
     "name": "Sojino mleko",
     "keyword": "mleko",
     "brand": "Alpro",
@@ -360,16 +340,6 @@
     "quantity": "100"
   },
   {
-    "name": "Makarone sa mlekom",
-    "keyword": "mleko",
-    "brand": "",
-    "calories": "100.00",
-    "proteins": "3.20",
-    "carbs": "17.00",
-    "fats": "2.00",
-    "quantity": "100"
-  },
-  {
     "name": "Alpsko mleko mleko 1,6% m.m.",
     "keyword": "mleko",
     "brand": "Ljubljanske mlekarne",
@@ -380,7 +350,7 @@
     "quantity": "100"
   },
   {
-    "name": "Cokoladno mleko moja kravica bez laktoze",
+    "name": "Čokoladno mleko moja kravica bez laktoze",
     "keyword": "mleko",
     "brand": "imlek",
     "calories": "58.60",
@@ -420,7 +390,7 @@
     "quantity": "700"
   },
   {
-    "name": "Joya bio pirincano mleko",
+    "name": "Joya bio pirinčano mleko",
     "keyword": "mleko",
     "brand": "",
     "calories": "56.60",
@@ -440,7 +410,7 @@
     "quantity": "100"
   },
   {
-    "name": "Milka mlecna cokolada s alpskim mlekom, suvim grozdjem i lesnicima",
+    "name": "Milka mlečna čokolada s alpskim mlekom, suvim grožđem i lešnicima",
     "keyword": "mleko",
     "brand": "Kraft Foods",
     "calories": "495.00",
@@ -490,17 +460,7 @@
     "quantity": "100"
   },
   {
-    "name": "Biser sir u listicima, 45% m.m.",
-    "keyword": "mleko",
-    "brand": "Mlekoprodukt",
-    "calories": "70.00",
-    "proteins": "7.00",
-    "carbs": "0.00",
-    "fats": "4.00",
-    "quantity": "1"
-  },
-  {
-    "name": "Pirincano mleko",
+    "name": "Pirinčano mleko",
     "keyword": "mleko",
     "brand": "domace",
     "calories": "49.00",
