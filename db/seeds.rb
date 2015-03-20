@@ -10,16 +10,21 @@ require 'json'
 
 Dir.glob('db/json_data/*/*{[!~]}') do |json_file|
   puts "Working with #{json_file}..."
-  item = JSON.parse(File.read(json_file))
 
-  fi = FoodItem.create!(
-         name: item["name"], keyword: item["keyword"], brand: item["brand"]
-       )
+  JSON.parse(File.read(json_file)).each do |item|
 
-  unit = item[:quantity] == "1" ? "komad" : "grama"
+    fi = FoodItem.create!(
+           name: item["name"], keyword: item["keyword"], brand: item["brand"]
+         )
+    
+    item["quantity"] = "1" unless item["quantity"]
 
-  nv = NutritionalValue.create!(
-         calories: item["calories"], carbs: item["carbs"], 
-         proteins: item["proteins"], fats: item["fats"],
-         quantity: item["quantitiy"], unit: unit, food_item: fi)
+    unit = item["quantity"] == "1" ? "komad" : "grama"
+
+    nv = NutritionalValue.create!(
+           calories: item["calories"], carbs: item["carbs"], 
+           proteins: item["proteins"], fats: item["fats"],
+           quantity: item["quantity"], unit: unit, food_item: fi
+         )
+  end
 end
