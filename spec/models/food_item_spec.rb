@@ -16,4 +16,18 @@ RSpec.describe FoodItem, type: :model do
       expect(FactoryGirl.build(:food_item, brand: "")).to be_valid
     end
   end
+
+  describe "associations" do
+
+    let(:fi) { FactoryGirl.create(:food_item) }
+
+    it "has one nutritional value" do
+      expect(fi).to respond_to(:nutritional_value)
+    end
+
+    it "returns correct nutritional value" do
+      nv = FactoryGirl.create(:nutritional_value, food_item: fi)
+      expect(fi.nutritional_value).to eq(nv)
+    end
+  end
 end
