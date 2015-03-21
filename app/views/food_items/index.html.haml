@@ -1,11 +1,12 @@
 - provide(:title, "Indeks namirnica") 
 
-%ul{ class: "food-index" }
+%ul.food-index
   - @food_hash.each do |l, fs|
     %li
-      = l
+      %h2= l
       %ul
         - fs.each do |f|
           %li
-            = f.name
-            = f.brand if f.brand
+            = link_to(f.name, "#")
+            %span.brand
+              = f.brand if f.brand

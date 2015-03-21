@@ -2,8 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "foundation/components/global";
+
 .food-index {
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
+
+    >li {
+	margin-top: 0.5em;
+    }
+
+    li {
+	list-style-type: none;
+    }
+    
+    a {
+	color: $jumbo;
+	font-size: 1em;
+
+	&:hover {
+	    color: $oil;
+	}
+    }
+
+    span.brand {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: $oil;
+    }
+    
+    h2 {
+	text-transform: uppercase;
+	font-size: 1.5em;
+    }
 }
+

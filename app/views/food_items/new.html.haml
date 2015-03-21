@@ -1,31 +1,32 @@
 
-= form_for(@food_item) do |f|
-  = f.label :name, "Naziv"
-  = f.text_field :name
+.row
+  = form_for(@food_item) do |f|
+    = f.label :name, "Naziv"
+    = f.text_field :name
+    
+    = f.label :keyword, "Ključna reč"
+    = f.text_field :keyword
 
-  = f.label :keyword, "Ključna reč"
-  = f.text_field :keyword
+    = f.label :brand, "Brend"
+    = f.text_field :brand
 
-  = f.label :brand, "Brend"
-  = f.text_field :brand
+    = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
+      = n.label :calories, "Kalorije"
+      = n.text_field :calories
+    
+      = n.label :proteins, "Proteini"
+      = n.text_field :proteins
 
-  = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
-    = n.label :calories, "Kalorije"
-    = n.text_field :calories
+      = n.label :carbs, "Ugljeni hidrati"
+      = n.text_field :carbs
 
-    = n.label :proteins, "Proteini"
-    = n.text_field :proteins
+      = n.label :fats, "Masti"
+      = n.text_field :fats
 
-    = n.label :carbs, "Ugljeni hidrati"
-    = n.text_field :carbs
-
-    = n.label :fats, "Masti"
-    = n.text_field :fats
-
-    = n.label :quantity, "Količina"
-    = n.text_field :quantity
-
-    = n.label :unit, "Jedinica mere"
-    = n.text_field :unit
-
-  = f.submit "Dodaj"
+      = n.label :quantity, "Količina"
+      = n.text_field :quantity
+    
+      = n.label :unit, "Jedinica mere"
+      = n.text_field :unit
+    
+    = f.submit "Dodaj", class: "button radius"
