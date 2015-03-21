@@ -8,28 +8,17 @@ RSpec.describe NutritionalValue, type: :model do
       expect(FactoryGirl.build(:nutritional_value)).to be_valid
     end
 
-    it "fails to validate without calories" do
-      expect(FactoryGirl.build(:nutritional_value, calories: nil)).to_not be_valid
+    [ :calories, :proteins, :carbs, :fats, :quantity, :unit ].each do |attr|
+      it "fails to validate without #{attr}" do
+        expect(FactoryGirl.build(:nutritional_value, attr => nil)).to_not be_valid
+      end
     end
+    
+    [ :calories, :carbs, :proteins, :fats, :quantity ].each do |attr|
 
-    it "fails to validate without proteins" do
-      expect(FactoryGirl.build(:nutritional_value, proteins: nil)).to_not be_valid
-    end
-
-    it "fails to validate without crbs" do
-      expect(FactoryGirl.build(:nutritional_value, carbs: nil)).to_not be_valid
-    end
-
-    it "fails to validate without fats" do
-      expect(FactoryGirl.build(:nutritional_value, fats: nil)).to_not be_valid
-    end
-
-    it "fails to validate without quantity" do
-      expect(FactoryGirl.build(:nutritional_value, quantity: nil)).to_not be_valid
-    end
-
-    it "fails to validate without unit" do
-      expect(FactoryGirl.build(:nutritional_value, unit: nil)).to_not be_valid
+      it "fails to validate when #{attr} are not numerical" do
+        expect(FactoryGirl.build(:nutritional_value, attr => "a bunch")).to_not be_valid
+      end
     end
   end
 

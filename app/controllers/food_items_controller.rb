@@ -18,6 +18,7 @@ class FoodItemsController < ApplicationController
       flash[:success] = "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
       redirect_to root_path
     else
+      flash.now[:alert] = "Namirnica nije dodata. Molimo Vas da proverite ispravnost upisanih vrednosti."
       render "new"
     end
   end

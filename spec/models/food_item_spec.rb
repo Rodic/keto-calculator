@@ -9,12 +9,10 @@ RSpec.describe FoodItem, type: :model do
       expect(FactoryGirl.build(:food_item)).to be_valid
     end
 
-    it "fails to validate without name" do
-      expect(FactoryGirl.build(:food_item, name: "")).to_not be_valid
-    end
-
-    it "fails to valdate without keyword" do
-      expect(FactoryGirl.build(:food_item, keyword: nil)).to_not be_valid
+    [ :name, :keyword ].each do |attr|
+      it "fails to validate without #{attr}" do
+        expect(FactoryGirl.build(:food_item, attr => "")).to_not be_valid
+      end
     end
 
     it "validates without brand" do
