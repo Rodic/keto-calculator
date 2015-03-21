@@ -5,8 +5,8 @@ FactoryGirl.define do
     fats "1.60"
     carbs "4.50"
     quantity 100
-    unit "grams"
-    food_item_id 1
+    unit "grama"
+    food_item
   end
 
 end

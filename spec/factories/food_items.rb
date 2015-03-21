@@ -4,5 +4,4 @@ FactoryGirl.define do
     keyword "jogurt"
     brand "Imlek"
   end
-
 end

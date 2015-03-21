@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 class FoodItem < ActiveRecord::Base
 
-  has_one :nutritional_value
+  has_one :nutritional_value, dependent: :destroy
+
+  accepts_nested_attributes_for :nutritional_value
 
   validates_presence_of :name, :keyword
 
