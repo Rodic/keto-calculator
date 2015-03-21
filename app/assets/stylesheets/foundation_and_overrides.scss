@@ -352,7 +352,7 @@ $include-html-global-classes: $include-html-classes;
 // $alert-border-style: solid;
 // $alert-border-width: 1px;
 // $alert-border-color: scale-color($primary-color, $lightness: $alert-function-factor);
-// $alert-bottom-margin: rem-calc(20);
+$alert-bottom-margin: 2em;
 
 // We use these to style the close buttons
 // $alert-close-color: $oil;
@@ -1369,7 +1369,7 @@ $include-html-global-classes: $include-html-classes;
 
 // Height and margin
 // $topbar-height: rem-calc(45);
-// $topbar-margin-bottom: 0;
+$topbar-margin-bottom: 2em;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;

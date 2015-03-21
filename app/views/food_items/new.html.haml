@@ -1,32 +1,59 @@
 
 .row
   = form_for(@food_item) do |f|
-    = f.label :name, "Naziv"
-    = f.text_field :name
-    
-    = f.label :keyword, "Ključna reč"
-    = f.text_field :keyword
 
-    = f.label :brand, "Brend"
-    = f.text_field :brand
+    .row
+      .small-2.columns
+        = f.label :name, "Naziv", class: "right"
+      .small-10.columns
+        = f.text_field :name
+    
+    .row
+      .small-2.columns
+        = f.label :keyword, "Ključna reč", class: "right"
+      .small-10.columns
+        = f.text_field :keyword
+
+    .row
+      .small-2.columns
+        = f.label :brand, "Brend", class: "right"
+      .small-10.columns
+        = f.text_field :brand
 
     = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
-      = n.label :calories, "Kalorije"
-      = n.text_field :calories
-    
-      = n.label :proteins, "Proteini"
-      = n.text_field :proteins
 
-      = n.label :carbs, "Ugljeni hidrati"
-      = n.text_field :carbs
-
-      = n.label :fats, "Masti"
-      = n.text_field :fats
-
-      = n.label :quantity, "Količina"
-      = n.text_field :quantity
+      .row
+        .small-2.columns
+          = n.label :calories, "Kalorije", class: "right"
+        .small-10.columns
+          = n.text_field :calories
     
-      = n.label :unit, "Jedinica mere"
-      = n.text_field :unit
-    
-    = f.submit "Dodaj", class: "button radius"
+      .row
+        .small-2.columns
+          = n.label :proteins, "Proteini", class: "right"
+        .small-10.columns
+          = n.text_field :proteins
+
+      .row
+        .small-2.columns
+          = n.label :carbs, "Ugljeni hidrati", class: "right"
+        .small-10.columns
+          = n.text_field :carbs
+          
+      .row
+        .small-2.columns
+          = n.label :fats, "Masti", class: "right"
+        .small-10.columns
+          = n.text_field :fats
+
+      .row
+        .small-2.columns
+          = n.label :quantity, "Količina", class: "right"
+        .small-4.columns
+          = n.text_field :quantity
+        .small-2.columns
+          = n.label :unit, "Jedinica mere", class: "right"
+        .small-4.columns
+          = n.text_field :unit
+
+    = f.submit "Dodaj", class: "button radius right"
