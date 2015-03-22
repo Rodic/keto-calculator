@@ -11,7 +11,7 @@
     = csrf_meta_tags
   %body
     = render partial: "layouts/navbar"
-    .row
+    .row.text-center
       - flash.each do |name, msg|
         = content_tag :div, msg, class: "alert-box #{name} radius"
 
