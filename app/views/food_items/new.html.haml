@@ -1,20 +1,20 @@
 
 .row
   = form_for(@food_item) do |f|
-
-    .row
+    
+    .row{ class: ("error" unless @food_item.errors[:name].empty?) }
       .small-2.columns
         = f.label :name, "Naziv", class: "right inline"
       .small-10.columns
         = f.text_field :name
     
-    .row
+    .row{ class: ("error" unless @food_item.errors[:keyword].empty?) }
       .small-2.columns
         = f.label :keyword, "Ključna reč", class: "right inline"
       .small-10.columns
         = f.text_field :keyword
 
-    .row
+    .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
       .small-2.columns
         = f.label :brand, "Brend", class: "right inline"
       .small-10.columns
@@ -22,36 +22,36 @@
 
     = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
 
-      .row
+      .row{ class: ("error" unless @food_item.nutritional_value.errors[:calories].empty?) }
         .small-2.columns
           = n.label :calories, "Kalorije", class: "right inline"
         .small-10.columns
           = n.text_field :calories
     
-      .row
+      .row{ class: ("error" unless @food_item.nutritional_value.errors[:proteins].empty?) }
         .small-2.columns
           = n.label :proteins, "Proteini", class: "right inline"
         .small-10.columns
           = n.text_field :proteins
 
-      .row
+      .row{ class: ("error" unless @food_item.nutritional_value.errors[:carbs].empty?) }
         .small-2.columns
           = n.label :carbs, "Ugljeni hidrati", class: "right inline"
         .small-10.columns
           = n.text_field :carbs
           
-      .row
+      .row{ class: ("error" unless @food_item.nutritional_value.errors[:fats].empty?) }
         .small-2.columns
           = n.label :fats, "Masti", class: "right inline"
         .small-10.columns
           = n.text_field :fats
 
       .row
-        .small-2.columns
+        .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:quantity].empty?) }
           = n.label :quantity, "Količina", class: "right inline"
         .small-4.columns
           = n.text_field :quantity
-        .small-2.columns
+        .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:unit].empty?) }
           = n.label :unit, "Jedinica mere", class: "right inline"
         .small-4.columns
           = n.text_field :unit
