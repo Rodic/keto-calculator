@@ -21,7 +21,11 @@ Then(/^I should be on "(.*?)" food item page$/) do |name|
   expect(page.current_path).to eq(food_item_path(food))
 end
 
-Then(/^I should see$/) do |table|
+Then(/^I should see "(.*?)"$/) do |cnt|
+  expect(page).to have_content(cnt)
+end
+
+Then(/^I should see values$/) do |table|
   table.hashes.each do |row|
     row.each do |k,v|
       expect(page).to have_content(v)
@@ -43,10 +47,14 @@ Given(/^I fill fields with values$/) do |table|
   end
 end
 
-Given(/^I press "(.*?)"$/) do |btn|
-  click_button btn
+Then(/^I select fields with values$/) do |table|
+  table.hashes.each do |row|
+    row.each do |k,v|
+      select v, from: k
+    end
+  end
 end
 
-Then(/^I should see "(.*?)"$/) do |cnt|
-  expect(page).to have_content(cnt)
+Given(/^I press "(.*?)"$/) do |btn|
+  click_button btn
 end

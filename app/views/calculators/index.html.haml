@@ -1,0 +1,29 @@
+- provide(:title, "Keto kalkulator")
+
+%h1 Keto kalkulator
+
+%p Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita.
+
+= form_tag("", method: "", id: "calculateCalories") do
+  = label_tag :visina, "Visina (cm)"
+  = select_tag :visina, options_for_select((140..210).map { |n| [n, n] })
+
+  = label_tag :težina, "Težina (kg)"
+  = select_tag :težina, options_for_select((40..130).map { |n| [n, n] })
+
+  = label_tag :godine
+  = select_tag :godine, options_for_select((18..80).map { |n| [n, n] })
+
+  = label_tag :pol
+  = select_tag :pol, options_for_select([ ["muški", 0], ["ženski", 1] ])
+
+  = label_tag :nivo_aktivnosti
+  = select_tag :nivo_aktivnosti, options_for_select([ ["uglavnom sedenje", 1.15], 
+                                                      ["slabo aktivan", 1.3],
+                                                      ["umereno aktivan", 1.5],
+                                                      ["vrlo aktivan", 1.7],
+                                                      ["ekstremno aktivan", 2.0] ])
+
+  = button_tag "Izračunaj!"
+
+%p#result

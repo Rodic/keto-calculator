@@ -12,6 +12,7 @@ gem 'figaro',               '1.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder',             '2.0'
+gem 'sprockets',            '2.11.0'
 
 group :doc do
   gem 'sdoc',               '0.4.0'
@@ -29,4 +30,5 @@ group :development, :test do
   gem 'cucumber-rails',     '1.4.2', :require => false
   gem 'database_cleaner'
   gem 'factory_girl_rails', '4.5.0'
+  gem 'selenium-webdriver', '2.45.0'
 end
