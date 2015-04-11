@@ -9,9 +9,13 @@ Feature: Add food item
       | Naziv  | Ključna reč | Brend | Kalorije | Proteini | Ugljeni hidrati | Masti | Količina | Jedinica mere |
       | Jogurt | jogurt      | Imlek |    52.80 |     2.90 |            4.00 |  2.80 |      100 | grams         |
     And I press "Dodaj"
-    Then I should be on "root" page
+    Then I should be on "Jogurt" food item page
+    And I should see
+      | Naziv  | Ključna reč | Brend | Kalorije | Proteini | Ugljeni hidrati | Masti | Količina | Jedinica mere |
+      | Jogurt | jogurt      | Imlek |    52.8  |     2.9  |            4.0  |  2.8  |      100 | grams         |
     And I should see "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
 
+  
   Scenario: Add food item without name
     Given I am on "new_food_item" page
     And I fill fields with values

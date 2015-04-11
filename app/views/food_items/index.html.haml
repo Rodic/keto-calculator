@@ -7,6 +7,6 @@
       %ul
         - fs.each do |f|
           %li
-            = link_to(f.name, "#")
+            = link_to(f.name, food_item_path(f))
             %span.brand
               = f.brand if f.brand

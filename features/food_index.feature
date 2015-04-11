@@ -8,12 +8,12 @@ Feature: Food index
       | name                | keyword  | brand  |
       | Moja kravica jogurt | jogurt   | Imlek  |
       | Celo jaje, kuvano   | jaje     |        |
-      | Pileci batak        | piletina |        |
-      | Grasak              | grasak   | Frikom |
+      | Pileći batak        | piletina |        |
+      | Grašak              | grašak   | Frikom |
     When I visit "food_items" page
     Then I should see following items
       | name                |
       | Moja kravica jogurt |
       | Celo jaje, kuvano   |
-      | Pileci batak        |
-      | Grasak              |
+      | Pileći batak        |
+      | Grašak              |

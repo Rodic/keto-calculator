@@ -16,6 +16,19 @@ Then(/^I should be on "(.*?)" page$/) do |page_name|
   expect(page.current_path).to eq(eval("#{page_name}_path"))
 end
 
+Then(/^I should be on "(.*?)" food item page$/) do |name|
+  food = FoodItem.find_by_name(name)
+  expect(page.current_path).to eq(food_item_path(food))
+end
+
+Then(/^I should see$/) do |table|
+  table.hashes.each do |row|
+    row.each do |k,v|
+      expect(page).to have_content(v)
+    end
+  end
+end
+
 Then(/^I should see following items$/) do |table|
   table.hashes.each do |row|
     expect(page).to have_content(row[:name])

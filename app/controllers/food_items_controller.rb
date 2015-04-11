@@ -16,11 +16,15 @@ class FoodItemsController < ApplicationController
     @food_item = FoodItem.new(food_item_params)
     if @food_item.save
       flash[:success] = "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
-      redirect_to root_path
+      redirect_to food_item_path(@food_item)
     else
       flash.now[:alert] = "Namirnica nije dodata. Molimo Vas da proverite ispravnost upisanih vrednosti."
       render "new"
     end
+  end
+
+  def show
+    @food_item = FoodItem.find(params[:id])
   end
 
   private

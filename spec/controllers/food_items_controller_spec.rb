@@ -33,7 +33,7 @@ RSpec.describe FoodItemsController, type: :controller do
       end
 
       it "redirects to root page" do
-        expect(post :create, params).to redirect_to(root_path)
+        expect(post :create, params).to redirect_to(food_item_path(FoodItem.last))
       end
     end
 
@@ -76,6 +76,21 @@ RSpec.describe FoodItemsController, type: :controller do
           expect(post :create, params).to render_template("new")
         end
       end
+    end
+  end
+
+  describe "show" do
+    
+    let(:food_item) { FactoryGirl.create(:food_item) }
+    let(:params)    { { id: food_item.id } }
+
+    it "renders correct template" do
+      expect(get :show, params).to render_template("show")
+    end
+
+    it "provide coorect instance to the view" do
+      get :show, params
+      expect(assigns(:food_item)).to eq(food_item)
     end
   end
 end
