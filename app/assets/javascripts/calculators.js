@@ -9,15 +9,20 @@ var app = {
 	var age      = $("#godine").val();
 	var gender   = $("#pol").val();
 	var activity = $("#nivo_aktivnosti").val();
+	var deficit = $("#deficit").val();
 
 	var resting_energy_expenditure = app.harris_benedict_equation(height, weight, age, gender);
 	
 	// 1.1 is termic effect of feeding
 	var total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
+	var restricted_intake = (total_expenditure * (1 - deficit)).toFixed();
 
-	$("#result").text(
+	$("#caloriesExpenditureSection").addClass("hide");
+	$("#result").removeClass("hide");
+
+	$("#result > p").text(
 	    "Vaš dnevni utrošak kalorija iznosi " + total_expenditure +
-	    ". Za vreme dijete unosite " + (total_expenditure - 500) + " kalorije."
+	    ". Za vreme dijete unosite " + restricted_intake + " kalorije."
 	);
 
 	return false;    

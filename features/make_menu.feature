@@ -10,5 +10,6 @@ Feature: Make menu
     And I select fields with values
       | Visina | Težina | Godine | Pol   | Nivo aktivnosti |
       |    200 |     73 |     31 | muški | umereno         |
+    And I select "20%" from "deficit"
     And I press "Izračunaj!"
-    Then I should see "Vaš dnevni utrošak kalorija iznosi 3053. Za vreme dijete unosite 2553 kalorije."
+    Then I should see "Vaš dnevni utrošak kalorija iznosi 3053. Za vreme dijete unosite 2442 kalorije."

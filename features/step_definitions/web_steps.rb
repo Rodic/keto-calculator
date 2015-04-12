@@ -47,6 +47,10 @@ Given(/^I fill fields with values$/) do |table|
   end
 end
 
+Then(/^I select "(.*?)" from "(.*?)"$/) do |v, f|
+  select v, from: f
+end
+
 Then(/^I select fields with values$/) do |table|
   table.hashes.each do |row|
     row.each do |k,v|
