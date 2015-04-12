@@ -3,7 +3,13 @@
 
 var app = {
 
-    calculateCalories : function() {
+    total_expenditure : null,
+
+    restricted_intake : null,
+
+    food_items : null,
+
+    calculate_calories : function() {
 	var height   = $("#visina").val();
 	var weight   = $("#te_ina").val();
 	var age      = $("#godine").val();
@@ -14,16 +20,20 @@ var app = {
 	var resting_energy_expenditure = app.harris_benedict_equation(height, weight, age, gender);
 	
 	// 1.1 is termic effect of feeding
-	var total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
-	var restricted_intake = (total_expenditure * (1 - deficit)).toFixed();
+	app.total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
+	app.restricted_intake = (app.total_expenditure * (1 - deficit)).toFixed();
 
+	// Show/hide appropriate sections
 	$("#caloriesExpenditureSection").addClass("hide");
 	$("#result").removeClass("hide");
 
+	// Display calc result
 	$("#result > p").text(
-	    "Vaš dnevni utrošak kalorija iznosi " + total_expenditure +
-	    ". Za vreme dijete unosite " + restricted_intake + " kalorije."
+	    "Vaš dnevni utrošak kalorija iznosi " + app.total_expenditure +
+	    ". Za vreme dijete unosite " + app.restricted_intake + " kalorije."
 	);
+
+	app.get_food_items();
 
 	return false;    
     },
@@ -40,8 +50,19 @@ var app = {
 	}
     },
 
+    get_food_items : function() {
+	$.ajax({
+	    dataType: "json",
+	    url: "food_items.json",
+	    success: function(data) {
+		app.food_items = data;
+		alert(app.food_items);
+	    },
+	});
+    },
+
     init : function() {
-	$(document).on("submit", "#calculateCalories", app.calculateCalories);
+	$(document).on("submit", "#calculateCalories", app.calculate_calories);
     }
 }
 
