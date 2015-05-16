@@ -10,7 +10,8 @@ class FoodItem < ActiveRecord::Base
   before_save :capitalize_brand, :downcase_keyword
 
   def as_json(options = {})
-    { value: self.name, data: self.nutritional_value }
+    name = self.brand.empty? ? self.name : "#{self.name} (#{self.brand})"
+    { value: name, data: self.nutritional_value }
   end
 
   def capitalize_brand
