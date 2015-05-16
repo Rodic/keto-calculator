@@ -33,6 +33,11 @@ var app = {
   	    ". Dozvoljeni unos kalorija za vreme dijete - " + app.restricted_intake + "."
     );
 
+    $("#totalProteins").html("0 / " + Math.max(150, 1.75 * weight) + " g");
+    $("#totalCarbs").html("0 / 30 g");
+    $("#totalFats").html("0 / neograničeno");
+    $("#totalCalories").html("0 / " + app.restricted_intake + " cal");
+
     return false;    
   },
 
@@ -47,15 +52,25 @@ var app = {
   	}
   },
 
+  update_html: function(elem, val) {
+    var cell = elem.html().split(" / ");
+    var curr = cell[0];
+    var max  = cell[1];
+    var val  = (parseFloat(curr) + parseFloat(val)).toFixed(2);
+
+    elem.html(val + " / " + max);
+  },
+
   get_food_items : function() {
     $.ajax({
 	    dataType: "json",
 	    url: "food_items.json",
 	    success: function(data) {
 		    $("#food_item").autocomplete({
-          minLength: 1,
           source: data,
           select: function(event, ui) {
+
+            // Add new row
             var elem = $(
               "<tr>" + 
                 "<td>" + ui.item["value"] + "</td>" +
@@ -65,7 +80,15 @@ var app = {
                 "<td>" + ui.item["data"]["calories"] + "</td>" +
                 "<td>" + ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + "</td>" +
               "</tr>")
-            $("#menu > tbody").append(elem);
+            elem.insertBefore($("tr#totalIntake"));
+
+            // Update totals
+            app.update_html($("#totalProteins"), ui.item["data"]["proteins"]);
+            app.update_html($("#totalCarbs"), ui.item["data"]["carbs"]);
+            app.update_html($("#totalFats"), ui.item["data"]["fats"]);
+            app.update_html($("#totalCalories"), ui.item["data"]["calories"]);
+
+            // Clear text input
             $(this).val("");
             return false;
           },
