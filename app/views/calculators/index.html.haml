@@ -41,5 +41,22 @@
     = label_tag :food_item, 'Izaberi namirnicu'
     = text_field_tag 'food_item'
 
+    %table#menu
+      %thead
+        %tr
+          %th{ width: "400"}
+            Namirnica
+          %th{ width: "150"}
+            Proteini
+          %th{ width: "150"}
+            Ugljeni hidrati
+          %th{ width: "150"}
+            Masti
+          %th{ width: "150"}
+            Kalorije
+          %th{ width: "150"}
+            Količina
+      %tbody
+
 %link{ rel: "stylesheet", href: "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" }
 %script{ src: "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" }

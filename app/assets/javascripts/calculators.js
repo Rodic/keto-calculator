@@ -56,7 +56,18 @@ var app = {
           minLength: 1,
           source: data,
           select: function(event, ui) {
-            alert(ui.item["data"]["calories"]);
+            var elem = $(
+              "<tr>" + 
+                "<td>" + ui.item["value"] + "</td>" +
+                "<td>" + ui.item["data"]["proteins"] + "</td>" +
+                "<td>" + ui.item["data"]["carbs"] + "</td>" +
+                "<td>" + ui.item["data"]["fats"] + "</td>" +
+                "<td>" + ui.item["data"]["calories"] + "</td>" +
+                "<td>" + ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + "</td>" +
+              "</tr>")
+            $("#menu > tbody").append(elem);
+            $(this).val("");
+            return false;
           },
         });
 	    },
