@@ -83,7 +83,8 @@ var app = {
                 "<td>" + ui.item["data"]["calories"] + "</td>" +
                 "<td>" + ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + "</td>" +
               "</tr>")
-            elem.insertBefore($("tr#totalIntake"));
+
+            $("#menu > tbody").append(elem);
 
             // Update totals
             app.update_total($("#totalProteins"), ui.item["data"]["proteins"]);
