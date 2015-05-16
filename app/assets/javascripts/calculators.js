@@ -33,6 +33,9 @@ var app = {
   	    ". Dozvoljeni unos kalorija za vreme dijete - " + app.restricted_intake + "."
     );
 
+    // Remove notice after 5 secs
+    $(".panel").delay(5000).fadeOut(3000);
+
     $("#totalProteins").html("0 / " + Math.max(150, 1.75 * weight) + " g");
     $("#totalCarbs").html("0 / 30 g");
     $("#totalFats").html("0 / neograničeno");
@@ -52,7 +55,7 @@ var app = {
   	}
   },
 
-  update_html: function(elem, val) {
+  update_total: function(elem, val) {
     var cell = elem.html().split(" / ");
     var curr = cell[0];
     var max  = cell[1];
@@ -83,10 +86,10 @@ var app = {
             elem.insertBefore($("tr#totalIntake"));
 
             // Update totals
-            app.update_html($("#totalProteins"), ui.item["data"]["proteins"]);
-            app.update_html($("#totalCarbs"), ui.item["data"]["carbs"]);
-            app.update_html($("#totalFats"), ui.item["data"]["fats"]);
-            app.update_html($("#totalCalories"), ui.item["data"]["calories"]);
+            app.update_total($("#totalProteins"), ui.item["data"]["proteins"]);
+            app.update_total($("#totalCarbs"), ui.item["data"]["carbs"]);
+            app.update_total($("#totalFats"), ui.item["data"]["fats"]);
+            app.update_total($("#totalCalories"), ui.item["data"]["calories"]);
 
             // Clear text input
             $(this).val("");
