@@ -12,4 +12,4 @@ Feature: Make menu
       |    200 |     73 |     31 | muški | umereno         |
     And I select "20%" from "deficit"
     And I press "Izračunaj!"
-    Then I should see "Vaš dnevni utrošak kalorija iznosi 3053. Za vreme dijete unosite 2442 kalorije."
+    Then I should see "Vaš dnevni utrošak kalorija iznosi 3053. Dozvoljeni unos kalorija za vreme dijete - 2442."
