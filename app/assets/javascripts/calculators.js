@@ -81,7 +81,9 @@ var app = {
                 "<td>" + ui.item["data"]["carbs"] + "</td>" +
                 "<td>" + ui.item["data"]["fats"] + "</td>" +
                 "<td>" + ui.item["data"]["calories"] + "</td>" +
-                "<td>" + ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + "</td>" +
+                '<td><input type="text" style="margin: 0;" value="' + 
+                  ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + 
+                '"></input></td>' +
               "</tr>")
 
             $("#menu > tbody").append(elem);
