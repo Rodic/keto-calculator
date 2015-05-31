@@ -7,8 +7,6 @@ var app = {
 
   restricted_intake : null,
 
-  food_items : null,
-
   calculate_calories : function() {
   	var height   = $("#visina").val();
   	var weight   = $("#te_ina").val();
@@ -55,56 +53,66 @@ var app = {
   	}
   },
 
-  update_total: function(elem, val) {
-    var cell = elem.html().split(" / ");
-    var curr = cell[0];
-    var max  = cell[1];
-    var val  = (parseFloat(curr) + parseFloat(val)).toFixed(2);
+   // Bottom of the table
+  update_summary : function(vals) {
+    var cells = [ "#totalProteins", "#totalCarbs", "#totalFats", "#totalCalories" ];
+    for(var i = 0; i < vals.length; i ++) {
+      var elem = $(cells[i]);
+      var val  = elem.html().split(" / ");
+      var curr = val[0];
+      var max  = val[1];
+      var updated = (parseFloat(curr) + parseFloat(vals[i])).toFixed(2);
 
-    elem.html(val + " / " + max);
+      elem.html(updated + " / " + max);
+    }
   },
 
-  get_food_items : function() {
-    $.ajax({
-	    dataType: "json",
-	    url: "food_items.json",
-	    success: function(data) {
-		    $("#food_item").autocomplete({
-          source: data,
-          select: function(event, ui) {
+  delete_record : function() {
+    var row  = $(this).closest('tr');
+    var data = row.find('td');
+    app.update_summary([ '-' + data.eq(1).html(),
+                         '-' + data.eq(2).html(),
+                         '-' + data.eq(3).html(),
+                         '-' + data.eq(4).html() ]);
+    row.remove();
+  },
 
-            // Add new row
-            var elem = $(
-              "<tr>" + 
-                "<td>" + ui.item["value"] + "</td>" +
-                "<td>" + ui.item["data"]["proteins"] + "</td>" +
-                "<td>" + ui.item["data"]["carbs"] + "</td>" +
-                "<td>" + ui.item["data"]["fats"] + "</td>" +
-                "<td>" + ui.item["data"]["calories"] + "</td>" +
-                '<td><input type="text" style="margin: 0;" value="' + 
-                  ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + 
-                '"></input></td>' +
-              "</tr>")
+  create_record : function(event, ui) {
+    var elem = $(
+      "<tr>" + 
+        "<td>" + ui.item["value"] + "</td>" +
+        "<td>" + ui.item["data"]["proteins"] + "</td>" +
+        "<td>" + ui.item["data"]["carbs"] + "</td>" +
+        "<td>" + ui.item["data"]["fats"] + "</td>" +
+        "<td>" + ui.item["data"]["calories"] + "</td>" +
+        '<td><input type="text" style="margin: 0;" value="' + 
+          ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + 
+        '"></input></td>' +
+        '<td><a href="#" style="margin: 0;" class="button tiny alert delete-item">x</a></td>' +
+      "</tr>");
 
-            $("#menu > tbody").append(elem);
+    elem.appendTo($('#menu > tbody'));
 
-            // Update totals
-            app.update_total($("#totalProteins"), ui.item["data"]["proteins"]);
-            app.update_total($("#totalCarbs"), ui.item["data"]["carbs"]);
-            app.update_total($("#totalFats"), ui.item["data"]["fats"]);
-            app.update_total($("#totalCalories"), ui.item["data"]["calories"]);
+    app.update_summary([ ui.item["data"]["proteins"], 
+                         ui.item["data"]["carbs"],
+                         ui.item["data"]["fats"], 
+                         ui.item["data"]["calories"] ]);
 
-            // Clear text input
-            $(this).val("");
-            return false;
-          },
-        });
-	    },
-    });
+    elem.find('.delete-item').click(app.delete_record);
+
+    // clear input box
+    $(this).val("");
+    return false;
   },
 
   init : function() {
-    app.get_food_items();
+    $.getJSON("food_items.json").then(function(data) {
+      $("#food_item").autocomplete({
+        source : data,
+        select : app.create_record
+      });
+    });
+
     $(document).on("submit", "#calculateCalories", app.calculate_calories);
   }
 }
