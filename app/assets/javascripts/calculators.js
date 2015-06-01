@@ -35,8 +35,8 @@ var app = {
     $(".panel").delay(5000).fadeOut(3000);
 
     $("#totalProteins").html("0 / " + Math.max(150, 1.75 * weight) + " g");
-    $("#totalCarbs").html("0 / 30 g");
-    $("#totalFats").html("0 / neograničeno");
+    $("#totalCarbs").html("0 / 30 g (max)");
+    $("#totalFats").html("0 / &infin;");
     $("#totalCalories").html("0 / " + app.restricted_intake + " kcal");
 
     return false;    
@@ -143,7 +143,6 @@ var app = {
 
       $.getJSON("food_items.json")
         .done(function(data) {
-          alert("loaded");
           $("#food_item").autocomplete({
             source : data,
             select : app.create_record
