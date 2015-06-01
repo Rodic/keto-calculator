@@ -156,5 +156,9 @@ var app = {
 }
 
 $(document).ready(function() {
-    app.init();
+  app.init();
 })
+
+$(window).bind('page:change', function() {
+  app.init();
+});
