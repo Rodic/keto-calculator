@@ -56,7 +56,7 @@
         .small-4.columns
           = n.text_field :unit
 
-    .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
+    .row{ class: ("error" unless @food_item.errors[:humanizer_answer].empty?) }
       .small-8.columns
         = f.label :humanizer_answer, @food_item.humanizer_question, class: "right inline"
       .small-4.columns
