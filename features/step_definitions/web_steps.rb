@@ -1,6 +1,6 @@
 Given(/^there are following food items$/) do |table|
   table.hashes.each do |row|
-    FoodItem.create!(row)
+    FoodItem.create!(row.merge(humanizer_testing: true))
   end
 end
 
@@ -45,6 +45,10 @@ Given(/^I fill fields with values$/) do |table|
       fill_in field, with: value
     end
   end
+end
+
+And(/^I fill in the captcha correctly$/) do
+  allow_any_instance_of(FoodItem).to receive(:humanizer_testing).and_return(true)
 end
 
 Then(/^I select "(.*?)" from "(.*?)"$/) do |v, f|

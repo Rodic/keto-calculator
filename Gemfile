@@ -13,6 +13,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder',             '2.0'
 gem 'sprockets',            '2.11.0'
+gem 'humanizer',            '2.6.2'
 
 group :doc do
   gem 'sdoc',               '0.4.0'

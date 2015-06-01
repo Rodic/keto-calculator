@@ -56,4 +56,11 @@
         .small-4.columns
           = n.text_field :unit
 
+    .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
+      .small-8.columns
+        = f.label :humanizer_answer, @food_item.humanizer_question, class: "right inline"
+      .small-4.columns
+        = f.text_field :humanizer_answer
+        = f.hidden_field :humanizer_question_id
+
     = f.submit "Dodaj", class: "button radius right"

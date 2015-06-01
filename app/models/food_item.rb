@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 class FoodItem < ActiveRecord::Base
 
+  include Humanizer
+
+  attr_accessor :humanizer_testing
+  require_human_on :create, :unless => :humanizer_testing
+  
   has_one :nutritional_value, dependent: :destroy
 
   accepts_nested_attributes_for :nutritional_value

@@ -3,5 +3,6 @@ FactoryGirl.define do
     name "Moja kravica jogurt"
     keyword "jogurt"
     brand "Imlek"
+    humanizer_testing true
   end
 end

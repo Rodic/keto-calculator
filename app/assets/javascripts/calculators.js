@@ -97,7 +97,7 @@ var app = {
 
       deltas.push(upd - old);
 
-      tds.eq(i).html(upd);
+      tds.eq(i).html(upd.toFixed(2));
     }
 
     app.update_summary(deltas);
@@ -137,14 +137,16 @@ var app = {
   },
 
   init : function() {
-    $.getJSON("food_items.json").then(function(data) {
-      $("#food_item").autocomplete({
-        source : data,
-        select : app.create_record
+    if($("#food_item").length && $("#calculateCalories").length) {
+      $.getJSON("food_items.json").then(function(data) {
+        $("#food_item").autocomplete({
+          source : data,
+          select : app.create_record
+        });
       });
-    });
 
-    $(document).on("submit", "#calculateCalories", app.calculate_calories);
+      $(document).on("submit", "#calculateCalories", app.calculate_calories);
+    }
   }
 }
 
