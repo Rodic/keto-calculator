@@ -138,14 +138,20 @@ var app = {
 
   init : function() {
     if($("#food_item").length && $("#calculateCalories").length) {
-      $.getJSON("food_items.json").then(function(data) {
-        $("#food_item").autocomplete({
-          source : data,
-          select : app.create_record
-        });
-      });
-
+      
       $(document).on("submit", "#calculateCalories", app.calculate_calories);
+
+      $.getJSON("food_items.json")
+        .done(function(data) {
+          alert("loaded");
+          $("#food_item").autocomplete({
+            source : data,
+            select : app.create_record
+          });
+        })
+        .fail(function() {
+          alert("Failed to load data! Please reload the page.");
+        })
     }
   }
 }
