@@ -37,7 +37,7 @@ var app = {
     $("#totalProteins").html("0 / " + Math.max(150, 1.75 * weight) + " g");
     $("#totalCarbs").html("0 / 30 g");
     $("#totalFats").html("0 / neograničeno");
-    $("#totalCalories").html("0 / " + app.restricted_intake + " cal");
+    $("#totalCalories").html("0 / " + app.restricted_intake + " kcal");
 
     return false;    
   },
@@ -77,6 +77,32 @@ var app = {
     row.remove();
   },
 
+  // when quantity changes
+  update_record : function() {
+    var old_value   = $(this).data('quantity');
+    var new_value   = parseFloat($(this).val());
+    
+    $(this).data('quantity', new_value);
+
+    var change_rate = new_value / old_value;
+
+    var deltas = [];
+
+    var row = $(this).closest('tr');
+    var tds = row.find('td');
+
+    for(var i = 1; i < 5; i++) {
+      var old = parseFloat(tds.eq(i).html());
+      var upd = old * change_rate;
+
+      deltas.push(upd - old);
+
+      tds.eq(i).html(upd);
+    }
+
+    app.update_summary(deltas);
+  },
+
   create_record : function(event, ui) {
     var elem = $(
       "<tr>" + 
@@ -85,10 +111,14 @@ var app = {
         "<td>" + ui.item["data"]["carbs"] + "</td>" +
         "<td>" + ui.item["data"]["fats"] + "</td>" +
         "<td>" + ui.item["data"]["calories"] + "</td>" +
-        '<td><input type="text" style="margin: 0;" value="' + 
-          ui.item["data"]["quantity"] + " " + ui.item["data"]["unit"] + 
-        '"></input></td>' +
-        '<td><a href="#" style="margin: 0;" class="button tiny alert delete-item">x</a></td>' +
+        '<td>' +
+          '<input type="text" ' + 
+            'data-quantity="'+ ui.item["data"]["quantity"] + '" ' +
+            'value="' + ui.item["data"]["quantity"] + '">' +
+          '</input> ' + 
+          ui.item["data"]["unit"] + 
+        '</td>' +
+        '<td><a href="#" class="button tiny alert delete-item">x</a></td>' +
       "</tr>");
 
     elem.appendTo($('#menu > tbody'));
@@ -99,6 +129,7 @@ var app = {
                          ui.item["data"]["calories"] ]);
 
     elem.find('.delete-item').click(app.delete_record);
+    elem.find('input').change(app.update_record);
 
     // clear input box
     $(this).val("");
