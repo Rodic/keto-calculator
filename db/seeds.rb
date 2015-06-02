@@ -14,7 +14,7 @@ Dir.glob('db/json_data/*/*{[!~]}') do |json_file|
   JSON.parse(File.read(json_file)).each do |item|
 
     fi = FoodItem.create!(
-           name: item["name"], keyword: item["keyword"], brand: item["brand"]
+           name: item["name"], keyword: item["keyword"], brand: item["brand"], approved: true, humanizer_testing: true
          )
     
     item["quantity"] = "1" unless item["quantity"]

@@ -14,6 +14,8 @@ gem 'turbolinks'
 gem 'jbuilder',             '2.0'
 gem 'sprockets',            '2.11.0'
 gem 'humanizer',            '2.6.2'
+gem 'devise',               '3.5.1'
+gem 'activeadmin',          '1.0.0.pre1'
 
 group :doc do
   gem 'sdoc',               '0.4.0'

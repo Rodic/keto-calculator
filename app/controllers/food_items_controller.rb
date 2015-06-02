@@ -5,7 +5,7 @@ class FoodItemsController < ApplicationController
     respond_to do | client_wants|
       client_wants.html do
         # { food_keyword1 => [ food_object1, ... ], food_keyword2 => [ food_object1, ... ] }
-        @food_hash = FoodItem.order(:keyword).inject(Hash.new []) do |acc, f|
+        @food_hash = FoodItem.approved.order(:keyword).inject(Hash.new []) do |acc, f|
           acc[f.keyword.mb_chars.capitalize.to_s] += [f]; acc
         end
       end

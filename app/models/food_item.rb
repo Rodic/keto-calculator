@@ -5,6 +5,9 @@ class FoodItem < ActiveRecord::Base
 
   attr_accessor :humanizer_testing
   require_human_on :create, :unless => :humanizer_testing
+
+  scope :approved, -> { where(approved: true) }
+  scope :pending,  -> { where(approved: false) }
   
   has_one :nutritional_value, dependent: :destroy
 
