@@ -1,6 +1,6 @@
 Given(/^there are following food items$/) do |table|
   table.hashes.each do |row|
-    FoodItem.create!(row.merge(humanizer_testing: true))
+    FoodItem.create!(row.merge(humanizer_testing: true, approved: true))
   end
 end
 
