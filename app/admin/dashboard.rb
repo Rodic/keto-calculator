@@ -18,6 +18,9 @@ ActiveAdmin.register_page "Dashboard" do
         column :fats do |food_item|
           food_item.nutritional_value.fats
         end
+        column :calories do |food_item|
+          food_item.nutritional_value.calories
+        end
         column :quantity do |food_item|
           food_item.nutritional_value.quantity
         end

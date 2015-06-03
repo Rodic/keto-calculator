@@ -47,6 +47,34 @@ ActiveAdmin.register FoodItem do
     end
   end
 
+  show do
+    attributes_table do
+      row :name
+      row :brand
+      row :keyword
+      row :proteins do |food_item|
+        food_item.nutritional_value.proteins
+      end
+      row :carbs do |food_item|
+        food_item.nutritional_value.carbs
+      end
+      row :fats do |food_item|
+        food_item.nutritional_value.fats
+      end
+      row :calories do |food_item|
+        food_item.nutritional_value.calories
+      end
+      row :quantity do |food_item|
+        food_item.nutritional_value.quantity
+      end
+      row :unit do |food_item|
+        food_item.nutritional_value.unit
+      end
+      row :approved
+      row :created_at
+    end
+  end
+
 
   controller do
 
