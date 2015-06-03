@@ -3,10 +3,36 @@ ActiveAdmin.register_page "Dashboard" do
   menu priority: 1, label: proc{ I18n.t("active_admin.dashboard") }
 
   content title: proc{ I18n.t("active_admin.dashboard") } do
-    div class: "blank_slate_container", id: "dashboard_default_message" do
-      span class: "blank_slate" do
-        span I18n.t("active_admin.dashboard_welcome.welcome")
-        small I18n.t("active_admin.dashboard_welcome.call_to_action")
+
+    panel "Waiting for approval" do
+      table_for FoodItem.pending do
+        column :name
+        column :brand
+        column :keyword
+        column :proteins do |food_item|
+          food_item.nutritional_value.proteins
+        end
+        column :carbs do |food_item|
+          food_item.nutritional_value.carbs
+        end
+        column :fats do |food_item|
+          food_item.nutritional_value.fats
+        end
+        column :quantity do |food_item|
+          food_item.nutritional_value.quantity
+        end
+        column :unit do |food_item|
+          food_item.nutritional_value.unit
+        end
+        column '' do |food_item|
+          link_to "View", admin_food_item_path(food_item)
+        end
+        column '' do |food_item|
+          link_to "Approve", approve_admin_food_item_path(food_item), method: :put
+        end
+        column '' do |food_item|
+          link_to "Delete", admin_food_item_path(food_item), method: :delete
+        end
       end
     end
 

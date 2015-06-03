@@ -38,6 +38,16 @@ ActiveAdmin.register FoodItem do
     f.actions
   end
 
+  member_action :approve, method: :put do
+    @food_item = FoodItem.find(params[:id])
+    @food_item.approved = true
+    if @food_item.save
+      flash[:success] = "Namirnica je odobrena"
+      redirect_to admin_food_item_path(@food_item)
+    end
+  end
+
+
   controller do
 
     def new
@@ -66,6 +76,5 @@ ActiveAdmin.register FoodItem do
          render :edit
       end
     end
-
   end
 end
