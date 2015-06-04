@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder',             '2.0'
 gem 'sprockets',            '2.11.0'
-gem 'humanizer',            '2.6.2'
+gem 'humanizer',            git: 'https://github.com/Rodic/humanizer.git'
 gem 'devise',               '3.5.1'
 gem 'activeadmin',          '1.0.0.pre1'
 

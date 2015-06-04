@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Rodic/humanizer.git
+  revision: 26693594ae95b00a55287bf0def87e170342619d
+  specs:
+    humanizer (2.6.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -142,7 +148,6 @@ GEM
       haml (~> 4.0.0)
       nokogiri (~> 1.6.0)
       ruby_parser (~> 3.5)
-    humanizer (2.6.2)
     i18n (0.7.0)
     inherited_resources (1.6.0)
       actionpack (>= 3.2, < 5)
@@ -305,7 +310,7 @@ DEPENDENCIES
   guard-cucumber
   guard-rspec (= 4.5.0)
   haml-rails (= 0.8.2)
-  humanizer (= 2.6.2)
+  humanizer!
   jbuilder (= 2.0)
   jquery-rails
   pg (= 0.18.1)
