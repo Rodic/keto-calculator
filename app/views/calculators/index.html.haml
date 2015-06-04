@@ -1,67 +1,69 @@
-- provide(:title, "Keto kalkulator")
+- provide(:title, t('common.title')) 
 
 .row
 
-  %h1 Keto kalkulator
+  %h1
+    = t('common.title')
 
   #caloriesExpenditureSection
 
-    %p Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita.
+    %p
+      = t('calculator.enter_data')
 
     = form_tag("", method: "", id: "calculateCalories") do
-      = label_tag :visina, "Visina (cm)"
-      = select_tag :visina, options_for_select((140..210).map { |n| [n, n] }, selected: 180)
+      = label_tag :height, "#{t('calculator.height')} (cm)"
+      = select_tag :height, options_for_select((140..210).map { |n| [n, n] }, selected: 180)
     
-      = label_tag :težina, "Težina (kg)"
-      = select_tag :težina, options_for_select((40..130).map { |n| [n, n] }, selected: 80)
+      = label_tag :weight, "#{t('calculator.weight')} (kg)"
+      = select_tag :weight, options_for_select((40..130).map { |n| [n, n] }, selected: 80)
     
-      = label_tag :godine
-      = select_tag :godine, options_for_select((18..80).map { |n| [n, n] }, selected: 30)
+      = label_tag :age, t('calculator.age')
+      = select_tag :age, options_for_select((18..80).map { |n| [n, n] }, selected: 30)
     
-      = label_tag :pol
-      = select_tag :pol, options_for_select([ ["muški", 0], ["ženski", 1] ])
+      = label_tag :sex, t('calculator.sex.label')
+      = select_tag :sex, options_for_select([ [t('calculator.sex.male'), 0], [t('calculator.sex.female'), 1] ])
     
-      = label_tag :nivo_aktivnosti
-      = select_tag :nivo_aktivnosti, options_for_select([ ["uglavnom sedenje", 1.15], 
-                                                          ["slabo aktivan", 1.3],
-                                                          ["umereno aktivan", 1.5],
-                                                          ["vrlo aktivan", 1.7],
-                                                          ["ekstremno aktivan", 2.0] ],
+      = label_tag :activity_level, t('calculator.activity_level.label')
+      = select_tag :activity_level, options_for_select([ [t('calculator.activity_level.sedentary'), 1.15], 
+                                                          [t('calculator.activity_level.lightly'), 1.3],
+                                                          [t('calculator.activity_level.moderately'), 1.5],
+                                                          [t('calculator.activity_level.very'), 1.7],
+                                                          [t('calculator.activity_level.extremely'), 2.0] ],
                                                           selected: 1.5)
                                         
-      = label_tag :deficit
+      = label_tag :deficit, t('calculator.deficit')
       = select_tag :deficit, options_for_select([ ["10%", 0.1], ["20%", 0.2], ["30%", 0.3] ])
 
-      = button_tag "Izračunaj!"
+      = button_tag "#{t('calculator.calculate')}!"
 
   #menu.hide
     .panel.callout.radius
       %p#calculatedDeficit
 
-    = label_tag :food_item, 'Izaberi namirnicu'
+    = label_tag :food_item, t('calculator.pick_food_item')
     = text_field_tag 'food_item'
 
     %table#menu
       %thead
         %tr
           %th{ width: "400"}
-            Namirnica
+            = t('food_item.name')
           %th{ width: "150"}
-            Proteini
+            = t('food_item.proteins')
           %th{ width: "150"}
-            Ugljeni hidrati
+            = t('food_item.carbs')
           %th{ width: "150"}
-            Masti
+            = t('food_item.fats')
           %th{ width: "150"}
-            Kalorije
+            = t('food_item.calories')
           %th{ width: "150"}
-            Količina
+            = t('food_item.quantity')
           %th
       %tbody
       %thead
         %tr#totalIntake
           %td
-            Preporučeni unos
+            = t('calculator.recommended_intake')
           %td#totalProteins
             0
           %td#totalCarbs

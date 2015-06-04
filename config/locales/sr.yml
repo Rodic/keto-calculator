@@ -1,0 +1,38 @@
+sr:
+  common:
+    title: "Keto Kalkulator"
+    add: "Dodaj"
+  navbar:
+    add_food_item: "Dodaj novu namirnicu"
+    list_food_items: "Indeks namirnica"
+  calculator:
+    enter_data: "Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita."
+    height: "Visina"
+    weight: "Težina"
+    age: "Godine"
+    sex:
+      label: "Pol"
+      male: "muški"
+      female: "ženski"
+    activity_level: 
+      label: "Nivo aktivnosti"
+      sedentary: "neaktivan"
+      lightly: "slabo aktivan"
+      moderately: "umereno aktivan"
+      very: "vrlo aktivan"
+      extremely: "ekstremno aktivan"
+    deficit: "Deficit"
+    calculate: "Izračunaj"
+    pick_food_item: "Izaberi namirnicu"
+    recommended_intake: "Preporučeni unos"
+  food_item:
+    name: "Naziv"
+    keyword: "Ključna reč"
+    brand: "Brend"
+    proteins: "Proteini"
+    carbs: "Ugljeni hidrati"
+    fats: "Masti"
+    calories: "Kalorije"
+    quantity: "Količina"
+    unit: "Jedinica mere"
+    add_new: "Dodaj novu namirnicu"

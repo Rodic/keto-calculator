@@ -1,22 +1,23 @@
+- provide(:title, "#{t('common.title')} | #{t('food_item.add_new')}")
 
 .row
   = form_for(@food_item) do |f|
     
     .row{ class: ("error" unless @food_item.errors[:name].empty?) }
       .small-2.columns
-        = f.label :name, "Naziv", class: "right inline"
+        = f.label :name, t('food_item.name'), class: "right inline"
       .small-10.columns
         = f.text_field :name
     
     .row{ class: ("error" unless @food_item.errors[:keyword].empty?) }
       .small-2.columns
-        = f.label :keyword, "Ključna reč", class: "right inline"
+        = f.label :keyword, t('food_item.keyword'), class: "right inline"
       .small-10.columns
         = f.text_field :keyword
 
     .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
       .small-2.columns
-        = f.label :brand, "Brend", class: "right inline"
+        = f.label :brand, t('food_item.brand'), class: "right inline"
       .small-10.columns
         = f.text_field :brand
 
@@ -24,35 +25,35 @@
 
       .row{ class: ("error" unless @food_item.nutritional_value.errors[:calories].empty?) }
         .small-2.columns
-          = n.label :calories, "Kalorije", class: "right inline"
+          = n.label :calories, t('food_item.calories'), class: "right inline"
         .small-10.columns
           = n.text_field :calories
     
       .row{ class: ("error" unless @food_item.nutritional_value.errors[:proteins].empty?) }
         .small-2.columns
-          = n.label :proteins, "Proteini", class: "right inline"
+          = n.label :proteins, t('food_item.proteins'), class: "right inline"
         .small-10.columns
           = n.text_field :proteins
 
       .row{ class: ("error" unless @food_item.nutritional_value.errors[:carbs].empty?) }
         .small-2.columns
-          = n.label :carbs, "Ugljeni hidrati", class: "right inline"
+          = n.label :carbs, t('food_item.carbs'), class: "right inline"
         .small-10.columns
           = n.text_field :carbs
           
       .row{ class: ("error" unless @food_item.nutritional_value.errors[:fats].empty?) }
         .small-2.columns
-          = n.label :fats, "Masti", class: "right inline"
+          = n.label :fats, t('food_item.fats'), class: "right inline"
         .small-10.columns
           = n.text_field :fats
 
       .row
         .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:quantity].empty?) }
-          = n.label :quantity, "Količina", class: "right inline"
+          = n.label :quantity, t('food_item.quantity'), class: "right inline"
         .small-4.columns
           = n.text_field :quantity
         .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:unit].empty?) }
-          = n.label :unit, "Jedinica mere", class: "right inline"
+          = n.label :unit, t('food_item.unit'), class: "right inline"
         .small-4.columns
           = n.text_field :unit
 
@@ -63,4 +64,4 @@
         = f.text_field :humanizer_answer
         = f.hidden_field :humanizer_question_id
 
-    = f.submit "Dodaj", class: "button radius right"
+    = f.submit t('common.add'), class: "button radius right"

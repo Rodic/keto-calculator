@@ -20,4 +20,40 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  common:
+    title: "Keto Calculator"
+    add: "Add"
+  navbar:
+    add_food_item: "Add new food item"
+    list_food_items: "Food index"
+  calculator:
+    enter_data: "Please enter required data."
+    height: "Height"
+    weight: "Weight"
+    age: "Age"
+    sex:
+      label: "Sex"
+      male: "male"
+      female: "female"
+    activity_level: 
+      label: "Activity level"
+      sedentary: "Sedentary"
+      lightly: "Lightly active"
+      moderately: "Moderately active"
+      very: "Very active"
+      extremely: "Extremely active"
+    deficit: "Deficit"
+    calculate: "Calculate"
+    pick_food_item: "Pick food item"
+    recommended_intake: "Recommended intake"
+  food_item:
+    name: "Name"
+    keyword: "Keyword"
+    brand: "Brand"
+    proteins: "Proteins"
+    carbs: "Carbs"
+    fats: "Fats"
+    calories: "Calories"
+    quantity: "Quantity"
+    unit: "Unit"
+    add_new: "Add new"

@@ -8,11 +8,11 @@ var app = {
   restricted_intake : null,
 
   calculate_calories : function() {
-  	var height   = $("#visina").val();
-  	var weight   = $("#te_ina").val();
-  	var age      = $("#godine").val();
-  	var gender   = $("#pol").val();
-  	var activity = $("#nivo_aktivnosti").val();
+  	var height   = $("#height").val();
+  	var weight   = $("#weight").val();
+  	var age      = $("#age").val();
+  	var gender   = $("#sex").val();
+  	var activity = $("#activity_level").val();
   	var deficit = $("#deficit").val();
 
   	var resting_energy_expenditure = app.harris_benedict_equation(height, weight, age, gender);

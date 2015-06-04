@@ -2,7 +2,7 @@
   %ul.title-area
     %li.name
       %h1
-        =link_to("Keto kalkulator", root_path)
+        =link_to(t('common.title'), root_path)
     %li.toggle-topbar.menu-icon
       %a{ href: "#" }
         %span Menu
@@ -10,9 +10,9 @@
   %section.top-bar-section
     %ul.right.show-for-large-up
       %li.active
-        =link_to("Dodaj novu namirnicu", new_food_item_path)
+        =link_to(t('navbar.add_food_item'), new_food_item_path)
       %li
-        =link_to("Indeks namirnica", food_items_path)
+        =link_to(t('navbar.list_food_items'), food_items_path)
 
     %ul.left
       %li

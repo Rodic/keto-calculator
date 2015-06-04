@@ -8,5 +8,5 @@ class ApplicationController < ActionController::Base
   def set_locale
     I18n.locale = :sr
   end
-  
+
 end

@@ -1,28 +1,37 @@
-- provide(:title, "Keto kalkulator | #{@food_item.name}") 
+- provide(:title, "#{t('common.title')} | #{@food_item.name}") 
 
-%h1= @food_item.name
+.row
+  %h1= @food_item.name
 
-- if @food_item.brand != ""
-  %p
-    Brend:
-    = @food_item.brand
+  - if @food_item.brand != ""
+    %p
+      Brend:
+      = @food_item.brand
 
-%table
-  %tr
-    %th Količina
-    %th Kalorije
-    %th Proteini
-    %th Masti
-    %th Ugljeni hidrati
-  %tr
-    %td
-      = @food_item.nutritional_value.quantity
-      = @food_item.nutritional_value.unit
+  %table
+    %tr
+      %th
+        = t('food_item.quantity')
+      %td
+        = @food_item.nutritional_value.quantity
+        = @food_item.nutritional_value.unit
+    %tr
+      %th
+        = t('food_item.calories')
       %td= @food_item.nutritional_value.calories
+    %tr
+      %th
+        = t('food_item.proteins')
       %td= @food_item.nutritional_value.proteins
+    %tr
+      %th
+        = t('food_item.fats')
       %td= @food_item.nutritional_value.fats
+    %tr
+      %th
+        = t('food_item.carbs')
       %td= @food_item.nutritional_value.carbs
 
-%p
-  Ključna reč:
-  = @food_item.keyword
+  %p
+    = t('food_item.keyword')
+    = @food_item.keyword
