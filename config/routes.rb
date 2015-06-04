@@ -2,10 +2,13 @@ Rails.application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  resources :food_items, only: [ :index, :new, :create, :show ]
-  resources :calculators, only: [ :index ]
 
-  root "calculators#index"
+  scope "(:locale)", locale: /sr|en/ do
+    resources :food_items, only: [ :index, :new, :create, :show ]
+    resources :calculators, only: [ :index ]
+
+    root "calculators#index"
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -16,4 +16,7 @@
 
     %ul.left
       %li
-        %a{ href: "#" } Left Nav Button
+        - if I18n.locale == :sr
+          = link_to "en", locale: :en
+        - else
+          = link_to "sr", locale: :sr

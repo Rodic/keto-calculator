@@ -13,12 +13,12 @@ Given(/^I am on "(.*?)" page$/) do |page_name|
 end
 
 Then(/^I should be on "(.*?)" page$/) do |page_name|
-  expect(page.current_path).to eq(eval("#{page_name}_path"))
+  expect(page.current_path).to eq(eval("#{page_name}_path(locale: I18n.locale)"))
 end
 
 Then(/^I should be on "(.*?)" food item page$/) do |name|
   food = FoodItem.find_by_name(name)
-  expect(page.current_path).to eq(food_item_path(food))
+  expect(page.current_path).to eq(food_item_path(food, locale: I18n.locale))
 end
 
 Then(/^I should see "(.*?)"$/) do |cnt|
@@ -66,3 +66,13 @@ end
 Given(/^I press "(.*?)"$/) do |btn|
   click_button btn
 end
+
+When(/^I click "(.*?)"$/) do |link|
+  visit link
+end
+
+
+Given(/^locale is set to "(.*?)"$/) do |lang|
+  I18n.locale = lang.to_sym
+end
+
