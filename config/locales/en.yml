@@ -27,7 +27,7 @@ en:
     add_food_item: "Add new food item"
     list_food_items: "Food index"
   calculator:
-    enter_data: "Please enter required data."
+    enter_data: "Please enter required information."
     height: "Height"
     weight: "Weight"
     age: "Age"
@@ -57,3 +57,5 @@ en:
     quantity: "Quantity"
     unit: "Unit"
     add_new: "Add new"
+    create_success: "Thank you. Item will be available after verification."
+    create_failure: "Failed to save. Please check required information."

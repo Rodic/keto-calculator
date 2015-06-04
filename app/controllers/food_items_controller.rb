@@ -21,10 +21,10 @@ class FoodItemsController < ApplicationController
   def create
     @food_item = FoodItem.new(food_item_params)
     if @food_item.save
-      flash[:success] = "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
+      flash[:success] = t('food_item.create_success')
       redirect_to food_item_path(@food_item)
     else
-      flash.now[:alert] = "Namirnica nije dodata. Molimo Vas da proverite ispravnost upisanih vrednosti."
+      flash.now[:alert] = t('food_item.create_failure')
       render "new"
     end
   end
