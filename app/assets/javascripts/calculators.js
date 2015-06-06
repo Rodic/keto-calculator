@@ -27,8 +27,8 @@ var app = {
 
   	// Display calc result
   	$("#calculatedDeficit").text(
-  	    "Vaš dnevni utrošak kalorija iznosi " + app.total_expenditure +
-  	    ". Dozvoljeni unos kalorija za vreme dijete - " + app.restricted_intake + "."
+  	    t('calculator.expenditure') + " " + app.total_expenditure + ". " +
+  	    t('calculator.allowed') + " - " + app.restricted_intake + "."
     );
 
     // Remove notice after 5 secs
