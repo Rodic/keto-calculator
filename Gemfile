@@ -10,7 +10,7 @@ gem 'haml-rails',           '0.8.2'
 gem 'foundation-rails',     '5.4.5'
 gem 'figaro',               '1.1.0'
 gem 'jquery-rails'
-gem 'turbolinks'
+gem 'turbolinks',           git: "https://github.com/Rodic/turbolinks.git"
 gem 'jbuilder',             '2.0'
 gem 'sprockets',            '2.11.0'
 gem 'humanizer',            git: 'https://github.com/Rodic/humanizer.git'

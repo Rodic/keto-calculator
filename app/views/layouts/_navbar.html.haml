@@ -17,6 +17,6 @@
     %ul.left
       %li
         - if I18n.locale == :sr
-          =link_to "en", root_path(locale: :en), :data => { :no_turbolink => true }
+          =link_to "en", root_path(locale: :en)
         - else
-          =link_to "sr", root_path(locale: :sr), :data => { :no_turbolink => true }
+          =link_to "sr", root_path(locale: :sr)
