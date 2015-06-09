@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require_directory .
+//= require I18n
 
 $(function(){ $(document).foundation(); });

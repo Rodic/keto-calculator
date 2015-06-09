@@ -3,10 +3,6 @@
 
 var app = {
 
-  total_expenditure : null,
-
-  restricted_intake : null,
-
   calculate_calories : function() {
   	var height   = $("#height").val();
   	var weight   = $("#weight").val();
@@ -18,8 +14,8 @@ var app = {
   	var resting_energy_expenditure = app.harris_benedict_equation(height, weight, age, gender);
   	
   	// 1.1 is termic effect of feeding
-  	app.total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
-  	app.restricted_intake = (app.total_expenditure * (1 - deficit)).toFixed();
+  	var total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
+  	var restricted_intake = (total_expenditure * (1 - deficit)).toFixed();
 
   	// Show/hide appropriate sections
   	$("#caloriesExpenditureSection").addClass("hide");
@@ -27,8 +23,8 @@ var app = {
 
   	// Display calc result
   	$("#calculatedDeficit").text(
-  	    t('calculator.expenditure') + " " + app.total_expenditure + ". " +
-  	    t('calculator.allowed') + " - " + app.restricted_intake + "."
+  	    t('calculator.expenditure') + " " + total_expenditure + ". " +
+  	    t('calculator.allowed') + " - " + restricted_intake + "."
     );
 
     // Remove notice after 5 secs
@@ -137,28 +133,19 @@ var app = {
   },
 
   init : function() {
-    if($("#food_item").length && $("#calculateCalories").length) {
-      
-      $(document).on("submit", "#calculateCalories", app.calculate_calories);
+    $(document).on("submit", "#calculateCalories", app.calculate_calories);
 
-      $.getJSON("food_items.json")
-        .done(function(data) {
-          $("#food_item").autocomplete({
-            source : data,
-            select : app.create_record
-          });
-        })
-        .fail(function() {
-          alert("Failed to load data! Please reload the page.");
-        })
-    }
+    $.getJSON("food_items.json")
+      .done(function(data) {
+        $("#food_item").autocomplete({
+          source : data,
+          select : app.create_record
+        });
+      })
+      .fail(function() {
+        alert("Failed to load data! Please reload the page.");
+      });
   }
 }
 
-$(document).ready(function() {
-  app.init();
-})
-
-$(window).bind('page:change', function() {
-  app.init();
-});
+$(document).on('ready page:load', app.init);
