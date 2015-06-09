@@ -1,67 +1,72 @@
 - provide(:title, "#{t('common.title')} | #{t('food_item.add_new')}")
 
 .row
-  = form_for(@food_item) do |f|
-    
-    .row{ class: ("error" unless @food_item.errors[:name].empty?) }
-      .small-2.columns
-        = f.label :name, t('food_item.name'), class: "right inline"
-      .small-10.columns
-        = f.text_field :name
-    
-    .row{ class: ("error" unless @food_item.errors[:keyword].empty?) }
-      .small-2.columns
-        = f.label :keyword, t('food_item.keyword'), class: "right inline"
-      .small-10.columns
-        = f.text_field :keyword
+  .large-3.columns
+  .large-6.columns.main-column
 
-    .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
-      .small-2.columns
-        = f.label :brand, t('food_item.brand'), class: "right inline"
-      .small-10.columns
-        = f.text_field :brand
-
-    = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
-
-      .row{ class: ("error" unless @food_item.nutritional_value.errors[:calories].empty?) }
+    = form_for(@food_item) do |f|
+      
+      .row{ class: ("error" unless @food_item.errors[:name].empty?) }
         .small-2.columns
-          = n.label :calories, t('food_item.calories'), class: "right inline"
+          = f.label :name, t('food_item.name'), class: "right inline"
         .small-10.columns
-          = n.text_field :calories
-    
-      .row{ class: ("error" unless @food_item.nutritional_value.errors[:proteins].empty?) }
+          = f.text_field :name
+      
+      .row{ class: ("error" unless @food_item.errors[:keyword].empty?) }
         .small-2.columns
-          = n.label :proteins, t('food_item.proteins'), class: "right inline"
+          = f.label :keyword, t('food_item.keyword'), class: "right inline"
         .small-10.columns
-          = n.text_field :proteins
+          = f.text_field :keyword
 
-      .row{ class: ("error" unless @food_item.nutritional_value.errors[:carbs].empty?) }
+      .row{ class: ("error" unless @food_item.errors[:brand].empty?) }
         .small-2.columns
-          = n.label :carbs, t('food_item.carbs'), class: "right inline"
+          = f.label :brand, t('food_item.brand'), class: "right inline"
         .small-10.columns
-          = n.text_field :carbs
-          
-      .row{ class: ("error" unless @food_item.nutritional_value.errors[:fats].empty?) }
-        .small-2.columns
-          = n.label :fats, t('food_item.fats'), class: "right inline"
-        .small-10.columns
-          = n.text_field :fats
+          = f.text_field :brand
 
-      .row
-        .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:quantity].empty?) }
-          = n.label :quantity, t('food_item.quantity'), class: "right inline"
+      = f.fields_for(:nutritional_value, @food_item.nutritional_value) do |n|
+
+        .row{ class: ("error" unless @food_item.nutritional_value.errors[:calories].empty?) }
+          .small-2.columns
+            = n.label :calories, t('food_item.calories'), class: "right inline"
+          .small-10.columns
+            = n.text_field :calories
+      
+        .row{ class: ("error" unless @food_item.nutritional_value.errors[:proteins].empty?) }
+          .small-2.columns
+            = n.label :proteins, t('food_item.proteins'), class: "right inline"
+          .small-10.columns
+            = n.text_field :proteins
+
+        .row{ class: ("error" unless @food_item.nutritional_value.errors[:carbs].empty?) }
+          .small-2.columns
+            = n.label :carbs, t('food_item.carbs'), class: "right inline"
+          .small-10.columns
+            = n.text_field :carbs
+            
+        .row{ class: ("error" unless @food_item.nutritional_value.errors[:fats].empty?) }
+          .small-2.columns
+            = n.label :fats, t('food_item.fats'), class: "right inline"
+          .small-10.columns
+            = n.text_field :fats
+
+        .row
+          .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:quantity].empty?) }
+            = n.label :quantity, t('food_item.quantity'), class: "right inline"
+          .small-10.columns
+            = n.text_field :quantity
+        .row
+          .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:unit].empty?) }
+            = n.label :unit, t('food_item.unit'), class: "right inline"
+          .small-10.columns
+            = n.text_field :unit
+
+      .row{ class: ("error" unless @food_item.errors[:humanizer_answer].empty?) }
+        .small-8.columns
+          = f.label :humanizer_answer, @food_item.humanizer_question, class: "right inline"
         .small-4.columns
-          = n.text_field :quantity
-        .small-2.columns{ class: ("error" unless @food_item.nutritional_value.errors[:unit].empty?) }
-          = n.label :unit, t('food_item.unit'), class: "right inline"
-        .small-4.columns
-          = n.text_field :unit
+          = f.text_field :humanizer_answer
+          = f.hidden_field :humanizer_question_id
 
-    .row{ class: ("error" unless @food_item.errors[:humanizer_answer].empty?) }
-      .small-8.columns
-        = f.label :humanizer_answer, @food_item.humanizer_question, class: "right inline"
-      .small-4.columns
-        = f.text_field :humanizer_answer
-        = f.hidden_field :humanizer_question_id
-
-    = f.submit t('common.add'), class: "button radius right"
+      = f.submit t('common.add'), class: "button radius right"
+  .large-3.columns

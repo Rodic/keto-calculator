@@ -2,10 +2,8 @@
 
 .row
 
-  %h1
-    = t('common.title')
-
-  #caloriesExpenditureSection
+  .large-3.columns
+  #caloriesExpenditureSection.large-6.columns.main-column
 
     %p
       = t('calculator.enter_data')
@@ -35,7 +33,9 @@
       = select_tag :deficit, options_for_select([ ["10%", 0.1], ["20%", 0.2], ["30%", 0.3] ])
 
       = button_tag "#{t('calculator.calculate')}!"
+  .large-3.columns
 
+.row
   #menu.hide
     .panel.callout.radius
       %p#calculatedDeficit

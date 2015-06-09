@@ -13,3 +13,14 @@
     margin: 0;
   }
 }
+
+.column, .columns{
+  min-height: 1px;
+}
+
+.main-column {
+  -webkit-box-shadow: 0px 8px 32px -7px rgba(170,170,170,0.75);
+  -moz-box-shadow: 0px 8px 32px -7px rgba(170,170,170,0.75);
+  box-shadow: 0px 8px 32px -7px rgba(170,170,170,0.75);
+  padding-top: 30px;
+}
