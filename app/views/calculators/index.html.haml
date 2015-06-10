@@ -37,8 +37,7 @@
 
 .row
   #menu.hide
-    .panel.callout.radius
-      %p#calculatedDeficit
+    #dietAdvices.reveal-modal{'data-reveal' => true, role: 'dialog'}
 
     = label_tag :food_item, t('calculator.pick_food_item')
     = text_field_tag 'food_item'

@@ -17,25 +17,35 @@ var app = {
   	var total_expenditure = (resting_energy_expenditure * activity * 1.1).toFixed();
   	var restricted_intake = (total_expenditure * (1 - deficit)).toFixed();
 
+    var protein_intake = Math.max(150, 1.75 * weight);
+
   	// Show/hide appropriate sections
   	$("#caloriesExpenditureSection").addClass("hide");
   	$("#menu").removeClass("hide");
 
-  	// Display calc result
-  	$("#calculatedDeficit").text(
-  	    t('calculator.expenditure') + " " + total_expenditure + ". " +
-  	    t('calculator.allowed') + " - " + restricted_intake + "."
-    );
+    app.display_advices(total_expenditure, restricted_intake, protein_intake);
 
-    // Remove notice after 5 secs
-    $(".panel").delay(5000).fadeOut(3000);
-
-    $("#totalProteins").html("0 / " + Math.max(150, 1.75 * weight) + " g");
+    $("#totalProteins").html("0 / " + protein_intake + " g");
     $("#totalCarbs").html("0 / 30 g");
     $("#totalFats").html("0 / &infin;");
     $("#totalCalories").html("0 / " + restricted_intake + " kcal");
 
     return false;    
+  },
+
+  display_advices : function(total_expenditure, restricted_intake, protein_intake) {
+    var advices_panel = $("#dietAdvices");
+    advices_panel.empty();
+
+    $('<p>').text(
+      t('calculator.expenditure') + " " + total_expenditure + ". " +
+      t('calculator.allowed') + " - " + restricted_intake + " kcal."
+    ).appendTo(advices_panel);
+
+    $('<p>').text(t('calculator.proteins_advice') + protein_intake + " " + t('calculator.grams')+ ".").appendTo(advices_panel);
+    $('<p>').text(t('calculator.carbs_advice')).appendTo(advices_panel);
+    $('<p>').text(t('calculator.fats_advice')).appendTo(advices_panel);
+    $('<p>').text(t('calculator.disclaimer')).appendTo(advices_panel);
   },
 
   // Reference: http://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation
@@ -134,6 +144,9 @@ var app = {
 
   init : function() {
     $(document).on("submit", "#calculateCalories", app.calculate_calories);
+    $(document).on("submit", "#calculateCalories", function(){
+      $('#dietAdvices').foundation('reveal', 'open')
+    });
 
     $.getJSON("food_items.json")
       .done(function(data) {

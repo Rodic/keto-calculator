@@ -2,14 +2,24 @@ translations = {
   sr : {
     calculator : {
       expenditure : "Vaš dnevni utrošak kalorija iznosi",
-      allowed : "Dozvoljeni unos kalorija za vreme dijete"
+      allowed : "Dozvoljeni unos kalorija za vreme dijete",
+      proteins_advice: "* Potrebna količina proteina iznosi - ",
+      carbs_advice: "* Dnevno unosite najviše 30 grama ugljenih hidrata.",
+      fats_advice: "* Ne postoje restrikcije vezane za masti. Količinu prilagodite ukupnom utrošku kalorija.",
+      disclaimer: "Ovo su smernice koje se mogu pronaći u relevantnoj literaturi. Pre započinjanja dijete neophodno je konsultovati lekara.",
+      grams: "grama"
     }
   },
 
   en : {
     calculator : {
       expenditure : "Your daily calories expenditure is",
-      allowed : "In order to achieve your goal, your intake should be about"
+      allowed : "In order to achieve your goal, intake should be about",
+      proteins_advice: "* Protein intake should be - ",
+      carbs_advice: "* Carb intake is at most 30 grams.",
+      fats_advice: "* There is no fats related restriction. Adjust the intake to the total calories expenditure.",
+      disclaimer: "These are advices that can be found in relevant literature. Before going on diet, consult with your doctor.",
+      grams: "grams"
     }
   }
 }
