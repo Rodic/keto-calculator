@@ -15,5 +15,6 @@
 //= require foundation
 //= require turbolinks
 //= require I18n
+//= require food_items
 
 $(function(){ $(document).foundation(); });
