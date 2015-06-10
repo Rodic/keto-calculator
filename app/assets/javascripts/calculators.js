@@ -46,6 +46,7 @@ var app = {
     $('<p>').text(t('calculator.carbs_advice')).appendTo(advices_panel);
     $('<p>').text(t('calculator.fats_advice')).appendTo(advices_panel);
     $('<p>').text(t('calculator.disclaimer')).appendTo(advices_panel);
+    $('<a class="close-reveal-modal" aria-label="Close">&#215;</a>').appendTo(advices_panel);
   },
 
   // Reference: http://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation
