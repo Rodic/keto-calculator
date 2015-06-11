@@ -6,7 +6,7 @@ sr:
     add_food_item: "Dodaj novu namirnicu"
     list_food_items: "Indeks namirnica"
   calculator:
-    enter_data: "Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita."
+    enter_data: "Molimo Vas da uneste neophodne podatke."
     height: "Visina"
     weight: "Težina"
     age: "Godine"

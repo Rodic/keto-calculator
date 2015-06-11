@@ -6,7 +6,7 @@ Feature: Make menu
   @javascript
   Scenario: Calculate my calories expenditure
     When I visit "root" page
-    Then I should see "Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita."
+    Then I should see "Molimo Vas da uneste neophodne podatke."
     And I select fields with values
       | height | weight | age |   sex | activity_level |
       |    200 |     73 |  31 | muški | umereno        |

@@ -15,4 +15,4 @@ Feature: Change locale
     When I visit "root" page
     And I click "sr"
     Then I should see "Keto Kalkulator"
-    And I should see "Molimo Vas da uneste podatke neophodne za određivanje kalorijskog deficita."
+    And I should see "Molimo Vas da uneste neophodne podatke."
