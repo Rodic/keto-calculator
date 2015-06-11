@@ -7,7 +7,8 @@ class FoodItem < ActiveRecord::Base
   require_human_on :create, :unless => :humanizer_testing
 
   has_attached_file :image, 
-    styles: { medium: "300x300>", thumb: "100x100>" },
+    styles: { medium: '300x300>', thumb: '100x100>' },
+    default_url: '/no-pic.jpg',
     storage: :dropbox,
     dropbox_credentials: {
       app_key: ENV['DROPBOX_APP_KEY'],
@@ -17,7 +18,9 @@ class FoodItem < ActiveRecord::Base
       user_id: ENV['DROPBOX_USER_ID'],
       access_type: ENV['DROPBOX_ACCESS_TYPE']
     },
-    dropbox_option: { :path => proc { |style| "images/#{id}/#{style}/#{image.original_filename}" } }
+    dropbox_option: { 
+      :path => proc { |style| "images/#{id}/#{style}/#{image.original_filename}" } 
+    }
 
   scope :approved, -> { where(approved: true) }
   scope :pending,  -> { where(approved: false) }

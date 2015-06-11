@@ -12,8 +12,8 @@ Feature: Add food item
     And I press "Dodaj"
     Then I should be on "Jogurt" food item page
     And I should see values
-      | Naziv  | Ključna reč | Brend | Kalorije | Proteini | Ugljeni hidrati | Masti | Količina | Jedinica mere |
-      | Jogurt | jogurt      | Imlek |    52.8  |     2.9  |            4.0  |  2.8  |      100 | grams         |
+      | Naziv  | Brend | Kalorije | Proteini | Ugljeni hidrati | Masti | Količina | Jedinica mere |
+      | Jogurt | Imlek |    52.8  |     2.9  |            4.0  |  2.8  |      100 | grams         |
     And I should see "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
 
   
