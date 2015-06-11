@@ -33,6 +33,7 @@ var app = {
     return false;    
   },
 
+  // Display modal with general guidelines
   display_advices : function(total_expenditure, restricted_intake, protein_intake) {
     var advices_panel = $("#dietAdvices");
     advices_panel.empty();
