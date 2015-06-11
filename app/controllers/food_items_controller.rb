@@ -36,7 +36,7 @@ class FoodItemsController < ApplicationController
   private
     def food_item_params
       params.require(:food_item).permit(
-        :name, :keyword, :brand, :humanizer_answer, :humanizer_question_id, :humanizer_testing,
+        :name, :keyword, :brand, :image, :humanizer_answer, :humanizer_question_id, :humanizer_testing,
         nutritional_value_attributes: [ 
           :calories, :proteins, :carbs, :fats, :quantity, :unit ]
       )

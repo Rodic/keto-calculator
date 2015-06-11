@@ -59,3 +59,4 @@ en:
     add_new: "Add new"
     create_success: "Thank you. Item will be available after verification."
     create_failure: "Failed to save. Please check required information."
+    image: "Image"

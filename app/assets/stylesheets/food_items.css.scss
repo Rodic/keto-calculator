@@ -5,37 +5,50 @@
 @import "foundation/components/global";
 
 .food-index {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
 
-    >li {
-	margin-top: 0.5em;
-    }
+  >li {
+    margin-top: 0.5em;
+  }
 
-    li {
-	list-style-type: none;
-    }
+  li {
+    list-style-type: none;
+  }
     
-    a {
-	color: $jumbo;
-	font-size: 1em;
+  a {
+    color: $jumbo;
+    font-size: 1em;
 
-	&:hover {
+    &:hover {
 	    color: $oil;
-	}
     }
+  }
 
-    span.brand {
-	text-transform: uppercase;
-	font-size: 0.8em;
-	color: $oil;
-    }
+  span.brand {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: $oil;
+  }
     
-    h2 {
-	text-transform: uppercase;
-	font-size: 1.5em;
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
     font-family: sans-serif;
-    }
+  }
 }
 
+.food-item {
+  h1 {
+    font-family: sans-serif;
+    color: $jumbo;
+    font-size: 2em;
+  }
+
+  span.brand {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: $oil;
+  }
+}
