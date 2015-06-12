@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require I18n
-//= require food_items
+//= require_tree .
 
 $(function(){ $(document).foundation(); });

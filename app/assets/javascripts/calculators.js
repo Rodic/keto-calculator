@@ -163,4 +163,5 @@ var app = {
   }
 }
 
-$(document).on('ready page:load', app.init);
+if($("#food_item").length && $("#calculateCalories").length)
+  $(document).on('ready page:load', app.init);
