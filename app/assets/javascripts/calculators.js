@@ -3,7 +3,7 @@
 
 var app = {
 
-  calculate_calories : function() {
+  calculate_calories : function(e) {
   	var height   = $("#height").val();
   	var weight   = $("#weight").val();
   	var age      = $("#age").val();
@@ -145,6 +145,9 @@ var app = {
   },
 
   init : function() {
+    if(!$("#calculateCalories").length)
+      return;
+
     $(document).on("submit", "#calculateCalories", app.calculate_calories);
     $(document).on("submit", "#calculateCalories", function(){
       $('#dietAdvices').foundation('reveal', 'open')
@@ -163,5 +166,4 @@ var app = {
   }
 }
 
-if($("#food_item").length && $("#calculateCalories").length)
-  $(document).on('ready page:load', app.init);
+$(document).on('ready page:load', app.init);
