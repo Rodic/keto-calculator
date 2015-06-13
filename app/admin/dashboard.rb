@@ -34,7 +34,17 @@ ActiveAdmin.register_page "Dashboard" do
           link_to "Approve", approve_admin_food_item_path(food_item), method: :put
         end
         column '' do |food_item|
+          link_to "Edit",  edit_admin_food_item_path(food_item)
+        end
+        column '' do |food_item|
           link_to "Delete", admin_food_item_path(food_item), method: :delete
+        end
+        column "Image" do |food_item|
+          if(food_item.image.exists?)
+            image_tag(food_item.image.url(:thumb))
+          else
+            'No'
+          end
         end
       end
     end
