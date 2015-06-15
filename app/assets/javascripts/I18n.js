@@ -7,7 +7,8 @@ translations = {
       carbs_advice: "* Dnevno unosite najviše 30 grama ugljenih hidrata.",
       fats_advice: "* Ne postoje restrikcije vezane za masti. Količinu prilagodite ukupnom utrošku kalorija.",
       disclaimer: "Ovo su smernice koje se mogu pronaći u relevantnoj literaturi. Pre započinjanja dijete neophodno je konsultovati lekara.",
-      grams: "grama"
+      grams: "grama",
+      del: "obriši"
     }
   },
 
@@ -19,7 +20,8 @@ translations = {
       carbs_advice: "* Carb intake is at most 30 grams.",
       fats_advice: "* There is no fats related restriction. Adjust the intake to the total calories expenditure.",
       disclaimer: "These are advices that can be found in relevant literature. Before going on diet, consult with your doctor.",
-      grams: "grams"
+      grams: "grams",
+      del: "delete"
     }
   }
 }

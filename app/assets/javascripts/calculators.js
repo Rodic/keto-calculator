@@ -111,37 +111,72 @@ var app = {
     app.update_summary(deltas);
   },
 
-  create_record : function(event, ui) {
-    var elem = $(
-      "<tr>" + 
-        "<td>" + ui.item["value"] + "</td>" +
-        "<td>" + ui.item["data"]["proteins"] + "</td>" +
-        "<td>" + ui.item["data"]["carbs"] + "</td>" +
-        "<td>" + ui.item["data"]["fats"] + "</td>" +
-        "<td>" + ui.item["data"]["calories"] + "</td>" +
-        '<td>' +
-          '<input type="text" ' + 
-            'data-quantity="'+ ui.item["data"]["quantity"] + '" ' +
-            'value="' + ui.item["data"]["quantity"] + '">' +
-          '</input> ' + 
-          ui.item["data"]["unit"] + 
-        '</td>' +
-        '<td><a href="#" class="button tiny alert delete-item">x</a></td>' +
-      "</tr>");
-
-    elem.appendTo($('#menu > tbody'));
-
-    app.update_summary([ ui.item["data"]["proteins"], 
-                         ui.item["data"]["carbs"],
-                         ui.item["data"]["fats"], 
-                         ui.item["data"]["calories"] ]);
-
-    elem.find('.delete-item').click(app.delete_record);
-    elem.find('input').change(app.update_record);
+  create_record_from_list : function(event, ui) {
+    console.log(ui);
+    app.create_record(ui.item);
 
     // clear input box
     $(this).val("");
     return false;
+  },
+
+  create_record_from_user_input : function() {
+    var item = {};
+    var name = $("#inserted_name");
+    var proteins = $("#inserted_proteins");
+    var carbs = $("#inserted_carbs");
+    var fats = $("#inserted_fats");
+    var calories = $("#inserted_calories");
+    var quantity = $("#inserted_quantity");
+
+    item["value"] = name.val();
+    item["data"] = {};
+    item["data"]["proteins"] = proteins.val() || 0;
+    item["data"]["carbs"] = carbs.val() || 0;
+    item["data"]["fats"] = fats.val() || 0;
+    item["data"]["calories"] = calories.val() || 0;
+    item["data"]["quantity"] = quantity.val() || 0;
+    item["data"]["unit"] = $("#inserted_unit").val();
+
+    app.create_record(item);
+
+    name.val('');
+    proteins.val('');
+    carbs.val('');
+    fats.val('');
+    calories.val('');
+    quantity.val('');
+
+    console.log(item);
+  },
+
+  create_record : function(item) {
+    var elem = $(
+      "<tr>" + 
+        "<td>" + item["value"] + "</td>" +
+        "<td>" + item["data"]["proteins"] + "</td>" +
+        "<td>" + item["data"]["carbs"] + "</td>" +
+        "<td>" + item["data"]["fats"] + "</td>" +
+        "<td>" + item["data"]["calories"] + "</td>" +
+        '<td>' +
+          '<input type="text" class="half" ' + 
+            'data-quantity="'+ item["data"]["quantity"] + '" ' +
+            'value="' + item["data"]["quantity"] + '">' +
+          '</input> ' + 
+          item["data"]["unit"] + 
+        '</td>' +
+        '<td><a href="#" class="button tiny alert delete-item">'+ t('calculator.del') +'</a></td>' +
+      "</tr>");
+
+    elem.appendTo($('#menu > tbody'));
+
+    app.update_summary([ item["data"]["proteins"], 
+                         item["data"]["carbs"],
+                         item["data"]["fats"], 
+                         item["data"]["calories"] ]);
+
+    elem.find('.delete-item').click(app.delete_record);
+    elem.find('input').change(app.update_record);
   },
 
   init : function() {
@@ -152,12 +187,13 @@ var app = {
     $(document).on("submit", "#calculateCalories", function(){
       $('#dietAdvices').foundation('reveal', 'open')
     });
+    $(document).on("click", "#insert_item", app.create_record_from_user_input);
 
     $.getJSON("food_items.json")
       .done(function(data) {
         $("#food_item").autocomplete({
           source : data,
-          select : app.create_record
+          select : app.create_record_from_list
         });
       })
       .fail(function() {

@@ -23,8 +23,11 @@ sr:
       extremely: "ekstremno aktivan"
     deficit: "Deficit"
     calculate: "Izračunaj"
-    pick_food_item: "Izaberi namirnicu"
+    pick_food_item: "Izaberi namirnicu s liste"
     recommended_intake: "Preporučeni unos"
+    add: "Upiši"
+    piece: "komad"
+    grams: "grama"
   food_item:
     name: "Naziv"
     keyword: "Ključna reč"

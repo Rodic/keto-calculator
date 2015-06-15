@@ -46,6 +46,9 @@ en:
     calculate: "Calculate"
     pick_food_item: "Pick food item"
     recommended_intake: "Recommended intake"
+    add: "Add"
+    piece: "piece"
+    grams: "grams"
   food_item:
     name: "Name"
     keyword: "Keyword"
