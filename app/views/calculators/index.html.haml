@@ -38,11 +38,12 @@
 .row
   #menu.hide
     #dietAdvices.reveal-modal{'data-reveal' => true, role: 'dialog'}
-    .row      
-      .large-2.columns
-        = label_tag :food_item, t('calculator.pick_food_item'), class: 'inline right'
-      .large-10.columns
-        = text_field_tag 'food_item'
+    .row
+      .panel.callout.radius.clearfix
+        .large-2.columns
+          = label_tag :food_item, t('calculator.pick_food_item'), class: 'inline right'
+        .large-10.columns
+          = text_field_tag 'food_item', nil, placeholder: t('calculator.enter_search_term')
 
     .row
       .large-2.columns
@@ -71,7 +72,7 @@
             %th
         %tbody
           %tr
-            %td= text_field_tag :name, nil, 'max-width' => '100%', id: :inserted_name
+            %td= text_field_tag :name, nil, 'max-width' => '100%', id: :inserted_name, placeholder: t('calculator.add_data_manually')
             %td= text_field_tag :proteins, nil, id: :inserted_proteins
             %td= text_field_tag :carbs, nil, id: :inserted_carbs
             %td= text_field_tag :fats, nil, id: :inserted_fats
@@ -80,7 +81,7 @@
               = text_field_tag :quantity, nil, class: 'half', id: :inserted_quantity
               = select_tag :unit, options_for_select([ t('calculator.piece'), t('calculator.grams') ]), class: 'half default', id: :inserted_unit
             %td
-              = link_to(t('calculator.add'), "#", class: "button tiny secondary delete-item", id: :insert_item)
+              = link_to(t('calculator.add'), "#", class: "button tiny secondary delete-item mw", id: :insert_item)
         %thead
           %tr#totalIntake
             %td

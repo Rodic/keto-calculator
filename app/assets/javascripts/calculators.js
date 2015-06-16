@@ -94,8 +94,8 @@ var app = {
       datasets: [
         {
           label: "Your macro intake",
-          fillColor: "#6cb168",
-          highlightFill: "#89c186",
+          fillColor: "#1CB3EB",
+          highlightFill: "#49C2EF",
           data: [0, 0, 0]
         }
       ]
@@ -106,8 +106,8 @@ var app = {
       datasets: [
         {
           label: "Your caloric intake",
-          fillColor: "#6cb168",
-          highlightFill: "#89c186",
+          fillColor: "#1CB3EB",
+          highlightFill: "#49C2EF",
           data: [0]
         }
       ]
