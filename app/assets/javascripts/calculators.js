@@ -80,11 +80,16 @@ var app = {
   },
 
   update_graphs : function(vals) {
+
+    var aux = function(x, y) {
+      return (parseFloat(x) + parseFloat(y)).toFixed(2);
+    }
+
     for(var i = 0; i < 3; i++)
-      app.macro_graph.datasets[0].bars[i].value += parseFloat(vals[i]);
+        app.macro_graph.datasets[0].bars[i].value = aux(app.macro_graph.datasets[0].bars[i].value, vals[i]);
     app.macro_graph.update();
 
-    app.cal_graph.datasets[0].bars[0].value += parseFloat(vals[3]);
+    app.cal_graph.datasets[0].bars[0].value = aux(app.cal_graph.datasets[0].bars[0].value, vals[3]);
     app.cal_graph.update();
   },
 
