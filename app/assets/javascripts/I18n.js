@@ -8,7 +8,11 @@ translations = {
       fats_advice: "* Ne postoje restrikcije vezane za masti. Količinu prilagodite ukupnom utrošku kalorija.",
       disclaimer: "Ovo su smernice koje se mogu pronaći u relevantnoj literaturi. Pre započinjanja dijete neophodno je konsultovati lekara.",
       grams: "grama",
-      del: "obriši"
+      del: "obriši",
+      proteins: "Proteini",
+      carbs: "Ugljeni hidrati",
+      fats: "Masti",
+      calories: "Kalorije"
     }
   },
 
@@ -21,7 +25,11 @@ translations = {
       fats_advice: "* There is no fats related restriction. Adjust the intake to the total calories expenditure.",
       disclaimer: "These are advices that can be found in relevant literature. Before going on diet, consult with your doctor.",
       grams: "grams",
-      del: "delete"
+      del: "delete",
+      proteins: "Proteins",
+      carbs: "Carbohydrates",
+      fats: "Fats",
+      calories: "Calories"
     }
   }
 }

@@ -69,6 +69,8 @@ GEM
       xpath (~> 2.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
+    chart-js-rails (0.0.9)
+      railties (> 3.1)
     childprocess (0.5.6)
       ffi (~> 1.0, >= 1.0.11)
     climate_control (0.0.3)
@@ -319,6 +321,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin (= 1.0.0.pre1)
+  chart-js-rails (= 0.0.9)
   coffee-rails (= 4.0.1)
   cucumber-rails (= 1.4.2)
   database_cleaner

@@ -3,6 +3,9 @@
 
 var app = {
 
+  macro_graph: null,
+  cal_graph: null,
+
   calculate_calories : function(e) {
   	var height   = $("#height").val();
   	var weight   = $("#weight").val();
@@ -23,6 +26,7 @@ var app = {
   	$("#caloriesExpenditureSection").addClass("hide");
   	$("#menu").removeClass("hide");
 
+    app.init_graphs();
     app.display_advices(total_expenditure, restricted_intake, protein_intake);
 
     $("#totalProteins").html("0 / " + protein_intake + " g");
@@ -75,13 +79,54 @@ var app = {
     }
   },
 
+  update_graphs : function(vals) {
+    for(var i = 0; i < 3; i++)
+      app.macro_graph.datasets[0].bars[i].value += parseFloat(vals[i]);
+    app.macro_graph.update();
+
+    app.cal_graph.datasets[0].bars[0].value += parseFloat(vals[3]);
+    app.cal_graph.update();
+  },
+
+  init_graphs : function() {
+    var macro_data = {
+      labels: [ t('calculator.proteins'), t('calculator.carbs'), t('calculator.fats') ],
+      datasets: [
+        {
+          label: "Your macro intake",
+          fillColor: "#6cb168",
+          highlightFill: "#89c186",
+          data: [0, 0, 0]
+        }
+      ]
+    };
+
+    var cal_data = {
+      labels: [ t('calculator.calories') ],
+      datasets: [
+        {
+          label: "Your caloric intake",
+          fillColor: "#6cb168",
+          highlightFill: "#89c186",
+          data: [0]
+        }
+      ]
+    };
+
+    app.macro_graph = new Chart($("#macro-vals-graph").get(0).getContext("2d")).Bar(macro_data);
+    app.cal_graph = new Chart($("#calories-intake-graph").get(0).getContext("2d")).Bar(cal_data);
+  },
+
   delete_record : function() {
     var row  = $(this).closest('tr');
     var data = row.find('td');
-    app.update_summary([ '-' + data.eq(1).html(),
-                         '-' + data.eq(2).html(),
-                         '-' + data.eq(3).html(),
-                         '-' + data.eq(4).html() ]);
+    var vals = [ '-' + data.eq(1).html(),
+                 '-' + data.eq(2).html(),
+                 '-' + data.eq(3).html(),
+                 '-' + data.eq(4).html() ];
+
+    app.update_summary(vals);
+    app.update_graphs(vals);
     row.remove();
   },
 
@@ -109,12 +154,11 @@ var app = {
     }
 
     app.update_summary(deltas);
+    app.update_graphs(deltas);
   },
 
   create_record_from_list : function(event, ui) {
-    console.log(ui);
     app.create_record(ui.item);
-
     // clear input box
     $(this).val("");
     return false;
@@ -170,10 +214,13 @@ var app = {
 
     elem.appendTo($('#menu > tbody'));
 
-    app.update_summary([ item["data"]["proteins"], 
-                         item["data"]["carbs"],
-                         item["data"]["fats"], 
-                         item["data"]["calories"] ]);
+    var vals = [ item["data"]["proteins"], 
+                 item["data"]["carbs"],
+                 item["data"]["fats"], 
+                 item["data"]["calories"] ];
+
+    app.update_summary(vals);
+    app.update_graphs(vals);
 
     elem.find('.delete-item').click(app.delete_record);
     elem.find('input').change(app.update_record);

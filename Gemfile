@@ -18,6 +18,7 @@ gem 'devise',               '3.5.1'
 gem 'activeadmin',          '1.0.0.pre1'
 gem 'paperclip',            '4.2.2'
 gem "paperclip-dropbox",    '1.3'
+gem 'chart-js-rails',       '0.0.9'
 
 group :doc do
   gem 'sdoc',               '0.4.0'
