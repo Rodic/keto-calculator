@@ -171,21 +171,27 @@ var app = {
 
   create_record_from_user_input : function() {
     var item = {};
-    var name = $("#inserted_name");
-    var proteins = $("#inserted_proteins");
-    var carbs = $("#inserted_carbs");
-    var fats = $("#inserted_fats");
-    var calories = $("#inserted_calories");
-    var quantity = $("#inserted_quantity");
+    var name = $("#inserted_name").val();
+    var proteins = $("#inserted_proteins").val();
+    var carbs = $("#inserted_carbs").val();
+    var fats = $("#inserted_fats").val();
+    var calories = $("#inserted_calories").val();
+    var quantity = $("#inserted_quantity").val();
+    var unit = $("#inserted_unit").val();
 
-    item["value"] = name.val();
+    if(!name || !proteins || !carbs || !fats || !calories || !quantity){
+      alert(t("calculator.enter_required_data"));
+      return false;
+    }
+
+    item["value"] = name;
     item["data"] = {};
-    item["data"]["proteins"] = proteins.val() || 0;
-    item["data"]["carbs"] = carbs.val() || 0;
-    item["data"]["fats"] = fats.val() || 0;
-    item["data"]["calories"] = calories.val() || 0;
-    item["data"]["quantity"] = quantity.val() || 0;
-    item["data"]["unit"] = $("#inserted_unit").val();
+    item["data"]["proteins"] = proteins;
+    item["data"]["carbs"] = carbs;
+    item["data"]["fats"] = fats;
+    item["data"]["calories"] = calories;
+    item["data"]["quantity"] = quantity;
+    item["data"]["unit"] = unit;
 
     app.create_record(item);
 

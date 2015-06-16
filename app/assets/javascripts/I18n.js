@@ -12,7 +12,8 @@ translations = {
       proteins: "Proteini",
       carbs: "Ugljeni hidrati",
       fats: "Masti",
-      calories: "Kalorije"
+      calories: "Kalorije",
+      enter_required_data: "Unesite sve podatke!"
     }
   },
 
@@ -29,7 +30,8 @@ translations = {
       proteins: "Proteins",
       carbs: "Carbohydrates",
       fats: "Fats",
-      calories: "Calories"
+      calories: "Calories",
+      enter_required_data: "Enter required data!"
     }
   }
 }
