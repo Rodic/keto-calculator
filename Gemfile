@@ -38,3 +38,9 @@ group :development, :test do
   gem 'factory_girl_rails', '4.5.0'
   gem 'selenium-webdriver', '2.45.0'
 end
+
+group :production do
+  gem 'rails_12factor'
+end
+
+ruby "2.2.0"
