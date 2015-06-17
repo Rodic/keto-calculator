@@ -1,8 +1,8 @@
 # [Keto Calculator](https://keto-kalkulator.herokuapp.com/)
 
 App helps ketogenic dieters to:
-1. determine recommended caloric and macro-nutrient intake
-2. compose daily menus
+- determine recommended caloric and macro-nutrient intake
+- compose daily menus
 
 DB has nutritional values for many food items rich in fats and proteins but low in carbs. To keep dieters safe from the bad food choices there are also nutritional values for a few items that look like a food for keto diet - but they are not!
 
@@ -15,7 +15,7 @@ However, users can easily add new items. Added items will become available after
 
 App requires following gems:
 
-* Modified [humanizer](https://github.com/Rodic/humanizer) for anti-bot questions. Original don't have support for Serbian language.
+* Modified [humanizer](https://github.com/Rodic/humanizer) for anti-bot questions. Original doesn't have support for Serbian language.
 * For uploading and saving images [paperclip](https://github.com/thoughtbot/paperclip) and [paperclip-dropbox](https://github.com/janko-m/paperclip-dropbox). Images are saved on Dropbox since Heroku doesn't allow write on the file system.
 * [activeadmin](http://activeadmin.info/) for admin panel.
 * [devise](https://github.com/plataformatec/devise) required by activeadmin.
