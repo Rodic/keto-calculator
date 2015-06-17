@@ -1,4 +1,4 @@
-# Keto Calculator
+# [Keto Calculator](https://keto-kalkulator.herokuapp.com/)
 
 App helps ketogenic dieters to:
 1. determine recommended caloric and macro-nutrient intake
