@@ -20,6 +20,14 @@
   tbody > tr:first-child > td {
     padding: 0;
   }
+
+  tbody > tr > td:last-child {
+    padding: 0;
+  }
+
+  .delete-item {
+    width: 100%;
+  }
 }
 
 .column, .columns{

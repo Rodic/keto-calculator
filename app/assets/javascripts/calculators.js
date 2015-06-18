@@ -99,8 +99,8 @@ var app = {
       datasets: [
         {
           label: "Your macro intake",
-          fillColor: "#1CB3EB",
-          highlightFill: "#49C2EF",
+          fillColor: "#6CB168",
+          highlightFill: "#7BB977",
           data: [0, 0, 0]
         }
       ]
@@ -111,8 +111,8 @@ var app = {
       datasets: [
         {
           label: "Your caloric intake",
-          fillColor: "#1CB3EB",
-          highlightFill: "#49C2EF",
+          fillColor: "#FFCC33",
+          highlightFill: "#FFD147",
           data: [0]
         }
       ]
@@ -220,7 +220,7 @@ var app = {
           '</input> ' + 
           item["data"]["unit"] + 
         '</td>' +
-        '<td><a href="#" class="button tiny alert delete-item">'+ t('calculator.del') +'</a></td>' +
+        '<td><a href="#" class="button tiny secondary delete-item">'+ t('calculator.del') +'</a></td>' +
       "</tr>");
 
     elem.appendTo($('#menu > tbody'));
