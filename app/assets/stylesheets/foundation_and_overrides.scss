@@ -1371,7 +1371,7 @@ $button-med: rem-calc(8);
 // Background color for the top bar
 // $topbar-bg-color: $oil;
 // $topbar-bg: $topbar-bg-color;
-$topbar-bg: url('bg-header.gif') repeat-x;
+$topbar-bg: image-url('bg-header.gif') repeat-x;
 
 // Height and margin
 // $topbar-height: rem-calc(45);
