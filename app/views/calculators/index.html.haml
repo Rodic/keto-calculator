@@ -38,11 +38,14 @@
 .row
   #menu.hide
     #dietAdvices.reveal-modal{'data-reveal' => true, role: 'dialog'}
-    .row
-      .panel.callout.radius.clearfix
-        .large-2.columns
-          = label_tag :food_item, t('calculator.pick_food_item'), class: 'inline right'
-        .large-10.columns
+
+    %form
+      .row.collapse.prefix-round
+        .small-3.columns
+          %label{for: 'food_item'}
+            %span.prefix
+              = t('calculator.pick_food_item')
+        .small-9.columns
           = text_field_tag 'food_item', nil, placeholder: t('calculator.enter_search_term')
 
     .row
