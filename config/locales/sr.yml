@@ -30,6 +30,7 @@ sr:
     grams: "grama"
     enter_search_term: "Upišite naziv namirnice..."
     add_data_manually: "Unesite podatke..."
+    export_pdf: "Sačuvaj kao PDF"
   food_item:
     name: "Naziv"
     keyword: "Ključna reč"

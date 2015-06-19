@@ -245,43 +245,71 @@ var app = {
     var headers = [];
     var data = [];
 
+    var parseCell = function(td) {
+      var text = $.trim($(td).text());
+
+      // jsPDF doesn't support utf8
+      var reps = [ ['Č', 'C'], [ 'č', 'c' ], [ 'Đ', 'Dj' ], [ 'đ', 'dj' ], [ 'Ć', 'C' ], [ 'ć', 'c' ] ];
+      
+      for(var i = 0; i < reps.length; i++)
+        text = text.replace(reps[i][0], reps[i][1]);
+
+      // Truncate long strings with ellipsis
+      if(text.length > 35)
+        text = text.substring(0, 35) + '...';
+
+      if ($(td).find('input').length)
+        return $(td).find('input').val() + ' ' + text;
+      else
+        return text;
+    };
+
     $("#table-menu th").each(function(i) {
       if(i < 6)
-        headers.push($.trim($(this).text()));
+        headers.push(parseCell(this));
     });
 
-    $("#table-menu tr").each(function(i, row) {
-      $(row).find('td').each(function(j, col) {
+    $("#table-menu tr").each(function(i, tr) {
+      $(tr).find('td').each(function(j, td) {
         if(i !== 1 && j < 6){
-          if ($(col).find('input').length)
-            data.push($(col).find('input').val() + ' ' + $.trim($(col).text()));
-          else
-            data.push($.trim($(col).text()));
+          data.push(parseCell(td));          
         }
       })
     });
+
+    data[data.length-1] = " "; // overwrite 'Export PDF'
+
 
     // Create PDF
 
     var doc = jsPDF('l', 'pt', 'a3');
 
+    doc.cellInitialize();
+
     doc.setFontSize(22);
-    doc.text(450, 40, 'Menu');
+    doc.text(550, 40, 'Menu');
 
     doc.setFontSize(16);
 
     // printing headers
     for(var i = 0; i < headers.length; i++) {
+      doc.setFontStyle('bold');
+      doc.setFillColor(108, 177, 104);
+      doc.printingHeaderRow = true;
       if(i == 0)
-        doc.cell(60, 80, 220, 30, headers[i], 0);
+        doc.cell(60, 80, 300, 30, headers[i], 0);
       else
         doc.cell(60, 80, 150, 30, headers[i], 0);
     }
 
     // printing data
+    doc.setFontStyle('normal');
+    doc.setFillColor(250, 250, 250);
+    doc.printingHeaderRow = false;
+
     for(var i = 0; i < data.length; i++) {
       if(i % headers.length === 0)
-        doc.cell(60, 80, 220, 30, data[i], 1 + Math.floor(i / headers.length));
+        doc.cell(60, 80, 300, 30, data[i], 1 + Math.floor(i / headers.length));
       else
         doc.cell(60, 80, 150, 30, data[i], 1 + Math.floor(i / headers.length));
     }

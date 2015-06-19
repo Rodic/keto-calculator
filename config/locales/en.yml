@@ -51,6 +51,7 @@ en:
     grams: "grams"
     enter_search_term: "Enter search term..."
     add_data_manually: "Add data manually..."
+    export_pdf: "Export PDF"
   food_item:
     name: "Name"
     keyword: "Keyword"
