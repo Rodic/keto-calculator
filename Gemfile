@@ -19,6 +19,7 @@ gem 'activeadmin',          '1.0.0.pre1'
 gem 'paperclip',            '4.2.2'
 gem "paperclip-dropbox",    '1.3'
 gem 'chart-js-rails',       '0.0.9'
+gem 'jspdf-rails',          '1.0.3'
 
 group :doc do
   gem 'sdoc',               '0.4.0'

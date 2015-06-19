@@ -223,7 +223,7 @@ var app = {
         '<td><a href="#" class="button tiny secondary delete-item">'+ t('calculator.del') +'</a></td>' +
       "</tr>");
 
-    elem.appendTo($('#menu > tbody'));
+    elem.appendTo($('#table-menu > tbody'));
 
     var vals = [ item["data"]["proteins"], 
                  item["data"]["carbs"],
@@ -237,6 +237,58 @@ var app = {
     elem.find('input').change(app.update_record);
   },
 
+  export_to_pdf : function(e) {
+    e.preventDefault();
+
+    // Read table vals
+
+    var headers = [];
+    var data = [];
+
+    $("#table-menu th").each(function(i) {
+      if(i < 6)
+        headers.push($.trim($(this).text()));
+    });
+
+    $("#table-menu tr").each(function(i, row) {
+      $(row).find('td').each(function(j, col) {
+        if(i !== 1 && j < 6){
+          if ($(col).find('input').length)
+            data.push($(col).find('input').val() + ' ' + $.trim($(col).text()));
+          else
+            data.push($.trim($(col).text()));
+        }
+      })
+    });
+
+    // Create PDF
+
+    var doc = jsPDF('l', 'pt', 'a3');
+
+    doc.setFontSize(22);
+    doc.text(450, 40, 'Menu');
+
+    doc.setFontSize(16);
+
+    // printing headers
+    for(var i = 0; i < headers.length; i++) {
+      if(i == 0)
+        doc.cell(60, 80, 220, 30, headers[i], 0);
+      else
+        doc.cell(60, 80, 150, 30, headers[i], 0);
+    }
+
+    // printing data
+    for(var i = 0; i < data.length; i++) {
+      if(i % headers.length === 0)
+        doc.cell(60, 80, 220, 30, data[i], 1 + Math.floor(i / headers.length));
+      else
+        doc.cell(60, 80, 150, 30, data[i], 1 + Math.floor(i / headers.length));
+    }
+
+    doc.save('Menu.pdf');
+  },
+
   init : function() {
     if(!$("#calculateCalories").length)
       return;
@@ -246,6 +298,7 @@ var app = {
       $('#dietAdvices').foundation('reveal', 'open')
     });
     $(document).on("click", "#insert_item", app.create_record_from_user_input);
+    $(document).on("click", "#export-pdf",  app.export_to_pdf);
 
     $.getJSON("food_items.json")
       .done(function(data) {

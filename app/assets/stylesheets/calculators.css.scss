@@ -28,6 +28,10 @@
   .delete-item {
     width: 100%;
   }
+
+  #export-pdf {
+    background-color: #1cb3eb;
+  }
 }
 
 .column, .columns{
@@ -44,8 +48,4 @@ canvas {
   -moz-box-shadow: 0px 8px 32px -7px rgba(170,170,170,0.75);
   box-shadow: 0px 8px 32px -7px rgba(170,170,170,0.75);
   padding-top: 30px;
-}
-
-.mw {
-  width: 100%;
 }

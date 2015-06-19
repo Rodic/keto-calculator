@@ -57,7 +57,7 @@
       .large-2.columns
 
     .row
-      %table#menu
+      %table#table-menu
         %thead
           %tr
             %th{ width: "400"}
@@ -84,7 +84,7 @@
               = text_field_tag :quantity, nil, class: 'half', id: :inserted_quantity
               = select_tag :unit, options_for_select([ t('calculator.piece'), t('calculator.grams') ]), class: 'half default', id: :inserted_unit
             %td
-              = link_to(t('calculator.add'), "#", class: "button tiny secondary delete-item mw", id: :insert_item)
+              = link_to(t('calculator.add'), "#", class: "button tiny secondary", id: :insert_item)
         %thead
           %tr#totalIntake
             %td
@@ -97,5 +97,5 @@
               0
             %td#totalCalories
               0
-            %td
-            %td
+            %td{colspan: 2}
+              = link_to("Export PDF", "#", class: "button expand alert", id: "export-pdf")

@@ -16,6 +16,7 @@
 //= require foundation
 //= require turbolinks
 //= require Chart
+//= require jspdf
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
