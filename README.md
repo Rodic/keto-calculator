@@ -2,7 +2,7 @@
 
 App helps ketogenic dieters to:
 - determine recommended caloric and macro-nutrient intake
-- compose daily menus
+- compose daily menus and export them as PDF
 
 DB has nutritional values for many food items rich in fats and proteins but low in carbs. To keep dieters safe from the bad food choices there are also nutritional values for a few items that look like a food for keto diet - but they are not!
 
@@ -23,3 +23,7 @@ App requires following gems:
 * [figaro](https://github.com/laserlemon/figaro) for security.
 * [foundation-rails](https://github.com/zurb/foundation-rails) for integration with [Zurb Foundation](http://foundation.zurb.com/) frontend framework. 
 * [chart-js-rails](https://github.com/coderbydesign/chart-js-rails) for rails integration with [chart.js](http://www.chartjs.org/)
+
+## Other libs
+
+* [jsPDF](https://github.com/MrRio/jsPDF) for generating PDF files in JavaScript.
