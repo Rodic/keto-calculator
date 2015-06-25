@@ -285,10 +285,6 @@ var app = {
     var doc = jsPDF('l', 'pt', 'a3');
 
     doc.cellInitialize();
-
-    doc.setFontSize(22);
-    doc.text(550, 40, 'Menu');
-
     doc.setFontSize(16);
 
     // printing headers
