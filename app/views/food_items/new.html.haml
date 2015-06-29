@@ -59,7 +59,7 @@
           .small-3.columns{ class: ("error" unless @food_item.nutritional_value.errors[:unit].empty?) }
             = n.label :unit, t('food_item.unit'), class: 'right inline'
           .small-9.columns
-            = n.text_field :unit
+            = n.text_field :unit, placeholder: t('food_item.unit_hint')
       .row
         .small-3.columns
           = f.label :image, t('food_item.image'), class: 'right inline'

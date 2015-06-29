@@ -42,6 +42,7 @@ sr:
     calories: "Kalorije"
     quantity: "Količina"
     unit: "Jedinica mere"
+    unit_hint: "komad, grama..."
     add_new: "Dodaj novu namirnicu"
     create_success: "Hvala Vam. Namirnica će postati dostupna nakon verifikacije."
     create_failure: "Namirnica nije dodata. Molimo Vas da proverite ispravnost upisanih vrednosti."
