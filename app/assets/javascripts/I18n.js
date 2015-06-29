@@ -14,6 +14,10 @@ translations = {
       fats: "Masti",
       calories: "Kalorije",
       enter_required_data: "Unesite sve podatke!"
+    },
+    validations : {
+      cant_be_blank : "Polje ne može biti prazno!",
+      must_be_numerical : "Mora imati numeričku vrednost!"
     }
   },
 
@@ -32,6 +36,10 @@ translations = {
       fats: "Fats",
       calories: "Calories",
       enter_required_data: "Enter required data!"
+    },
+    validations : {
+      cant_be_blank : "Cannot be blank!",
+      must_be_numerical : "Must be a number!"
     }
   }
 }

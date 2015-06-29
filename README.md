@@ -26,4 +26,4 @@ App requires following gems:
 * [jspdf-rails](https://github.com/matixmatix/jspdf-rails) for generating PDF files in JavaScript.
 
 ## Other libs
-
+* [livevalidation](http://livevalidation.com/) for client side form validations

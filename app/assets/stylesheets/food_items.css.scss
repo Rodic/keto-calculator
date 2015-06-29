@@ -52,3 +52,43 @@
     color: $oil;
   }
 }
+
+/* New food item valida */
+
+.LV_validation_message{
+  margin: 0 0 0 5px;
+}
+
+.LV_valid {
+  color:#00CC00;
+  display: none;
+}
+	
+.LV_invalid {
+  color:#CC0000;
+}
+
+
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+  border: 1px solid #00CC00 !important;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+  border: 1px solid #CC0000 !important;
+}
+
+/* Needed for livevalidation error msgs */
+/* They look confusing without this fix */
+.new_food_item {
+  input[type="text"] {
+    margin: 5px 0 0 0 !important;
+  }
+}

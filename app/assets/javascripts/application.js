@@ -17,6 +17,7 @@
 //= require turbolinks
 //= require Chart
 //= require jspdf
+//= require livevalidation
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
