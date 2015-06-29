@@ -33,7 +33,8 @@ sr:
     export_pdf: "Sačuvaj kao PDF"
   food_item:
     name: "Naziv"
-    keyword: "Ključna reč"
+    keyword: "Kategorija"
+    keyword_hint: "Mleko, sir, riba..."
     brand: "Brend"
     proteins: "Proteini"
     carbs: "Ugljeni hidrati"

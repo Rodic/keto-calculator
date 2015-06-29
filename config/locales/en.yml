@@ -54,7 +54,8 @@ en:
     export_pdf: "Export PDF"
   food_item:
     name: "Name"
-    keyword: "Keyword"
+    keyword: "Category"
+    keyword_hint: "Milk, cheese, fish..."
     brand: "Brand"
     proteins: "Proteins"
     carbs: "Carbs"
