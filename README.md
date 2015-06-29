@@ -23,7 +23,7 @@ App requires following gems:
 * [figaro](https://github.com/laserlemon/figaro) for security.
 * [foundation-rails](https://github.com/zurb/foundation-rails) for integration with [Zurb Foundation](http://foundation.zurb.com/) frontend framework. 
 * [chart-js-rails](https://github.com/coderbydesign/chart-js-rails) for rails integration with [chart.js](http://www.chartjs.org/)
+* [jspdf-rails](https://github.com/matixmatix/jspdf-rails) for generating PDF files in JavaScript.
 
 ## Other libs
 
-* [jsPDF](https://github.com/MrRio/jsPDF) for generating PDF files in JavaScript.
