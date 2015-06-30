@@ -33,4 +33,9 @@ var validate_add_new_item_form = function() {
   humanizer.add(Validate.Presence, { failureMessage : t('validations.cant_be_blank') });
 };
 
-$(document).on('ready page:load', validate_add_new_item_form);
+var init_validation = function() {
+  if ($('#new_food_item').length)
+    validate_add_new_item_form();
+};
+
+$(document).on('ready page:load', init_validation);
