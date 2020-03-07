@@ -14,7 +14,7 @@ gem 'turbolinks',           git: "https://github.com/Rodic/turbolinks.git"
 gem 'jbuilder',             '2.0'
 gem 'sprockets',            '2.11.0'
 gem 'humanizer',            git: 'https://github.com/Rodic/humanizer.git'
-gem 'devise',               '3.5.1'
+gem 'devise',               '4.7.1'
 gem 'activeadmin',          '1.0.0.pre1'
 gem 'paperclip',            '4.2.2'
 gem "paperclip-dropbox",    '1.3'
