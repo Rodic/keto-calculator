@@ -1,4 +1,4 @@
-# [Keto Calculator](https://keto-kalkulator.herokuapp.com/)
+# [Keto Calculator](http://keto-kalkulator.live)
 
 App helps ketogenic dieters to:
 - determine recommended caloric and macro-nutrient intake
@@ -21,7 +21,7 @@ App requires following gems:
 * [devise](https://github.com/plataformatec/devise) required by activeadmin.
 * Modified [turbolinks](https://github.com/Rodic/turbolinks). Original doesn't update html's 'lang' attribute.
 * [figaro](https://github.com/laserlemon/figaro) for security.
-* [foundation-rails](https://github.com/zurb/foundation-rails) for integration with [Zurb Foundation](http://foundation.zurb.com/) frontend framework. 
+* [foundation-rails](https://github.com/zurb/foundation-rails) for integration with [Zurb Foundation](http://foundation.zurb.com/) frontend framework.
 * [chart-js-rails](https://github.com/coderbydesign/chart-js-rails) for rails integration with [chart.js](http://www.chartjs.org/)
 * [jspdf-rails](https://github.com/matixmatix/jspdf-rails) for generating PDF files in JavaScript.
 
